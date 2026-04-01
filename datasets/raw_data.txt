@@ -1,0 +1,60 @@
+Cho ABC là tam giác cân . Khi đó , tam giác ABC có hai góc ở đáy bằng nhau .
+Nếu tam giác ABC cân thì nó CÓ hai góc ở đáy bằng nhau .
+Dân ca Quan họ là di sản văn hoá phi vật thể đại diện của nhân loại .
+Câu nào là khẳng định đúng , câu nào là khẳng định sai ?
+Câu nào không phải là khẳng định ?
+Câu nào là khẳng định , nhưng không thể xác định nó đúng hay sai ?
+Trong khoa học cũng như trong đời sống hằng ngày , người ta thường dùng các câu nêu lên một khẳng định .
+Những khẳng định có tính hoặc đúng hoặc sai , như các câu ở trên , được gọi là mệnh đề logic ( hay mệnh đề ) .
+Mệnh để là một khẳng định đúng hoặc sai .
+Một khẳng định đúng gọi là mệnh đề đúng .
+Một khẳng định sai gọi là mệnh đề sai .
+Một mệnh đề không thể vửa đúng vừa sai .
+Trong các câu sau đây, câu nào là mệnh đề ?
+3 là số lẻ .
+1 + 2 > 3 .
+\pi là số vô tỉ phải không ?
+0,0001 là số rất bé .
+Đến năm 2050 , con người sẽ đặt chân lên Sao Hoả .
+Những mệnh để liên quan đến toán học còn được gọi là mệnh đề toán học .
+\sqrt ( 2 ) là số vô tỉ .
+Xét câu n chia hết cho 5 ( n là số tự nhiên ) .
+Có thể khẳng định câu trên là đúng hay sai không ?
+Tìm hai giá trị của n sao cho câu trên là khẳng định đúng , hai giá trị của n sao cho câu trên là khẳng định sai .
+Câu n chia hết cho 5 là một khẳng định , nhưng không là mệnh đề , vì khẳng định này có thể đúng hoặc sai , tuỳ theo giá trị của n .
+Tuy vậy , khi thay n bằng một số tự nhiên cụ thể thì ta nhận được một mệnh đề .
+Người ta gọi n chia hết cho 5 là một mệnh đề chứa biến , kí hiệu P ( n ) .
+Ta viết P ( n ) : n chia hết cho 5 ( n là số tự nhiên ) .
+Một mệnh đề chứa biến có thể chứa một biến hoặc nhiều biến .
+Cho các mệnh đề chứa biến :
+P ( x ) : 2 x = 1 .
+R ( x , y ) : 2 x + y = 3 ( mệnh đề này chứa hai biến x và y ) .
+T ( n ) : 2 n + 1 là số chẵn ( n là số tự nhiên ) .
+Với mỗi mệnh đề chứa biến trên , tìm những giá trị của biến đề nhận được một mệnh đề đúng và một mệnh đề sai .
+Nêu nhận xét về tính đúng sai của hai mệnh đề cùng cặp .
+Với từng cặp mệnh đề P và \bar ( P ) , ta thấy chúng có tính đúng sai trái ngược nhau ( P đúng thì \bar ( P ) sai và ngược lại ) .
+Ta nói mệnh đề \bar ( P ) là mệnh đề phủ định ( hoặc phủ định ) của mệnh đề P .
+Thông thường , để phủ định một mệnh để , người ta thường thêm hoặc bớt từ không hoặc không phải vào trước vị ngữ của mệnh đề đó .
+Mỗi mệnh đề P có mệnh để phủ định , kí hiệu là \bar ( P ) .
+Mệnh đề P và mệnh đề phủ định \bar ( P ) của nó có tính đúng sai trái ngược nhau .
+Nghĩa là khi P đúng thì \bar ( P ) sai, khi P sai thì \bar ( P ) đúng .
+Phát biểu mệnh để phủ định của các mệnh đề sau .
+Xét tính đúng sai của mỗi mệnh đề và mệnh đề phủ định của nó .
+Paris là thủ đô của nước Anh .
+23 là số nguyên tố .
+2021 chia hết cho 3 .
+Phương trình x ^ 2 - 3 x + 4 = 0 vô nghiệm .
+Nếu ABC là tam giác đều thì nó là tam giác cân .
+Nếu 2 a  -4 > 0 thì a > 2 .
+Xét tính đúng sai của mỗi mệnh đề trên .
+Mỗi mệnh đề trên đều có dạng nếu P thì Q . Chỉ ra P và Q ứng với mỗi mệnh đề đó .
+Chúng là những mệnh để kéo theo .
+Cho hai mệnh đề P và Q .
+Mệnh đề Nếu P thì Q được gọi là mệnh đề kéo theo , kí hiệu là P => Q .
+Mệnh đề P => Q chi sai khi P đúng và Q sai .
+Mệnh đề P => Q còn được phát biểu là P kéo theo Q hoặc Từ P suy ra Q .
+Để xét tính đúng sai của mệnh đề P => Q , ta chỉ cần xét trường hợp P đúng .
+Khi đó , nếu Q đúng thì mệnh đề đúng , nếu Q sai thì mệnh đề sai .
+Ta đã quen với điều này khi chứng minh nhiều định lí ở Trung học cơ sở .
+R : Nếu tam giác ABC có hai góc bằng 60 \deg thì nó là tam giác đều .
+T : Từ -3 < -2 suy ra ( −3 ) ^ 2 < ( -2 ) ^ 2 .

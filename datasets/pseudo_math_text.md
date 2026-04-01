@@ -8,10 +8,17 @@
 2. Quy ước:
     - Các kí tự không thể biểu diễn được bằng bàn phím thông thường thì dùng tên (có thể viết tắt) thông dụng, có kí tự "\" ở đầu để phân biệt. Ví dụ $\pi$ chuyển thành \pi, $\int$ chuyển thành \int,...
     - Các kí tự, toán tử, phép toán có thể biểu diễn (hoặc biểu diễn tương đương) được bằng chữ có thể giữ nguyên (không dùng "\"). Ví dụ sin, cos,...
+    - Các kí hiệu tác động lên các kí tự khác thì sẽ được đánh dấu bằng cặp ngoặc tròn. Ví dụ $\vec(a)$ chuyển thành \vec ( a ) thay vì \vec a.
     - Số đứng riêng, toán tử đứng riêng và các dấu ngoặc đứng riêng. Ví dụ $\sin(2x + 3)$ chuyển thành "sin ( 2 x + 3 )".
 
 3. Bảng quy đổi
+
 | Kí tự toán học | Kí tự quy đổi tương ứng | Ví dụ |
-|---|---|---|
-| Phân số | Sử dụng "/" | $\frac{a}{b} -> a / b |
-| $\pi$ | \pi| | 
+|----------|----------|----------|
+| Phân số | / | $\frac{a}{b} -> a / b |
+| Mũ | ^ | $a^b$ -> a ^ b |
+| $\sqrt(a)$ | \sqrt ( a ) | |
+| $\pi$ | \pi | |
+| Độ | \deg | $30\textdegree$ -> 30 \deg |
+| Kéo theo, suy ra | => | $A \Rightarrow B$ -> A => B |
+| Phủ định | \bar | $\bar(A)$ -> \bar ( A ) |
