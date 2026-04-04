@@ -1,4 +1,5 @@
-Cho ABC là tam giác cân . Khi đó , tam giác ABC có hai góc ở đáy bằng nhau .
+Cho ABC là tam giác cân .
+Khi đó , tam giác ABC có hai góc ở đáy bằng nhau .
 Nếu tam giác ABC cân thì nó CÓ hai góc ở đáy bằng nhau .
 Dân ca Quan họ là di sản văn hoá phi vật thể đại diện của nhân loại .
 Câu nào là khẳng định đúng , câu nào là khẳng định sai ?
@@ -45,7 +46,7 @@ Paris là thủ đô của nước Anh .
 2021 chia hết cho 3 .
 Phương trình x ^ 2 - 3 x + 4 = 0 vô nghiệm .
 Nếu ABC là tam giác đều thì nó là tam giác cân .
-Nếu 2 a  -4 > 0 thì a > 2 .
+Nếu 2 a  - 4 > 0 thì a > 2 .
 Xét tính đúng sai của mỗi mệnh đề trên .
 Mỗi mệnh đề trên đều có dạng nếu P thì Q . Chỉ ra P và Q ứng với mỗi mệnh đề đó .
 Chúng là những mệnh để kéo theo .
@@ -57,7 +58,7 @@ Mệnh đề P => Q còn được phát biểu là P kéo theo Q hoặc Từ P s
 Khi đó , nếu Q đúng thì mệnh đề đúng , nếu Q sai thì mệnh đề sai .
 Ta đã quen với điều này khi chứng minh nhiều định lí ở Trung học cơ sở .
 R : Nếu tam giác ABC có hai góc bằng 60 \deg thì nó là tam giác đều .
-T : Từ -3 < -2 suy ra ( −3 ) ^ 2 < ( -2 ) ^ 2 .
+T : Từ - 3 < - 2 suy ra ( −3 ) ^ 2 < ( - 2 ) ^ 2 .
 Trong toán học, định lí là mệnh đề đúng .
 Các định lí trong toán học thường có dạng P => Q .
 P là giả thiết , Q là kết luận của định lí .
@@ -140,11 +141,119 @@ Trong toán học , có những mệnh đề được tin là đúng nhưng chư
 Mệnh đề như vậy được gọi là một giả thuyết toán học .
 Nhiều giả thuyết toán học là thách thức lớn cho các nhà toán học trong thời gian dài , cuối cùng đã được chứng minh .
 Chẳng hạn , Định lí lớn Fermat Không tồn tại ba số nguyên duơng x , y , z sao cho x ^ n + y ^ n = z ^ n , trong đó n là số nguyên , n > 2
-được Pierre de Fermat phát biểu vào năm 1630 trên bìa một cuốn sách , kèm theo dòng chữ nói rằng ông có phương pháp để chứng minh nhưng không thể viết ra vì lề sách quá hẹp .
+được Pierre de Fermat phát biểu vào năm 1630 trên bìa một cuốn sách ,
+kèm theo dòng chữ nói rằng ông có phương pháp để chứng minh nhưng không thể viết ra vì lề sách quá hẹp .
 Phải sau đó gần bốn thế kỉ , Định lí lớn Fermat mới được chúng minh bởi nhà toán học người Anh Andrew Wiles vào năm 1994 .
 Có những giả thuyết tưởng chắc đúng , nhưng sau đó người ta chỉ ra nó sai .
 Cũng những giả thuyết đến nay vẫn chưa thể chứng minh hay bác bỏ .
 Chẳng hạn, giả thuyết Goldbach phát biểu rằng Mọi số chẵn lớn hơn 2 là tổng của hai số nguyên tố .
 Ví dụ : 4 = 2 + 2 , 6 = 3 + 3 , 8 = 3 + 5 , 10 = 3 + 7 , ...
 Những giả thuyết như vậy đang chờ đợi các nhà toán học chinh phục trong tương lai .
-<!Hết bài 1>
+Nhắc lại về tập hợp .
+Như đã biết ở cấp Trung học cơ sở , trong toán học , người ta dùng từ tập hợp để chỉ một nhóm đối tượng nào đó hoàn toàn xác định .
+Mỗi đối tượng trong nhóm gọi là một phần tử của tập hợp đó .
+Các học sinh của lớp 10A tạo thành một tập hợp .
+Các học sinh nữ của lớp này cũng tạo thành một tập hợp .
+Các nghiệm của phương trình x ^ 2 - 4 = 0 tạo thành một tập hợp ( gọi là tập nghiệm của phương trình x ^ 2 - 4 = 0 ) .
+Tập hợp này có hai phần tử là 2 và - 2 .
+Người ta thường kí hiệu tập hợp bằng các chử cái in hoa A , B , C , ... và kí hiệu phần tử của tập hợp bằng các chữ cái in thường a , b , c, ...
+Chú ý : Đôi khi , để ngăn gọn người ta dùng từ tập thay cho ‘tập hợp .
+Để chỉ a là một phần tử của tập hợp A , ta viết a \in A ( đọc là a thuộc A ) .
+Để chỉ a không là phần tử của tập hợp A , ta viết a \notin A ( đọc là a không thuộc A ) .
+Một tập hợp có thể không chứa phần tử nào .
+Tập hợp như vậy gọi là tập rỗng , kí hiệu \emptyset .
+Ví dụ 2 .
+Cho A là tập hợp các số tự nhiên chẵn nhỏ hơn 10 , khi đó 0 \in A , 4 \in A , 1 \notin A , 10 \notin A .
+Nếu gọi B là tập hợp các tháng trong năm âm lịch có 31 ngày , thì B là tập rỗng .
+Người ta thường kí hiệu các tập hợp số như sau : N là tập hợp các số tự nhiên ; Z là tập hợp các số nguyên ; Q là tập hợp các số hữu tỉ ; R là tập hợp các số thực .
+Lấy ba ví dụ về tập hợp và chỉ ra một số phần tử của chúng .
+Với mỗi tập hợp N , Z , Q , R , hãy sử dụng kí hiệu \in và \notin để chỉ ra hai phần tử thuộc , hai phần tử không thuộc tập hợp đó .
+Cách xác định tập hợp :
+Xét tập hợp A các số tự nhiên chẫn nhỏ hơn 15 .
+Ta có thể viết tập hợp A dưới dạng liệt kê các phần tử .
+A = { 0 ; 2 ; 4 ; 6 ; 8 ; 10 ; 12 ; 14 } ,
+hoặc dưới dạng chỉ ra tính chất đặc trưng cho các phần tử :
+A =  { x | x \in N , x chẵn và x < 15 } .
+Chú ý : Khi liệt kê các phần tử của tập hợp , ta có một số chú ý sau đây :
+Các phần tử có thể được viết theo thứ tự tuỳ ý .
+Chẳng hạn , để viết tập hợp A các nghiệm của phương trình x ( x - 1 ) = 0 , ta có thể viết A = { 0 ; 1 } hoặc A= { 1 ; 0 } .
+Mỗi phần tử chỉ được liệt kê một lần .
+Chẳng hạn , nếu kí hiệu B là tập hợp các chữ cái tiếng Anh trong từ mathematics thì B = { m , a , t , h , e , i , c , s } .
+Nếu quy tắc xác định các phần tử đủ rõ thì người ta dùng ... mà không nhất thiết viết ra tất cả các phần tử của tập hợp .
+Chẳng hạn , tập hợp các số tự nhiên không quá 100 có thể được viết là { 0 ; 1 ; 2 ; ... ; 100 } .
+Viết mỗi tập hợp sau dưới dạng thích hợp :
+Tập hợp A các ước dương của 18 ;
+Tập hợp B các nghiệm của phương trình x ^ 2 + 3 x - 4 = 0 ;
+Tập hợp C các số tự nhiên lẻ ,
+Tập hợp D các nghiệm của phương trình x + 3 y = 1 .
+Chú ý : Có những tập hợp , như A và B ở Ví dụ 3 , ta có thể đếm hết các phần tử của chúng .
+Những tập hợp như vậy được gọi là tập hợp hữu hạn .
+Nếu E là tập hợp hữu hạn thì số phần tử của nó được kí hiệu là n ( E ) .
+Chẳng hạn , trong Ví dụ 3 , ta có : n ( A ) = 6 và n ( B ) = 2 .
+Đặc biệt , n ( \emptyset ) = 0 .
+Viết các tập hợp sau đây dưới dạng liệt kê các phần tử và tìm số phần tử của mỗi tập hợp đó :
+Tập hợp A các ước của 24 ;
+Tập hợp B gồm các chữ số trong số 1113305 ;
+C = { n \in N | n là bội của 5 và n <= 30 } ;
+D = { x \in R | x ^ 2 - 2 x + 3 = 0 } .
+Viết các tập hợp sau đây dưới dạng chỉ ra tính chất đặc trưng cho các phần tử :
+Tập hợp C các nghiệm của bất phương trình 2 x + 5 > 0 .
+Tập con và hai tập hợp bằng nhau
+Trong mỗi trường hợp sau đây , giữa hai tập hợp A và B có điều gì đặc biệt ?
+Các phần tử của tập hợp A có thuộc tập hợp B không ?
+A = { - 1 ; 1 } và B = { - 1 ; 0 ; 1 ; 2 } ;
+A = N và B = Z ;
+A là tập hợp các học sinh nữ của lớp 10E , B là tập hợp các học sinh của lớp này ;
+A là tập hợp các loài động vật có vú , B là tập hợp các loài đông vật có xương sống .
+Cho hai tập hợp A và B .
+Nếu mọi phần tử của A đều là phần tử của B thì ta nói tập hợp A là tập con của tập hợp B và kí hiệu A \subset B ( đọc là A chứa trong B ) , hoặc B \supset A ( đọc là B chứa A ) .
+Nhận xét :
+A \subset A và \emptyset \subset A với mọi tập hợp А .
+Nếu A không phải là tập con của B thì ta kí hiệu A \notsubset B ( đọc là A không chứa trong B hoặc B không chứa А ) .
+Nếu A \subset B hoặc B \subset A thì ta nói A và B có quan hệ bao hàm .
+Trong toán học , người ta thường minh hoạ tập hợp bằng một hình phẳng được bao quanh bởi một đường cong kín , gọi là biểu đồ Ven .
+Theo cách này , ta có thể minh hoạ A là tập con của B như Hình 1 .
+Giữa các tập hợp số quen thuộc ( tập số tự nhiên , tập số nguyên , tập số hữu tỉ , tập số thực ) , ta có quan hệ bao hàm : N \subset Z \subset Q \subset R .
+Hai tập hợp A và B gọi là bằng nhau , kí hiệu A = B , nếu A \subset B và В \subset А .
+Nói cách khác , hai tập hợp A và B bằng nhau nếu mỗi phần tử của tập hợp này cũng là phần tử của tập hợp kia và ngược lại .
+Xét quan hệ bao hàm giữa mỗi cặp tập hợp sau .
+Chúng có bằng nhau không ?
+C = { x \in R | x ^ 2 = 4 } và D = { x ∈ R | | x | = 2 } ;
+E là tập hợp các hình bình hành và F là tập hợp các tứ giác có hai cặp cạnh đối song song ;
+G = { x \in N | x là bội của 3 } và H = { x \in N | x là bội của 6 } .
+Ta thấy mỗi phần tử của B đều là phần tử của A , do đó B \subset A .
+Có 1 \in A nhưng 1 \notin B , do đó A khác B .
+Hai phương trình x ^ 2 = 4 và | x | = 2 đều có hai nghiệm là x = 2 và x = -2 .
+Do đó , C = D = { - 2 ; 2 }
+Ta biết rằng , một hình tứ giác là hình bình hành khi và chỉ khi nó có hai cặp cạnh đối song song .
+Do đó , nếu x \in E thì x \in F và ngược lại .
+Bởi vậy , E = F .
+Giả sử x \in H , tức x là bội của 6 .
+Khi đó có số k \in N sao cho x = 6 k = 3 . 2 k .
+Suy ra x cũng là bội của 3 hay x \in G.
+Vậy H \subset G .
+Mặt khác , có 3 \in G nhưng 3 \notin H .
+Do đó , G khác Н .
+Trong mỗi cặp tập hợp sau đây , tập hợp nào là tập con của tập hợp còn lại ?
+Chúng có bằng nhau không ?
+A = { - \sqrt ( 3 ) ; \sqrt 3 } và B= {x \in R |x ^ 2 - 3 = 0 } ;
+C là tập hợp các tam giác đều và D là tập hợp các tam giác cân ;
+Viết tất cả các tập con của tập hợp A = { a ; b } .
+Bạn An khẳng định rằng : Với các tập hợp A , B , C bất kì , nếu A \subset B và B \subset C thì A \subset С .
+Khẳng định của bạn An có đúng không ?
+Hãy giải thích bằng cách sử dụng biểu đồ Ven .
+Một số tập con của tập hợp số thực
+Sau này ta thường sử dụng các tập con của tập số thực sau đây (a và b là các số thực , a < b ) :
+Trong các kí hiệu trên , kí hiệu – \inf đọc là âm vô cực , kí hiệu + \inf đọc là dương vô cực .
+Dùng các kí hiệu đoạn , khoảng , nửa khoảng để viết các tập hợp sau đây :
+{x ∈ R | - 2 < x < 3 } ;
+Viết các tập hợp sau đây đưới dạng liệt kê các phần tử .
+C = {x \in N | x có hai chữ số } .
+Viết các tập hợp sau đây dưới dạng chỉ ra tính chất đặc trưng cho các phần tử .
+Tập hợp B các nghiệm của bất phương trình 2 x + 1 > 0 ;
+Trong mỗi cặp tập hợp sau đây , tập hợp nào là tập con của tập còn lại ?
+C là tập hợp các hình thoi và D là tập hợp các hình vuông ;
+E = ( - 1 ; 1 ] và F = ( - \inf ; 2 ] .
+Hãy viết tất cả các tập con của tập hợp B = { 0 ; 1 ; 2 } .
+{ x \in R | -2 \pi < x ≤ 2 \pi } ;
+<!Hết bài 2>

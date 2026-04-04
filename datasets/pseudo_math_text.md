@@ -18,8 +18,9 @@
 | Phân số | / | $\frac{a}{b}$ -> a / b |
 | Mũ | ^ | $a^b$ -> a ^ b |
 | Chỉ số dưới | _ | $x_0$ -> x _ 0 |
-| Căn bậc hai | \sqrt | $sqrt a$ -> \sqrt ( a ) |
+| Căn bậc hai | \sqrt | $sqrt{a}$ -> \sqrt ( a ) |
 | Số pi ($\pi$) | \pi | |
+| Vô cực | $-inf$ | |
 | Độ | \deg | $30\textdegree$ -> 30 \deg |
 | $\leqslant$ | <= | |
 | $\geqslant$ | >= | |
@@ -28,4 +29,9 @@
 | Với mọi | \forall | $\forall P$ -> \forall P |
 | Tồn tại | \exists | $\exists P$ -> \exists P |
 | Thuộc | \in | $x \in A$ -> x \in A |
-| Phủ định (gạch ngang trên đầu) | \bar | $\bar A $ -> \bar ( A ) |
+| Không thuộc | \notin | $x \notin A$ -> x \notin A |
+| Tập rỗng ($\emptyset$) | \emptyset | |
+| Tập con | \subset | $A \subset B -> A \subset B |
+| Tập cha | \supset | $A \supset B -> A \supset B |
+| Không phải tập con | \notsubset | $A \notsubset B -> A \notsubset B |
+| Phủ định (gạch ngang trên đầu) | \bar | $\bar{A} $ -> \bar ( A ) |
