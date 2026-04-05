@@ -18,9 +18,9 @@
 | Phân số | / | $\frac{a}{b}$ -> a / b |
 | Mũ | ^ | $a^b$ -> a ^ b |
 | Chỉ số dưới | _ | $x_0$ -> x _ 0 |
-| Căn bậc hai | \sqrt | $sqrt{a}$ -> \sqrt ( a ) |
+| Căn bậc hai | \sqrt | $\sqrt a$ -> \sqrt ( a ) |
 | Số pi ($\pi$) | \pi | |
-| Vô cực | $-inf$ | |
+| Vô cực ($\inf$) | \inf | |
 | Độ | \deg | $30\textdegree$ -> 30 \deg |
 | $\leqslant$ | <= | |
 | $\geqslant$ | >= | |
@@ -34,4 +34,6 @@
 | Tập con | \subset | $A \subset B -> A \subset B |
 | Tập cha | \supset | $A \supset B -> A \supset B |
 | Không phải tập con | \notsubset | $A \notsubset B -> A \notsubset B |
-| Phủ định (gạch ngang trên đầu) | \bar | $\bar{A} $ -> \bar ( A ) |
+| Giao | \intersection | $A \cap B$ -> A \intersection B |
+| Hợp | \union | $A \cup B$ -> A \union B |
+| Phủ định (gạch ngang trên đầu) | \bar | $\bar A$ -> \bar ( A ) |
