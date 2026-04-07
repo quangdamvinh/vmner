@@ -34,12 +34,12 @@ Cho các mệnh đề chứa biến :
 P ( x ) : 2 x = 1 .
 R ( x , y ) : 2 x + y = 3 ( mệnh đề này chứa hai biến x và y ) .
 T ( n ) : 2 n + 1 là số chẵn ( n là số tự nhiên ) .
-Với mỗi mệnh đề chứa biến trên , tìm những giá trị của biến đề nhận được một mệnh đề đúng và một mệnh đề sai .
+Với mỗi mệnh đề chứa biến trên , tìm những giá trị của biến để nhận được một mệnh đề đúng và một mệnh đề sai .
 Nêu nhận xét về tính đúng sai của hai mệnh đề cùng cặp .
 Với từng cặp mệnh đề P và \bar ( P ) , ta thấy chúng có tính đúng sai trái ngược nhau ( P đúng thì \bar ( P ) sai và ngược lại ) .
 Ta nói mệnh đề \bar ( P ) là mệnh đề phủ định ( hoặc phủ định ) của mệnh đề P .
 Thông thường , để phủ định một mệnh đề , người ta thường thêm hoặc bớt từ không hoặc không phải vào trước vị ngữ của mệnh đề đó .
-Mỗi mệnh đề P có mệnh để phủ định , kí hiệu là \bar ( P ) .
+Mỗi mệnh đề P có mệnh đề phủ định , kí hiệu là \bar ( P ) .
 Mệnh đề P và mệnh đề phủ định \bar ( P ) của nó có tính đúng sai trái ngược nhau .
 Nghĩa là khi P đúng thì \bar ( P ) sai, khi P sai thì \bar ( P ) đúng .
 Phát biểu mệnh để phủ định của các mệnh đề sau .
@@ -51,7 +51,8 @@ Phương trình x ^ 2 - 3 x + 4 = 0 vô nghiệm .
 Nếu ABC là tam giác đều thì nó là tam giác cân .
 Nếu 2 a  - 4 > 0 thì a > 2 .
 Xét tính đúng sai của mỗi mệnh đề trên .
-Mỗi mệnh đề trên đều có dạng nếu P thì Q . Chỉ ra P và Q ứng với mỗi mệnh đề đó .
+Mỗi mệnh đề trên đều có dạng nếu P thì Q .
+Chỉ ra P và Q ứng với mỗi mệnh đề đó .
 Chúng là những mệnh đề kéo theo .
 Cho hai mệnh đề P và Q .
 Mệnh đề Nếu P thì Q được gọi là mệnh đề kéo theo , kí hiệu là P => Q .
@@ -61,7 +62,7 @@ Mệnh đề P => Q còn được phát biểu là P kéo theo Q hoặc Từ P s
 Khi đó , nếu Q đúng thì mệnh đề đúng , nếu Q sai thì mệnh đề sai .
 Ta đã quen với điều này khi chứng minh nhiều định lí ở Trung học cơ sở .
 R : Nếu tam giác ABC có hai góc bằng 60 \deg thì nó là tam giác đều .
-T : Từ - 3 < - 2 suy ra ( −3 ) ^ 2 < ( - 2 ) ^ 2 .
+T : Từ - 3 < - 2 suy ra ( - 3 ) ^ 2 < ( - 2 ) ^ 2 .
 Trong toán học, định lí là mệnh đề đúng .
 Các định lí trong toán học thường có dạng P => Q .
 P là giả thiết , Q là kết luận của định lí .
@@ -75,7 +76,7 @@ Nếu tam giác ABC là đều thì nó có hai góc bằng 60 \deg .
 Nếu a ^ 2 - 4 = 0 thì a = 2 .
 Mệnh đề Q => P được gọi là mệnh đề đảo của mệnh đề P => Q .
 Mệnh đề đảo của một mệnh đề đúng không nhất thiết là đúng .
-Nếu cả hai mệnh đề P => Q và Q => P đều đúng thì ta nói P và Q là hai mệnh đề tương đương, kí hiệu là P <=> Q ( đọc là P tương đương Q hoặc P khi và chỉ khi Q ) .
+Nếu cả hai mệnh đề P => Q và Q => P đều đúng thì ta nói P và Q là hai mệnh đề tương đương , kí hiệu là P <=> Q ( đọc là P tương đương Q hoặc P khi và chỉ khi Q ) .
 Khi đó , ta cũng nói P là điều kiện cần và đủ để có Q ( hay Q là điều kiện cần và đủ để có P ) .
 Hai mệnh đề P và Q tương đương khi chúng cùng đúng hoặc cùng sai .
 Xét hai mệnh đề :
@@ -87,12 +88,12 @@ P : Tứ giác ABCD là hình vuông .
 Q : Tứ giác ABCD là hình chữ nhật có hai đường chéo vuông góc với nhau .
 Phát biểu mệnh đề P => Q và mệnh đề đảo của nó .
 Xét tính đúng sai của các mệnh đề sau :
-Với mọi số tự nhiên x ,\sqrt ( x ) là số vô tỉ .
+Với mọi số tự nhiên x , \sqrt ( x ) là số vô tỉ .
 Bình phương của mọi số thực đều không âm .
 Có số nguyên cộng với chính nó bằng 0 .
 Có số tự nhiên n sao cho 2 n - 1 = 0 .
 Trong toán học , để ngắn ngọn , người ta dùng các kí hiệu \forall ( đọc là với mọi ) và \exists ( đọc là tồn tại ) .
-\forall x \in N , \sqrt(x) là số vô tỉ .
+\forall x \in N , \sqrt ( x ) là số vô tỉ .
 \exists x \in Z , x + x = 0 .
 \forall x \in R , x ^ 2 >= 0 .
 \exists n \in N , 2 n - 1 = 0 .
@@ -108,12 +109,12 @@ Có một số tự nhiên mà bình phương bằng 9 .
 Trong các khẳng định sau , khẳng định nào là mệnh đề , khẳng định nào là mệnh đề chứa biến ?
 3 + 2 > 5 .
 x - y = 2 .
-1 - \sqrt(2) < 0 .
+1 - \sqrt ( 2 ) < 0 .
 Xét tính đúng sai của các mệnh đề sau và phát biểu mệnh đề phủ định của chúng .
 2019 chia hết cho 3 .
 \pi < 3,15 .
 Nước ta hiện nay có 5 thành phố trực thuộc Trung ương .
-Tam giác có hai góc bằng 45° là tam giác vuông cân .
+Tam giác có hai góc bằng 45 \deg là tam giác vuông cân .
 Xét hai mệnh đề :
 P : Tứ giác ABCD là hình bình hành .
 Q : Tứ giác ABCD có hai đường chéo cắt nhau tại trung điểm của mỗi đường .
@@ -310,7 +311,7 @@ Chú ý : Trong các chương sau , để tìm các tập hợp là hợp , giao
 A = [ - 2 ; 1 ) \union ( 0 ; 3 ] ;
 E = C _ R ( - \inf ; 2 ) .
 Để xác định tập hợp A , ta về sơ đo sau đây :
-Từ sơ đồ , ta thấy A = [ − 2 ; 3 ] .
+Từ sơ đồ , ta thấy A = [ - 2 ; 3 ] .
 [ 1 / 2 ; 3) \ ( 1 ; + \inf ) ;
 A = { đỏ ; cam ; vàng ; lục ; lam } ,
 A là tập hợp các tam giác đều , B la tập hợp các tam giác cân .
@@ -360,4 +361,117 @@ Tìm tất cả các tập hợp B thoả mãn điều kiện { a ; b} \subset B
 Cho A = { x \in R | x ^ 2 - 5 x - 6 = 0 } , B = { x \in R | x ^ 2 = 1 } .
 Tìm A \union B , A \intersection B , A \ B , В \ А .
 Hỏi có bao nhiêu học sinh của lớp 10C tham gia đồng thời hai cuộc thi ?
-<!Hết chương 1>
+BẤT PHƯƠNG TRÌNH VÀ HỆ BẤT PHƯƠNG TRÌNH BẬC NHẤT HAI ẨN
+Bài toán tìm giá trị lớn nhất hoặc giá trị nhỏ nhất của biểu thức F = a x + b y trên một miền đa giác có thể giúp tối ưu hoá sản xuất .
+Đường thẳng d : y = x + 1 chia mặt phẳng toạ độ thành hai miền ( không tính đường thẳng d ) như hình bên .
+Dùng các nhãn dưới đây đặt vào miền phù hợp để đặt tên cho miền đó .
+Bạn Nam để dành được 700 nghìn đồng .
+Trong một đợt ủng hộ các bạn học sinh ở vùng bị bão lụt , Nam đã ủng hộ x tờ tiền loại 20 nghìn đồng , y tờ tiền loại 50 nghìn đồng từ tiền để dành của mình .
+Biểu diễn tổng số tiền bạn Nam đã ủng hộ theo x và y .
+Giải thích tại sao ta lại có bất đẳng thức 20 x + 50 y <= 700 .
+Bất phương trình bậc nhất hai ẩn x , y là bất phương trình có một trong các dạng a x + b y + c < 0 ; a x + b y + c > 0 ; a x + b y + c <= 0 ; a x + b y + c >= 0 ,
+trong đó a , b , c là những số cho trước ;
+a , b không đồng thời bằng 0 và x , y là các ẩn .
+Tìm bất phương trình bậc nhất hai ẩn trong các bất phương trình sau đây :
+x - 5 y + 2 <= 0 ;
+Các bất phương trình a , b , c là các bất phương trình bậc nhất hai ẩn .
+Bất phương trình b không là bất phương trình bậc nhất hai ẩn vì có chứa x ^ 2 .
+Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn ?
+Nghiệm của bất phương trình bậc nhất hai ẩn
+Trường hợp nào sau đây thoả mãn tình huống được nêu trong ?
+Xét bất phương trình a x + b y + c < 0 .
+Mỗi cặp số ( x _ 0 ; y _ 0) thoå măn a x _ 0 + b y _ 0 + c < 0 được gọi là một nghiệm của bất phương trình đã cho .
+Cặp số nào sau đây là nghiệm của bất phương trình 20 x + 50 y - 700 <= 0 ?
+Vì 20 . 5 + 50 . 6 - 700 = - 300 < 0 nên ( 5 ; 6) là nghiệm của bất phương trình 20 x + 50 y - 700 <= О .
+Cặp số nào sau đây là nghiệm của bất phương trình 4 x - 7 y - 28 >= 0 ?
+Giå sử có một người mỗi ngày cần không quá 60 g protein .
+Gọi số gam thịt bò và số quả trứng mà người đó ăn trong một ngày lần lượt là x và y .
+Lập bất phương trình theo x , y diễn tả giới hạn về lượng protein trong khẩu phần ăn hàng ngày của người đó .
+Dùng bất phương trình ở câu a để trả lời hai câu hỏi sau :
+Biểu diễn miền nghiệm của bất phương trình bậc nhất hai ẩn
+Cho bất phương trình 2 x - y + 1 < 0 .
+Vẽ đường thắng y = 2 x + 1 .
+Các cặp số ( - 2 ; 0) , ( 0 ; 0) , ( 1 ; 1 ) có là nghiệm của bất phương trình đã cho không ?
+Trong mặt phẳng toạ độ Oxy , tập hợp các điểm ( x _ 0 ; y _ 0 ) sao cho a x _ 0 + b y _ 0 + c < 0 được gọi là miền nghiệm của bất phương trình a x + b y + c < 0 .
+Người ta chúng minh được : Mỗi phương trình a x + b y + c = 0 ( a , b không đồng thời bằng 0 ) xác định một đường thẳng \Delta .
+Đường thẳng \Delta chia mặt phẳng Oxy thành hai nửa mặt phẳng ,
+trong đó một nửa là tập hợp các điểm ( x ; y ) thoå mãn a x + b y + c > 0 , nửa còn lại là tập hợp các điểm ( x ; y ) thoả mãn a x + b y + c < 0 .
+Ta có thể biểu diễn miền nghiệm của bất phương trình bậc nhất hai ẩn a x + b y + c < 0 như sau :
+Bước 1 : Trên mặt phẳng Oxy , vẽ đường thẳng \Delta : a x + b y + c = 0 .
+Bước 2 : Lấy một điểm ( x _ 0 ; y _ 0 ) không thuộc \Delta . Tính a x _ 0 + b y _ 0 + c .
+Bước 3: Kết luận
+Nếu a x _ 0 + b y _ 0 + c < 0 thì miền nghiệm của bất phương trình đã cho là nửa mặt phẳng ( không kể bờ \Delta ) chứa điểm ( x _ 0 ; y _ 0 ) .
+Nếu a x _ 0 + b y _ 0 + c > 0 thì miền nghiệm của bất phương trình đã cho là nửa mặt phẳng ( không kể bờ \Delta ) không chứa điểm ( x _ 0 ; y _ 0 ) .
+Đối với các bất phương trình bậc nhất hai ẩn dạng a x + b y + c <= 0 hoặc a x + b y + c >= 0 thì miền nghiệm là miền nghiệm của bất phương trình a x + b y+ c < 0 hoặc a x + b y + c > 0 kể cả bờ .
+Biểu diễn miền nghiệm của các bất phương trình sau :
+Vẽ đường thẳng \Delta : x - 2 y - 1 = 0 đi qua hai điểm A ( 1 ; 0 ) và B (0 ; - 1 / 2 ) .
+Xét gốc toạ độ O ( 0 ; 0 ) .
+Ta thấy O \notin \Delta và 0 - 2 . 0 - 1 < 0 .
+Do đó , miền nghiệm của bất phương trình là nửa mặt phẳng không kể bờ \Delta , không chứa gốc toạ độ O .
+Biểu diễn miền nghiệm của hai bất phương trình sau trên cùng một mặt phẳng toạ độ Oxy :
+Cho bất phương trình bậc nhất hai ẩn x - 2 y + 6 > 0 .
+( 0 ; 0) có phải là một nghiệm của bất phương trình đã cho không ?
+Chỉ ra ba cặp số ( x ; y ) là nghiệm của bất phương trình đã cho .
+Biểu diễn miển nghiệm của bất phương trình đã cho trên mặt phẳng Oxy .
+Gọi x và y lần lượt là số lít nước cam loại I và II pha chế được .
+Hãy lập các bất phương trình mô tả số lít nước cam loại I và II mà bạn Cúc có thể pha chể được và biểu diễn miền nghiệm của các bất phương trình đó trên cùng một mặt phẳng toạ độ Oxy .
+Miền không gạch chéo ( không kể bờ d ) trong mỗi hình đưới đây là miền nghiệm của bất phương trình nào ?
+Hai đường thẳng d : y = - x - 2 và d ' : y = x + 1 chia mặt phằng toạ độ thành bốn miền khác nhau ( không tính hai đường thẳng d và d' ) như hình bên .
+Để kí hiệu một trong bốn miền đó , người ta đã tạo nhãn :
+Một người nông dân dự định quy hoạch x sào đất trồng cà tím và y sào đất trồng cà chua .
+Viết các bất phương trình mô tả các điều kiện ràng buộc đối với х , у .
+Bài toán tìm nghiệm chung của ba bất phương trình 0,2 x + 0,1 y - 9 <= 0 ; x >= 0 và y >= 0 là bài toán tìm nghiệm của hệ sau :
+\system ( 0,2 x + 0,1 y - 9 <= 0 ; x >= 0 ; y >= 0 )
+Hệ bất phương trình bậc nhất hai ấn là hệ gồm hai hay nhiều bất phương trình bậc nhất hai ẩn x , y .
+Mỗi nghiệm chung của tất cả các bất phương trình đó được gọi là một nghiệm của hệ bất phương trình đã cho .
+Trên mặt phẳng toạ độ Oxy , tập hợp các điểm (x _ 0 ; y _ 0 ) có tọa độ là nghiệm của hệ bất phương trình bậc nhất hai ẩn được gọi là miền nghiệm của hệ bất phương trình đó .
+Tìm hệ bất phương trình bậc nhất hai ẩn trong các hệ sau :
+Các hệ a , c , d là các hệ bất phương trình bậc nhất hai ẩn .
+Hệ b không phải hệ bất phương trình bậc nhất hai ẩn vì hệ này chỉ gồm các phương trình .
+Hãy chỉ ra hai nghiệm của mỗi hệ bất phương trình trong Ví dụ 1 .
+Biểu diễn miền nghiệm của hệ bất phương trình bậc nhất hai ẩn
+Cho hệ bất phương trình : \system ( x + y - 3 <= 0 ; - 2 x + y + 3 >= 0 ) .
+Miền nào trong Hình 1 biểu điễn phần giao các miền nghiệm của hai bất phương trình trong hệ đã cho ?
+Miển không gạch chéo trong Hình 1 là miền nghiệm của hệ bất phương trình trên .
+Để biểu diễn miền nghiệm của hệ bất phương trình bậc nhất hai ân trên mặt phẳng toạ độ Oxy , ta thực hiện như sau :
+Trên cùng mặt phẳng toạ độ , biểu điễn miền nghiệm của mỗi bất phương trình của hệ .
+Phần giao của các miền nghiệm là miền nghiệm của hệ bất phương trình .
+Biểu diễn miền nghiệm của hệ : \system ( 2 x - y - 3 <= 0 ; 2 x - y + 2 <= 0 ) .
+Biểu diễn từng miền nghiệm của mỗi bất phương trình trên mặt phẳng Oxy .
+Miền không gạch chéo kể cả bờ trong Hình 2 là phần giao của hai miền nghiệm của hai bất phương trình và cũng là phần biều diễn miền nghiệm của hệ bất phương trình đã cho .
+Chú ý : Miền mặt phẳng toa độ bao gồm một đa giác lồi và phần nằm bên trong đa giác đó được gọi là một miền đa giác .
+Chẳng hạn, ta có miền nghiệm của hệ bất phương trình trong Ví dụ 3 là miền tứ giác OABC .
+Tìm giá trị lớn nhất hoặc giá trị nhỏ nhất của biểu thức F = a x + b y trên một miền đa giác
+Hệ bất phương trình giúp ta mô tả được nhiều bài toán thực tế để tìm ra cách giải quyết ưu .
+Chúng thường được đưa về bài toán tìm giá trị lớn nhất ( GTLN ) hoặc giá trị nhỏ nhất ( GTNN ) của biều thức F = a x + b y trên một miền đa giác .
+Người ta chứng minh được F đạt giá trị lớn nhất hoặc nhỏ nhất tại một trong các đỉnh của đa giác .
+Bác Năm cần trồng bao nhiêu hecta cho mỗi loại cây để thu được nhiều tiền nhất ?
+Gọi x là số hecta đất trồng ngô và y là số hecta đất trồng đậu xanh .
+Ta có các điều kiện ràng buộc đổi với x , y như sau :
+Hiển nhiên x >= 0 , y >= 0 .
+Diện tích canh tác không vượt quá 8 ha nên x + y <= 8 .
+Số ngày công sử dụng không vượt quá 180 nên 20 x + 30 y <= 180 .
+Từ đó , ta có hệ bất phương trình mô tả các điều kiện ràng buộc :
+Biểu diễn miền nghiệm của hệ bất phương trình này trên hệ trục toạ độ Oxy , ta được miền tứ giác OABC .
+Toạ độ các đỉnh của tứ giác đó là : O ( 0 ; 0 ) ; A ( 0 ; 6 ) ; B ( 6 ; 2 ) ; C ( 8 ; 0 ) .
+Gọi F là số tiền ( đơn vị : triệu đồng ) bác Năm thu được , ta có : F = 40 x + 50 y .
+Ta phải tìm x, y thoả mãn hệ bất phương trình sao cho F đạt giá trị lớn nhất , nghĩa là tìm giá trị lớn nhất của biểu thức F = 40 x + 50 y trên miền tứ giác OABC .
+Tính các giá trị của biểu thức F tại các đỉnh của đa giác , ta có :
+Tại 0 ( 0 ; 0 ) : F = 40 . 0 + 50 . 0 = 0 ;
+F đạt giá trị lớn nhất bằng 340 tại B ( 6 ; 2) .
+Hãy lập phương án sản xuất hai loại sản phẩm trên sao cho có lãi cao nhất .
+Gọi x là số kilôgam sản phẩm P , y là số kilôgam sån phẩm 2 cần sản xuất .
+Biểu diễn miền nghiệm của hệ bất phương trình trên hệ trục toạ độ Оху , ta được như Hình 5 .
+Miền nghiệm là miền ngũ giác OCBAD với các đỉnh : O ( 0 ; 0 ) ; C ( 0 ; 2 ) ; B ( 2 ; 2 ) ; A ( 4 ; 1 ) ; D ( 5 ; 0 ) .
+Gọi F là số tiền lãi thu được , ta có : F = 3 x + 5 y .
+Tính giá trị của F tại các đỉnh của ngũ giác :
+Biểu diễn miền nghiệm của mỗi hệ bất phương trình sau :
+Tìm hệ bất phương trình mô tả số thùng của mỗi loại thuốc trừ sâu mà nhà máy có thể sản xuất mỗi ngày để đáp ứng các điều kiện hạn chế trên .
+Biểu diễn miền nghiệm của hệ bất phương trình đó trên mặt phẳng tọa độ .
+Việc nhà máy sản xuất 100 thùng loại A và 80 thùng loại B mỗi ngày có phù hợp với quy định không ?
+Gọi x , y lần lượt là số đèn hình con cá và đèn ông sao bạn Lan sẽ làm.
+Hãy lập hệ bất phương trình mô tả điều kiện của x , y và biểu diễn miền nghiệm của hệ bất phương trình đó .
+Hãy giúp bạn Mạnh tính số giờ đạp xe và số giờ tập tạ một tuần trong hai trường hợp sau :
+Biểu điễn miền nghiệm của hệ bất phuơng trình sau trên mặt phẳng toạ độ Oxy : \system ( x - 2 y > 0 ; x + 3 y < 3 ) .
+Một tấn sản phẩm X lãi 10 triệu đồng và một tấn sản phẩm Y lãi 8 triệu đồng .
+<!hết chương II>

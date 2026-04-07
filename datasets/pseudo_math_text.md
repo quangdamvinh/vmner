@@ -22,6 +22,7 @@
 | Số pi ($\pi$) | \pi | |
 | Vô cực ($\inf$) | \inf | |
 | Độ | \deg | $30\textdegree$ -> 30 \deg |
+|Hệ phương trình | \system ( ; ) | \system ( x + y = 0 ; 2 x + y = 1 ) |
 | $\leqslant$ | <= | |
 | $\geqslant$ | >= | |
 | Kéo theo, suy ra | => | $A \Rightarrow B$ -> A => B |
@@ -37,3 +38,4 @@
 | Giao | \intersection | $A \cap B$ -> A \intersection B |
 | Hợp | \union | $A \cup B$ -> A \union B |
 | Phủ định (gạch ngang trên đầu) | \bar | $\bar A$ -> \bar ( A ) |
+| $\Delta$ | \Delta | |

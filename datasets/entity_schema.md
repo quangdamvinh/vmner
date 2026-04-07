@@ -46,7 +46,7 @@
 | GEOMETRIC_SHAPE | Các từ chỉ các dạng hình học | Hình vuông, hình nón,... |
 | GEOMETRIC_OBJECT | Các từ chỉ các đối tượng trong hình học | Điểm, đường thẳng,... |
 | THEOREM | Tên các định lí, công thức | Định lí Pi-ta-go, nhị thức Niu-tơn,... |
-| PROPERTY | Các từ chỉ các tính chất hay mối quan hệ | Vuông góc, song song,... |
+| PROPERTY | Các từ chỉ các tính chất hay mối quan hệ giữa các đối tượng | Vuông góc, song song,... |
 | QUANTITY | Các từ chỉ đại lượng | Diện tích, chu vi,... |
 | SYMBOL | Các kí hiệu toán học hoặc kí tự đại diện cho các đối tượng toán học cụ thể (biến, tham số,...) | A, x, m,... |
 | SET | Tập hợp hoặc miền số | {1, 2, 3}, (0, 1),... |
@@ -348,6 +348,9 @@
     - ) I-FUNCTION
     - bằng O
     - : O
+    
     Ghi chú 5: f′(\pi / 2) ở đây là chỉ 1 giá trị cụ thể của hàm số, giống như một biểu thức hơn nhưng ta vẫn sẽ xếp vào FUNCTION (nguyên tắc 2).
 
 ### VI. Các trường hợp ngoại lệ hoặc cần lưu ý (xuất hiện trong lúc gán nhãn dữ liệu)
+- \pi: SYMBOL - tuy có giá trị xác định nhưng vì lầ một hằng số có kí hiệu riêng nên ta vẫn gán \pi nhãn EXPRESSION.
+- p => Q: EXPRESSION - thực chất đây là một mệnh đề chứ không phải biểu thức nhưng sẽ được gộp chung vào đây để giữ cho P => Q là một thực thể.
