@@ -20,11 +20,13 @@
 | Chỉ số dưới | _ | $x_0$ -> x _ 0 |
 | Căn bậc hai | \sqrt | $\sqrt a$ -> \sqrt ( a ) |
 | Số pi ($\pi$) | \pi | |
-| Vô cực ($\inf$) | \inf | |
+| Vô cực ($\infty$) | \inf | |
 | Độ | \deg | $30\textdegree$ -> 30 \deg |
-|Hệ phương trình | \system ( ; ) | \system ( x + y = 0 ; 2 x + y = 1 ) |
+| Hệ phương trình | \system ( ; ) | \system ( x + y = 0 ; 2 x + y = 1 ) |
 | $\leqslant$ | <= | |
 | $\geqslant$ | >= | |
+| $\neq$ | != | |
+| $\approx$ | \approx | |
 | Kéo theo, suy ra | => | $A \Rightarrow B$ -> A => B |
 | Tương đương | <=> | $A \Leftrightarrow B$ -> A <=> B |
 | Với mọi | \forall | $\forall P$ -> \forall P |
@@ -39,3 +41,4 @@
 | Hợp | \union | $A \cup B$ -> A \union B |
 | Phủ định (gạch ngang trên đầu) | \bar | $\bar A$ -> \bar ( A ) |
 | $\Delta$ | \Delta | |
+| $\alpha$ | \alpha | |

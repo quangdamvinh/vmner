@@ -129,7 +129,7 @@ Sử dụng kí hiệu \forall , \exists để viết lại các mệnh đề đ
 Xét tỉnh đúng sai và viết mệnh đề phủ định của các mệnh đề sau đây :
 \exists x \in N , x + 3 = 0 .
 \forall x \in R , x ^ 2 + 1 >= 2 x .
-\forall a \in R , \sqrt(a) = a .
+\forall a \in R , \sqrt ( a ) = a .
 Cho các định lí :
 P : Nếu hai tam giác bằng nhau thì diện tích của chúng bằng nhau .
 Q : Nếu a < b thì a + c < b + c ( a , b , c \in R ) .
@@ -145,8 +145,7 @@ Trong toán học , có những mệnh đề được tin là đúng nhưng chư
 Mệnh đề như vậy được gọi là một giả thuyết toán học .
 Nhiều giả thuyết toán học là thách thức lớn cho các nhà toán học trong thời gian dài , cuối cùng đã được chứng minh .
 Chẳng hạn , Định lí lớn Fermat Không tồn tại ba số nguyên duơng x , y , z sao cho x ^ n + y ^ n = z ^ n , trong đó n là số nguyên , n > 2
-được Pierre de Fermat phát biểu vào năm 1630 trên bìa một cuốn sách ,
-kèm theo dòng chữ nói rằng ông có phương pháp để chứng minh nhưng không thể viết ra vì lề sách quá hẹp .
+được Pierre de Fermat phát biểu vào năm 1630 trên bìa một cuốn sách , kèm theo dòng chữ nói rằng ông có phương pháp để chứng minh nhưng không thể viết ra vì lề sách quá hẹp .
 Phải sau đó gần bốn thế kỉ , Định lí lớn Fermat mới được chúng minh bởi nhà toán học người Anh Andrew Wiles vào năm 1994 .
 Có những giả thuyết tưởng chắc đúng , nhưng sau đó người ta chỉ ra nó sai .
 Cũng những giả thuyết đến nay vẫn chưa thể chứng minh hay bác bỏ .
@@ -160,8 +159,8 @@ Các học sinh của lớp 10A tạo thành một tập hợp .
 Các học sinh nữ của lớp này cũng tạo thành một tập hợp .
 Các nghiệm của phương trình x ^ 2 - 4 = 0 tạo thành một tập hợp ( gọi là tập nghiệm của phương trình x ^ 2 - 4 = 0 ) .
 Tập hợp này có hai phần tử là 2 và - 2 .
-Người ta thường kí hiệu tập hợp bằng các chử cái in hoa A , B , C , ... và kí hiệu phần tử của tập hợp bằng các chữ cái in thường a , b , c, ...
-Chú ý : Đôi khi , để ngăn gọn người ta dùng từ tập thay cho ‘tập hợp .
+Người ta thường kí hiệu tập hợp bằng các chử cái in hoa A , B , C , ... và kí hiệu phần tử của tập hợp bằng các chữ cái in thường a , b , c , ...
+Chú ý : Đôi khi , để ngắn gọn người ta dùng từ tập thay cho tập hợp .
 Để chỉ a là một phần tử của tập hợp A , ta viết a \in A ( đọc là a thuộc A ) .
 Để chỉ a không là phần tử của tập hợp A , ta viết a \notin A ( đọc là a không thuộc A ) .
 Một tập hợp có thể không chứa phần tử nào .
@@ -227,32 +226,32 @@ E là tập hợp các hình bình hành và F là tập hợp các tứ giác c
 G = { x \in N | x là bội của 3 } và H = { x \in N | x là bội của 6 } .
 Ta thấy mỗi phần tử của B đều là phần tử của A , do đó B \subset A .
 Có 1 \in A nhưng 1 \notin B , do đó A khác B .
-Hai phương trình x ^ 2 = 4 và | x | = 2 đều có hai nghiệm là x = 2 và x = -2 .
+Hai phương trình x ^ 2 = 4 và | x | = 2 đều có hai nghiệm là x = 2 và x = - 2 .
 Do đó , C = D = { - 2 ; 2 }
 Ta biết rằng , một hình tứ giác là hình bình hành khi và chỉ khi nó có hai cặp cạnh đối song song .
 Do đó , nếu x \in E thì x \in F và ngược lại .
 Bởi vậy , E = F .
 Giả sử x \in H , tức x là bội của 6 .
 Khi đó có số k \in N sao cho x = 6 k = 3 . 2 k .
-Suy ra x cũng là bội của 3 hay x \in G.
+Suy ra x cũng là bội của 3 hay x \in G .
 Vậy H \subset G .
 Mặt khác , có 3 \in G nhưng 3 \notin H .
 Do đó , G khác Н .
 Trong mỗi cặp tập hợp sau đây , tập hợp nào là tập con của tập hợp còn lại ?
 Chúng có bằng nhau không ?
-A = { - \sqrt ( 3 ) ; \sqrt 3 } và B= {x \in R |x ^ 2 - 3 = 0 } ;
+A = { - \sqrt ( 3 ) ; \sqrt 3 } và B = { x \in R | x ^ 2 - 3 = 0 } ;
 C là tập hợp các tam giác đều và D là tập hợp các tam giác cân ;
 Viết tất cả các tập con của tập hợp A = { a ; b } .
 Bạn An khẳng định rằng : Với các tập hợp A , B , C bất kì , nếu A \subset B và B \subset C thì A \subset С .
 Khẳng định của bạn An có đúng không ?
 Hãy giải thích bằng cách sử dụng biểu đồ Ven .
 Một số tập con của tập hợp số thực
-Sau này ta thường sử dụng các tập con của tập số thực sau đây (a và b là các số thực , a < b ) :
+Sau này ta thường sử dụng các tập con của tập số thực sau đây ( a và b là các số thực , a < b ) :
 Trong các kí hiệu trên , kí hiệu - \inf đọc là âm vô cực , kí hiệu + \inf đọc là dương vô cực .
 Dùng các kí hiệu đoạn , khoảng , nửa khoảng để viết các tập hợp sau đây :
-{x ∈ R | - 2 < x < 3 } ;
+{ x ∈ R | - 2 < x < 3 } ;
 Viết các tập hợp sau đây đưới dạng liệt kê các phần tử .
-C = {x \in N | x có hai chữ số } .
+C = { x \in N | x có hai chữ số } .
 Viết các tập hợp sau đây dưới dạng chỉ ra tính chất đặc trưng cho các phần tử .
 Tập hợp B các nghiệm của bất phương trình 2 x + 1 > 0 ;
 Trong mỗi cặp tập hợp sau đây , tập hợp nào là tập con của tập còn lại ?
@@ -260,8 +259,8 @@ C là tập hợp các hình thoi và D là tập hợp các hình vuông ;
 E = ( - 1 ; 1 ] và F = ( - \inf ; 2 ] .
 Hãy viết tất cả các tập con của tập hợp B = { 0 ; 1 ; 2 } .
 { x \in R | -2 \pi < x ≤ 2 \pi } ;
-Bài 3.
-Các phép toản trên tập hợp
+Bài 3 .
+Các phép toán trên tập hợp
 Có hai đường tròn chia một hình chữ nhật thành các miền như hình bên .
 Bội của 3
 Hãy đặt mỗi thẻ số sau đây vào miền thích hợp trên hình chữ nhật và giải thích cách làm .
@@ -274,9 +273,9 @@ Tập hợp các phần tử thuộc A hoặc thuộc B gọi là hợp của ha
 A \union B = { x | x \in A hoặc x \in B } .
 Tập hợp các phần tử thuộc cả hai tập hợp A và B gọi là giao của hai tập hợp A và B , kí hiệu A \intersection В .
 A \intersection B = { x | x \in A và x \in B } .
-Xác địnhA \union B và A \intersection B trong mỗi trường hợp sau :
+Xác định A \union B và A \intersection B trong mỗi trường hợp sau :
 A là tập hợp các hình bình hành , B là tập hợp các hình thoi .
-A \union B { 1 ; 2 ; 3 ; 5 ; 7 ; 15 } , A \intersection B = { 3 ; 5 }
+A \union B = { 1 ; 2 ; 3 ; 5 ; 7 ; 15 } , A \intersection B = { 3 ; 5 } .
 Phương trình x ( x + 2 ) = 0 có hai nghiệm là 0 và - 2 , nên A = { - 2 ; 0 } .
 Phương trình x ^ 2 + 2 = 0 vô nghiệm , nên B = \emptyset .
 Từ đó , A \union B = A \union \emptyset = A = { - 2 ; 0 } , A \intersection B = A \intersection \emptyset = \emptyset .
@@ -474,4 +473,178 @@ Hãy lập hệ bất phương trình mô tả điều kiện của x , y và bi
 Hãy giúp bạn Mạnh tính số giờ đạp xe và số giờ tập tạ một tuần trong hai trường hợp sau :
 Biểu điễn miền nghiệm của hệ bất phuơng trình sau trên mặt phẳng toạ độ Oxy : \system ( x - 2 y > 0 ; x + 3 y < 3 ) .
 Một tấn sản phẩm X lãi 10 triệu đồng và một tấn sản phẩm Y lãi 8 triệu đồng .
-<!hết chương II>
+Trong chương này , chúng ta sẽ học cách nhận biết hàm số , sự biến thiên và đồ thị của hàm số bậc hai cũng như tìm hiểu các ứng dụng của hàm số để giải quyết một số vấn đề trong thực tiễn .
+Nước được phun ra từ đài hoa sen ở phố đi bộ Nguyễn Huệ , Thành phố Hồ Chí Minh có dạng một đường parabol .
+Viết tập hợp các số đo nhiệt độ đã dự báo .
+Cho biết nhiệt độ dự báo tại Thành phố Hồ Chí Minh vào lúc 7 giờ sáng
+Trong 1 , nhiệt độ dự báo là một đại lượng phụ thuộc vào thời điểm ( giờ ) .
+Mối liên hệ giữa hai đại lượng này ( nhiệt độ và thời gian ) có các đặc trưng của một hàm số .
+Giả sử x và y là hai đại lượng biến thiên và x nhận giá trị thuộc tập số D .
+Nếu với mỗi giá trị x thuộc D , ta xác định được một và chỉ một giá trị tương ứng y thuộc tập hợp số thực R thì ta có một hàm số .
+Ta gọi x là biến số và y là hàm số của х .
+Tập hợp D được gọi là tập xác định của hàm số .
+Tập hợp T gồm tất cả các giá trị y ( tương ứng với x thuộc D ) gọi là tập giá trị của hàm số .
+Ta thường dùng kí hiệu f ( x ) để chỉ giá trị y tương ứng với x , nên hàm số còn được viết là y = f ( x ) .
+Một hàm số có thể được cho bằng bảng ( như Bảng 1 ) , bằng biểu đồ ( như Hình 1 ) hoặc bằng công thức như đã học ở cấp Trung học cơ sở , chẳng hạn y = 2 x - 3 , y = - x ^ 2 .
+Vì sao có thể nói bảng dữ liệu dự báo thời tiết ( Bảng 1 ) biểu thị một hàm số ?
+Tìm tập xác định , tập giá trị của hàm số này .
+Biểu đồ Dự báo nhiệt độ ngày 1 / 5 / 2021 tại Thành phố Hồ Chí Minh ( Hình 1 ) có biểu thị hàm số không ?
+Tại sao ?
+Tử bảng dữ liệu dự báo thời tiết ( Bảng 1 ) , ta thấy ứng với mỗi thời điểm (giờ) trong bảng đều có một giá trị dự báo nhiệt độ duy nhất .
+Vì vậy , bảng này biểu thị một hàm số .
+Hàm số đó có tập xác định D = { 1 ; 4 ; 7 ; 10 ; 13 ; 16 ; 19 ; 22 } và tập giá trị T = { 27 ; 28 ; 29 ; 31 ; 32 } .
+Tương tự , biểu đồ Dự bảo nhiệt độ ngày 1 / 5 / 2021 tại Thành phố Hồ Chí Minh cũng là một hàm số , ta cũng có tập xác định và tập giả trị như trên câu a .
+Khi một hàm số được cho bằng công thức mà không chỉ rõ tâp xác định thì ta quy ước :
+Tập xác định của hàm số y = f ( x ) là tập hợp tất cả các số thực x sao cho biểu thức f ( x ) có nghĩa .
+Một hàm số có thể được cho bởi hai hay nhiều công thức .
+Chẳng hạn , xét hàm số : f ( x ) = \system ( - 3 x + 5 với x <= 1 ; 2 x ^ 2 với x > 1 ) nghĩa là với x <= 1 thì f ( x ) = - 3 x + 5 ; với x > 1 thì f ( x ) = 2 x ^ 2 .
+Tìm tập xác định của các hàm số sau :
+f ( x ) = \sqrt ( 5 - x )
+Biểu thức f ( x ) có nghĩa khi và chỉ khi 5 - x >= 0 , tức là khi x <= 5 .
+Vậy tập xác định của hàm số này là D = ( - \inf ; 5 ] .
+Biểu thức f ( x ) có nghĩa khi và chỉ khi 2 x - 6 != 0 , tức là khi x != 3 .
+Vậy tập xác định của hàm số này là D = R \ { 3 } .
+Vì sao bảng này biểu thị một hàm số ?
+Tìm tập xác định của hàm số này .
+f ( x ) = ( x + 4 ) / ( x ^ 2 - 3 x + 2 )
+Ở góc của miếng đất hình chữ nhật , người ta làm một bồn hoa có dạng một phần tư hình tròn với bán kính r .
+Bán kính bồn hoa có kích thước từ 0 , 5 m đến 3 m .
+Viết công thức của hàm số biểu thị diện tích bồn hoa theo bán kính r và tìm tập xác định của hàm số này .
+Bán kính bồn hoa bằng bao nhiêu thì nó có diện tích là 0 , 5 \pi m ^ 2 ?
+Tìm tập xác định D của hàm số trên .
+Trong mặt phẳng toa độ Oxy , vẽ tất cả các điểm có toạ độ ( x , y ) với x \in D và y = f ( x ) .
+Cho hàm số y = f ( x ) có tập xác định D .
+Trên mặt phẳng toạ độ Oxy , đổ thị ( C ) của hàm số là tập hợp tất cả các điểm M ( x ; y ) với x \in D và y = f ( x ) .
+Vậy ( C ) = { M ( x ; f ( x ) ) | x \in D } .
+Điểm M ( x _ M ; y _ M ) thuộc đồ thị hàm số y = f ( x ) khi và chỉ khi x \in D và y _ M = f ( x _ M ) .
+Cho hàm số y = f ( x ) = ( 1 / 8 ) x ^ 2 xác định trên D = [ - 3 ; 5 ] có đồ thị ( C ) như Hình 4 .
+Điểm A ( 4 ; f ( 4 ) ) có thuộc đồ thị ( C ) không ?
+Lấy điểm B tùy ý trên đồ thị ( C ) .
+Nêu nhận xét về hoành độ của điểm B .
+Vẽ đồ thị hàm số y = f ( x ) được cho bởi bảng sau :
+Vì 4 \in [ - 3 ; 5 ] nên điểm 4 có hoành độ bằng 4 và có tung độ y = ( 1 / 8 ) 4 ^ 2 = 2 là điểm thuộc đồ thị ( C ) .
+Khi lấy điểm B tùy ý trên đồ thị ( C ) thì hoành độ x _ B của điểm này thuộc tập xác định D , nghĩa là - 3 <= x _ B <= 5 .
+Đồ thị của hàm số gồm 7 điểm như Hình 5 .
+Vẽ đồ thị hàm số f(x) = 3 x + 8 .
+Quan sát đồ thị hàm số y = f ( x ) = x ^ 2 rồi so sánh f ( x _ 1 ) và f ( x _ 2 ) ( với x _ 1 < x _ 2 ) trong từng trường hợp sau :
+Đối với hàm số trên , khi x tăng và thuộc khoảng ( - \inf ; 0 ) , ta thấy giá trị hàm số giảm .
+Ngược lại , khi x tăng và thuộc khoảng ( 0 ; + \inf ) , giá trị hàm số tăng .
+Một cách tổng quát , ta có :
+Với hàm số y = f ( x ) xác định trên khoảng ( a ; b ) , ta nói :
+Hàm số đồng biến trên khoảng ( a ; b ) nếu \forall x _1 , x _ 2 \in ( a ; b ) , x _ 1 < x _ 2 => f ( x _ 1 ) < f ( x _ 2 ) .
+Hàm số nghịch biến trên khoảng ( a ; b ) nếu \forall x _ 1 , x _ 2 \in ( a ; b ) , x _ 1 < x _ 2 => f ( x _ 1 ) > f ( x _ 2 ) .
+Khi hàm số đồng biển ( tăng ) trên khoảng ( a ; b) thì đồ thị của nó có dạng đi lên từ trái sang phải .
+Ngược lại , khi hàm số nghịch biến ( giảm ) trên khoảng ( a ; b) thì đồ thị của nó có dạng đi xuống từ trái sang phải .
+Xét tính đồng biến, nghịch biến của các hàm số sau trên tập xác định hoặc trên khoảng được chỉ định :
+y = x ^ 2 trên khoảng ( - \inf ; 0 ) ;
+Xét hàm số y = f ( x ) = 3 x - 1 .
+Hàm số này xác định trên R .
+Lấy x _ 1 , x _ 2 là hai số tùy ý sao cho x _ 2 < x _ 2 , ta có : x _ 1 < x _ 2 => 3 x _ 1 < 3 x _ 2 => 3 x _ 1 - 1 < 3 x _ 2 - 1 => f ( x _ 1 ) < f ( x _ 2 ) .
+Vậy hàm số đồng biến ( tăng ) trên R .
+Xét hàm số y = x ^ 2 trên khoảng ( - \inf ; 0 ) .
+Từ đồ thị , ta thấy hàm số xác định trên [ - 3 ; 7 ] .
+Trên khoảng ( - 3 ; - 2 ) , đồ thị có dạng đi lên từ trái sang phải nên hàm số này đồng biến trên khoảng ( - 3 ; - 2 ) .
+Đặt y = h ( t ) là hàm số biểu thị khoảng cách từ vị trí của Sơn đến mặt đất theo thời gian t từ khi bạn ấy bắt đầu đi cho đến khi về lại nhà mình .
+( C _ 1 ) hay ( C _ 2 ) là đồ thị của hàm số y = h ( t ) ?
+Khi bắt đầu đi từ tầng ba xuống tầng một , Sơn ngày càng gần mặt đất nên khoảng cách từ vị trí của Sơn đến mặt đất giảm dần , hay hàm số giảm , vậy đồ thị phải có dạng đi xuống .
+Đồ thị ( C ) có dạng tương ứng như mô tả ở trên .
+Do đó , ( C - 2 ) là đồ thị của hàm số y = h ( t ) này .
+Tìm khoảng đồng biển và nghịch biến của hàm số có đồ thị sau :
+Xét tính đồng biến , nghịch biến của hàm số y = f ( x ) = 5 x ^ 2 trên khoảng ( 2 ; 5 ) .
+Tìm tập xác định , tập giá trị của hàm số có đồ thị như Hình 10 .
+4. Vẽ đồ thị hàm số f ( x ) = | x | , biết rằng hàm số này còn được viết như sau :
+Xem số tiền đi taxi là một hàm số phụ thuộc số kilômét di chuyển , hãy viết công thức của các hàm số dựa trên thông tin từ bảng giá đã cho theo từng yêu cầu :
+Hàm số f ( x ) để tính sổ tiền hành khách phải trả khỉ di chuyển x km bằng xe taxi 4 chỗ .
+Bên trong HỘP ĐEN là một đoạn chương trình được cài đặt sẵn .
+Ta xem đoạn chương trình này như một hàm số f ( x ) .
+Hãy viết biểu thức của f ( x ) để mô tả sự biến đổi đã tác động lên x .
+Khai triển biểu thức của các hàm số sau và sắp xếp theo thứ tự luỹ thừa của x giảm dần .
+Hàm số nào có luỹ thừa bậc cao nhất của x là bậc hai ?
+Hàm số bậc hai theo biến x là hàm số cho bởi công thức có dạng y = f ( x ) = a x ^ 2 + b x + c với a , b , c là các số thực và a khác 0 .
+Tập xác định của hàm số bậc hai là R .
+Hàm số nào trong các hàm số sau đây là hàm số bậc hai ?
+Hàm số y = 2 x ^ 2 + x và hàm số y = - 3 x ^ 2 - 1 đều là hàm số bậc hai .
+Các hàm số y = x ^ 3 + x + 1 ; y = ( x + 1 ) / ( x + 2 ) ; y = \sqrt ( 5 - 2 x ) không phải là hàm số bậc hai .
+Trên mặt phẳng toạ độ , ta có các điểm ( x , f ( x ) ) với x thuộc bảng giá trị đã cho .
+Hãy vẽ đường cong đi qua các điểm A , B , S , C , D và nêu nhận xét về hình dạng của đường cong này so với đồ thị của hàm số y = x ^ 2 .
+Trên mặt phẳng toạ độ , ta có các điểm ( x , g ( x ) ) với x thuộc bảng giá trị đã cho ( Hình 2 ) .
+Ta thấy hai dạng cơ bản của đồ thị hàm số bậc hai úng với hai trường hợp a > 0 và a < 0 .
+Một cách tổng quát , sau khi biến đổi y = a x ^ 2 + b x + c = a ( x - ( - b / ( 2 a ) ) ) ^ 2 + ( - \Delta / ( 4 a ) ) , với a != 0 và \Delta = b ^ 2 - 4 a c
+người ta chứng minh được rằng trong mặt phẳng toạ độ Oxy , đồ thị hàm số bậc hai y = a x ^ 2 + b x + c có hình dạng là một parabol và có đỉnh S ( - b / ( 2 a ) ; - \Delta / (4 a ) ) .
+Trong mặt phẳng toa độ Oxy , đồ thị hàm số bậc hai y = a x ^ 2 + b x + c ( với a != 0 ) là một parabol ( P ) :
+Có đỉnh S với hoành độ x _ S = - b / ( 2 a ) , tung độ y _ S = - \Delta / ( 4 a )
+Có trục đổi xứng là đường thẳng x = - b / ( 2 a ) (đường thẳng này đi qua đỉnh S và song song với trục Oy ) ;
+Bề lõm quay lên trên nếu a > 0 , quay xuống dưới nếu a < 0 ;
+Cắt trục tung tại điểm có tung độ bằng c , tức là đồ thị đi qua điểm có toạ độ ( 0 ; с ) .
+Nếu phương trình a x ^ 2 + b x + c = 0 có hai nghiệm x _ 1 , x _ 2 thì đồ thị hàm số bậc hai y = a x ^ 2 + b x + c cắt trục hoành tại hai điểm lần lượt có hoành độ là hai nghiệm này .
+Cách vẽ đồ thị hảm số bậc hai y = a x ^ 2 + b x + c ( với a != 0 ) :
+Xác định toạ độ đỉnh S ( - b / ( 2 a ) ; - \Delta / (4 a ) ) .
+Vẽ trục đổi xứng d là đường thẳng x = - b / ( 2 a ) .
+Tìm toạ độ giao điểm của đồ thị với trục tung ( điểm A ( 0 ; c ) ) và giao điểm của đồ thị với trục hoành ( nếu có ) .
+Xác đinh thêm điểm đối xứng với A qua trục đối xứng d , là điểm B ( - b / a ; c) .
+Vë parabol có đỉnh S , có trục đổi xứng d , đi qua các điểm tìm được .
+Trong mặt phẳng toạ độ Oxy , đồ thị hàm số bậc hai y = f (x ) = - x ^ 2 + 4 x - 3 là một parabol ( P ) :
+Có đỉnh S với hoành độ x _ S = 2 , tung độ y _ S = 1 ;
+Có trục đối xúng là đường thẳng x = 2 ( đường thẳng này đi qua đỉnh S và song song với trục Oy ) ;
+Bề lỗm quay xuống dưới vì a < 0 ;
+Cắt trục tung tại điểm có tung độ bằng -3, tức là đồ thị đi qua điểm có toạ độ ( 0 ; - 3 ) .
+Ngoài ra , phương trình - x ^ 2 + 4 x − 3 = 0 có hai nghiệm phân biệt x _ 1 = 1 và x _ 2 = 3 nên đồ thị hàm số cắt trục hoành tại hai điểm có toạ độ ( 1 ; 0 ) và ( 3 ; 0 ) .
+Ta vẽ được đồ thị như Hình 4 .
+Vẽ đồ thị hàm số y = x ^ 2 - 4 x + 3 rồi so sánh đồ thị hàm số này với đồ thị hàm số trong Ví dụ 2 .
+Nêu nhận xét về hai đồ thị này .
+Từ đồ thị của hàm số bậc hai cho ở hai hình sau , tìm khoảng đồng biến và nghịch biến của hàm số trong mỗi trường hợp .
+Dựa vào đồ thị hàm số bậc hai y = a x ^ 2 + b x + c ( với a != 0 ) , ta có bảng tóm tắt về sự biến thiên của hàm số này như sau :
+Hàm số nghịch biển trên khoảng ( - \inf ; - b / ( 2 a ) ) và đồng biển trên khoảng ( - b / ( 2 a ) ; + \inf ) .
+Tử bảng biến thiên của hàm số bậc hai , ta thấy :
+Khi a > 0 , hàm số đạt giá trị nhỏ nhất bằng - \Delta / ( 4 a ) tại x = - b / ( 2 a ) và hàm số có tập giá trị là T = [ - \Delta / ( 4 a ) ; + \inf ) .
+Lập bảng biến thiên của hàm số y = - x ^ 2 + 4 x - 3 .
+Hàm số này có giá trị lớn nhất hay giá trị nhỏ nhất ?
+Tìm giá trị đó .
+Đỉnh S có toạ độ : x _ S = - b / ( 2 a ) = - 4 / ( 2 . ( - 1 ) ) = 2 ; y _ S = ( - 2 ) ^ 2  + 4 . 2 - 3 = 1 .
+Hay S ( 2 ; 1 ) .
+Vì hàm số bậc hai có a = - 1 < 0 nên ta có bảng biến thiên sau :
+Hàm số đạt giá trị lớn nhất bằng 1 khi x = 2 .
+Tìm khoảng đồng biến , khoảng nghịch biến của hàm số y = 2 x ^ 2 - 6 x + 11 .
+Hàm số này có thể đạt giá trị bằng - 1 không ?
+Ứng dụng của hàm số bậc hai
+Trong mặt phẳng toa độ Oxy , chọn điểm có toạ độ ( 0 ; y _ 0 ) là điểm xuất phát thì phương trình quỹ đạo của cầu lông khi rời khỏi mặt vợt là :
+Đây là một hàm số bậc hai nên quỹ đạo chuyển động của cầu lông là một parabol .
+Xét trường hợp lặng gió , với vận tốc ban đầu và góc phát cầu đã biết , cầu chuyển động theo quỹ đạo parabol nên sẽ :
+Đạt vị trí cao nhất tại đỉnh parabol , gọi là tầm bay cao ;
+Rơi chạm đất ở vị trí cách nơi đứng phát cầu một khoảng , gọi là tầm bay xa .
+Hãy tính khoảng cách từ vị trí người này đến vị trí cầu rơi chạm đất ( tầm bay xa ) , biết cầu rời mặt vợt ở độ cao 0 , 7 m so với mặt đất và vận tốc ban đầu của cầu là 8 m / s .
+Chọn hệ trục toạ độ như Hình 9 ( vị trí rơi của cầu thuộc trục hoành và vị trí cầu rời mặt vợt thuộc trục tung ) .
+Với g = 9 , 8 m / s ^ 2 , góc phát cầu a = 30 \deg , vận tốc ban đầu v = 8 m / s , phương trình quỹ đạo của cầu là :
+Vị trí cầu rơi chạm đất là giao điểm của parabol và trục hoành nên giải phương trình ta được x _ 1 \approx  - 1 , 03 và x _ 2 \approx 6 , 68 .
+Giá trị nghiệm đương cho ta khoảng cách từ vị trí người chơi cầu lông đến vị trí cầu rơi chạm đất là 6 , 68 m .
+Ta cần so sánh tung độ của điểm trên quỹ đạo ( có hoành độ bằng khoảng cách từ gốc toạ độ đến chân lưới phân cách ) với chiểu cao mép trên của lưới đề tìm câu trả lời .
+Hàm số nào sau đây là hàm số bậc hai ?
+2. Tìm điều kiện của m để hàm số y = f ( x ) là hàm số bậc hai .
+y = m x ^ 4 + ( m + 1 ) x ^ 2 + x + 3 ;
+Cho hàm số bậc hai y = f ( x ) = a x ^ 2 + b x + c có f ( 0 ) = 1 , f ( 1 ) = 2 , f ( 2 ) = 5 .
+Hãy xác định giá trị của các hệ số a , b và c .
+Hãy xác định giá trị của m để hàm số đạt giá trị nhỏ nhất bằng 5 .
+Hãy xác định đúng đồ thị của mỗi hàm số sau trên Hình 12 .
+Tìm công thức của hàm số bậc hai có đồ thị như Hình 13 .
+Chiếc cầu dây văng một nhịp được thiết kế hai bên thành cầu có dạng parabol và được cố định bằng các dây cáp song song .
+Dựa vào bản vẽ ở Hình 14 , hãy tính chiều dài tổng cộng của các dây cáp dọc ở hai mặt bên .
+Dây dài nhất là 5 m , dây ngắn nhất là 0 , 8 m .
+Khoảng cách giữa các dây bằng nhau .
+Quy luật tự nhiên và hình dạng parabol
+Vật chuyển động bởi ném xiên hay ném ngang có quỹ đạo là một phần của parabol .
+Trong khi đó , chuyển động rơi tự do hoặc chuyển động lăn trên mặt phẳng nghiêng có độ dài quãng đường tuân theo quy luật một hàm số bậc hai theo thời gian t , mặc dù quỹ đạo chuyển động là đường thẳng .
+Nhà vật lí học Galilei đã thiết kể bộ dụng cụ đo quãng đường lăn của vật nặng trên mặt phẳng nghiêng sau những khoảng thời gian như nhau để chứng minh kết quả này .
+Thật khó tin nhung Galilei nhạy bén với âm thanh và ông nhận ra quãng đường lại không như nhau dù các khoảng thời gian là đều nhau .
+Khi một vật từ vị trí y _ 0 , bị ném xiên lên cao theo góc \alpha ( so với phương ngang ) với vận tốc ban đầu v _ 0 , thì phương trình quỹ đạo của vật này là: y = (- g x ^ 2) / ( 2 ( v _ 0 ) ^ 2 ( cos ( \alpha ) ) ^ 2 ) + tan ( \alpha ) x + y _ 0 .
+Đây là một hàm số bậc hai nên quỹ đạo chuyển động là một parabol .
+Do vậy , việc điểu chỉnh góc ném \alpha chính là kĩ thuật để đạt mục tiêu xa nhất .
+Binh chúng Pháo binh Việt Nam có câu khẩu hiệu Chân đồng , vai sắt , đánh giỏi , bắn trúng gắn liển với kĩ thuật điều chỉnh vận tốc ban đầu v _ 0  và góc \alpha để đạn pháo trúng mục tiêu .
+Tìm tập xác định của các hàm số sau :
+Tìm điều kiện của m để mỗi hàm số sau đây là một hàm số bậc hai :
+Hãy biểu thị quãng đường s mà người nay đi được sau t phút bằng một hàm số .
+Vẽ đồ thị biểu diễn hàm số s theo t .
+Biết rằng hàm số y = 2 x ^ 2 + m x + n giảm trên khoảng ( - \inf ; 1 ) , tăng trên khoảng ( 1 ; + \inf ) và có tập giá trị là [ 9 ; + \inf ) .
+Chiếc cầu trong Hình 1 có bộ phận chống đỡ dạng parabol .
+Giả sử một máy bay cứu trợ đang bay theo phương ngang và bắt đầu thả hàng từ độ cao 80 m , lúc đó máy bay đang bay với vận tốc 50 m/s.
+Biết rằng nếu chọn gốc toạ độ là hình chiếu trên mặt đất của vị trí hàng cứu trợ bắt đầu được thả , thì toạ độ của hàng cứu trợ được cho bởi hệ sau : \system ( x = v _ 0 t ; y = h - ( 1 / 2 ) g t ^ 2 ) .
+<Hết chương III>

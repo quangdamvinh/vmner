@@ -354,3 +354,4 @@
 ### VI. Các trường hợp ngoại lệ hoặc cần lưu ý (xuất hiện trong lúc gán nhãn dữ liệu)
 - \pi: SYMBOL - tuy có giá trị xác định nhưng vì lầ một hằng số có kí hiệu riêng nên ta vẫn gán \pi nhãn EXPRESSION.
 - p => Q: EXPRESSION - thực chất đây là một mệnh đề chứ không phải biểu thức nhưng sẽ được gộp chung vào đây để giữ cho P => Q là một thực thể.
+- n(A) = 6: EQUATION - coi như là một phép tính thông thường.
