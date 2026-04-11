@@ -352,6 +352,9 @@
     Ghi chú 5: f′(\pi / 2) ở đây là chỉ 1 giá trị cụ thể của hàm số, giống như một biểu thức hơn nhưng ta vẫn sẽ xếp vào FUNCTION (nguyên tắc 2).
 
 ### VI. Các trường hợp ngoại lệ hoặc cần lưu ý (xuất hiện trong lúc gán nhãn dữ liệu)
-- \pi: SYMBOL - tuy có giá trị xác định nhưng vì lầ một hằng số có kí hiệu riêng nên ta vẫn gán \pi nhãn EXPRESSION.
+- \pi: SYMBOL - tuy có giá trị xác định nhưng vì lầ một hằng số có kí hiệu riêng nên ta vẫn gán \pi nhãn SYMBOL.
 - p => Q: EXPRESSION - thực chất đây là một mệnh đề chứ không phải biểu thức nhưng sẽ được gộp chung vào đây để giữ cho P => Q là một thực thể.
 - n(A) = 6: EQUATION - coi như là một phép tính thông thường.
+- A \intersection B : EXPRESSION - vì ở đây phép giao có thể coi như có thực hiện tính toán thay vì là khai báo (như A \in B).
+- A \intersection B = \emptyset: EQUATION - vì đây không phải phép gán/khai báo nên vẫn sẽ gán nhãn EQUATION để đảm bảo tính đồng nhất.
+- C _ U A (phần bù của A trong U): EXPRESSION.
