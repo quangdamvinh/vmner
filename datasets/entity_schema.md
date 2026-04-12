@@ -96,7 +96,7 @@
     - phương I-MATH_CONCEPT
     - trình I-MATH_CONCEPT
     - x B-EQUATION
-    - - I-EQUATION
+    - \- I-EQUATION
     - y I-EQUATION
     - < I-EQUATION
     - 3 I-EQUATION
@@ -157,13 +157,13 @@
     - M B-GEOMETRIC_INSTANCE
     - , O
     - ta O
-    - cóO
+    - có O
     - : O
     - \vector B-EQUATION
     - ( I-EQUATION
     - MA I-EQUATION
     - ) I-EQUATION
-    - + I-EQUATION
+    - \+ I-EQUATION
     - \vector I-EQUATION
     - ( I-EQUATION
     - MC I-EQUATION
@@ -173,7 +173,7 @@
     - ( I-EQUATION
     - MB I-EQUATION
     - ) I-EQUATION
-    - + I-EQUATION
+    - \+ I-EQUATION
     - \vecto I-EQUATION
     - ( I-EQUATION
     - MD I-EQUATION
@@ -184,14 +184,14 @@
     - Parabol B-GEOMETRIC_OBJECT
     - y B-EQUATION
     - = I-EQUATION
-    - - I-EQUATION
+    - \- I-EQUATION
     - x I-EQUATION
     - ^ I-EQUATION
     - 2 I-EQUATION
-    - + I-EQUATION
+    - \+ I-EQUATION
     - 2 I-EQUATION
     - x I-EQUATION
-    - + I-EQUATION
+    - \+ I-EQUATION
     - 3 I-EQUATION
     - có O
     - đỉnh B-GEOMETRIC_OBJECT
@@ -227,7 +227,7 @@
     - ( B-EXPRESSION
     - 2 I-EXPRESSION
     - x I-EXPRESSION
-    - + I-EXPRESSION
+    - \+ I-EXPRESSION
     - 3 I-EXPRESSION
     - ) I-EXPRESSION
     - ^ I-EXPRESSION
@@ -260,26 +260,26 @@
     - cos B-EXPRESSION
     - ( I-EXPRESSION
     - a I-EXPRESSION
-    - + I-EXPRESSION
+    - \+ I-EXPRESSION
     - b I-EXPRESSION
     - ) I-EXPRESSION
     - cos I-EXPRESSION
     - ( I-EXPRESSION
     - a I-EXPRESSION
-    - - I-EXPRESSION
+    - \- I-EXPRESSION
     - b I-EXPRESSION
     - ) I-EXPRESSION
-    - - I-EXPRESSION
+    - \- I-EXPRESSION
     - sin I-EXPRESSION
     - ( I-EXPRESSION
     - a I-EXPRESSION
-    - + I-EXPRESSION
+    - \+ I-EXPRESSION
     - b I-EXPRESSION
     - ) I-EXPRESSION
     - sin I-EXPRESSION
     - ( I-EXPRESSION
     - a I-EXPRESSION
-    - - I-EXPRESSION
+    - \- I-EXPRESSION
     - b I-EXPRESSION
     - ) I-EXPRESSION
     - , O
@@ -330,7 +330,7 @@
     - x I-FUNCTION
     - ^ I-FUNCTION
     - 2 I-FUNCTION
-    - + I-FUNCTION
+    - \+ I-FUNCTION
     - sin I-FUNCTION
     - ( I-FUNCTION
     - 3 I-FUNCTION
@@ -358,3 +358,4 @@
 - A \intersection B : EXPRESSION - vì ở đây phép giao có thể coi như có thực hiện tính toán thay vì là khai báo (như A \in B).
 - A \intersection B = \emptyset: EQUATION - vì đây không phải phép gán/khai báo nên vẫn sẽ gán nhãn EQUATION để đảm bảo tính đồng nhất.
 - C _ U A (phần bù của A trong U): EXPRESSION.
+- Cặp số: nếu là dạng (x; y) thì sẽ gán nhãn x và y là SYMBOL còn là dạng (1; 2) thì toàn bộ gán là O.
