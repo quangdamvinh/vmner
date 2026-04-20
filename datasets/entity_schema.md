@@ -102,13 +102,13 @@
     - 3 I-EQUATION
     - ? O
 
-3. Cho tam giác ABC có \angle(B) = 60 \deg, \angle(C) = 45 \deg, AC = 10. Tính a, R, S, r.
+3. Cho tam giác ABC có \hat(B) = 60 \deg, \hat(C) = 45 \deg, AC = 10. Tính a, R, S, r.
     - Cho O
     - tam B-GEOMETRIC_SHAPE
     - giác I-GEOMETRIC_SHAPE
     - ABC B-GEOMETRIC_INSTANCE
     - có O
-    - \angle B-GEOMETRIC_INSTANCE
+    - \hat B-GEOMETRIC_INSTANCE
     - ( I-GEOMETRIC_INSTANCE
     - B I-GEOMETRIC_INSTANCE
     - ) I-GEOMETRIC_INSTANCE
@@ -116,7 +116,7 @@
     = 60 O
     - \deg O
     - , O
-    - \angle B-GEOMETRIC_INSTANCE
+    - \hat B-GEOMETRIC_INSTANCE
     - ( I-GEOMETRIC_INSTANCE
     - C I-GEOMETRIC_INSTANCE
     - ) I-GEOMETRIC_INSTANCE
@@ -318,7 +318,7 @@
     - mặt B-GEOMETRIC_OBJECT
     - phẳng I-GEOMETRIC_OBJECT
     - : O
-10. Cho hàm số f(x) = x^2 + sin(3x). Khi đó f′(\pi / 2) bằng:
+10. Cho hàm số f(x) = x^2 + sin(3x). Khi đó f'(\pi / 2) bằng:
     - Cho O
     - hàm B-MATH_CONCEPT
     - số B-MATH_CONCEPT
@@ -359,3 +359,4 @@
 - A \intersection B = \emptyset: EQUATION - vì đây không phải phép gán/khai báo nên vẫn sẽ gán nhãn EQUATION để đảm bảo tính đồng nhất.
 - C _ U A (phần bù của A trong U): EXPRESSION.
 - Cặp số: nếu là dạng (x; y) thì sẽ gán nhãn x và y là SYMBOL còn là dạng (1; 2) thì toàn bộ gán là O.
+- Dạng A = B => C = D: "A = B" và "C = D" gán là EQUATION, "=>" không gán nhãn.

@@ -8,8 +8,9 @@
 2. Quy ước:
     - Các kí tự không thể biểu diễn được bằng bàn phím thông thường thì dùng tên (có thể viết tắt) thông dụng, có kí tự "\\" ở đầu để phân biệt. Ví dụ $\pi$ chuyển thành \pi, $\int$ chuyển thành \int,...
     - Các kí tự, toán tử, phép toán có thể biểu diễn (hoặc biểu diễn tương đương) được bằng chữ có thể giữ nguyên (không dùng "\\"). Ví dụ sin, cos,...
-    - Các kí hiệu tác động lên các kí tự khác thì sẽ được đánh dấu bằng cặp ngoặc tròn. Ví dụ $\vec a$ chuyển thành \vec ( a ) thay vì \vec a.
+    - Các kí hiệu tác động lên các kí tự khác thì sẽ được đánh dấu bằng cặp ngoặc tròn. Ví dụ $\vec a$ chuyển thành "\vec ( a )" thay vì "\vec a".
     - Số đứng riêng, toán tử đứng riêng và các dấu ngoặc đứng riêng. Ví dụ $\sin(2x + 3)$ chuyển thành "sin ( 2 x + 3 )".
+    - Đối với các số thập phân thì phần nguyên, dấu ngăn cách và phần thập phân sẽ được tách riêng. Ví dụ 2,13 chuyển thành "2 , 13".
 
 3. Bảng quy đổi
 
@@ -26,9 +27,10 @@
 | $\leqslant$ | <= | |
 | $\geqslant$ | >= | |
 | $\neq$ | != | |
-| $\approx$ | \approx | |
+| Xấp xỉ ($\approx$) | \approx | |
 | Kéo theo, suy ra | => | $A \Rightarrow B$ -> A => B |
 | Tương đương | <=> | $A \Leftrightarrow B$ -> A <=> B |
+| Vuông góc ($\perp$) | \perp | A $\perp B$ -> A \perp B |
 | Với mọi | \forall | $\forall P$ -> \forall P |
 | Tồn tại | \exists | $\exists P$ -> \exists P |
 | Thuộc | \in | $x \in A$ -> x \in A |
@@ -40,5 +42,6 @@
 | Giao | \intersection | $A \cap B$ -> A \intersection B |
 | Hợp | \union | $A \cup B$ -> A \union B |
 | Phủ định (gạch ngang trên đầu) | \bar | $\bar A$ -> \bar ( A ) |
+| Góc (mũ trên đầu) | \hat | $\widehat{ABC} -> \hat ( A B C ) |
 | $\Delta$ | \Delta | |
 | $\alpha$ | \alpha | |

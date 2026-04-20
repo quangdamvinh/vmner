@@ -281,20 +281,19 @@ Phương trình x ^ 2 + 2 = 0 vô nghiệm , nên B = \emptyset .
 Từ đó , A \union B = A \union \emptyset = A = { - 2 ; 0 } , A \intersection B = A \intersection \emptyset = \emptyset .
 Vì mỗi hình thoi cũng là hình bình hành nên B \subset A .
 Từ đó , A \union B = A , A \intersection B = В .
-Lớp 10D có 22 bạn chơi bóng đá , 25 bạn chơi cầu lông và 15 bạn chơi cả hai môn thể thao này.
+Lớp 10D có 22 bạn chơi bóng đá , 25 bạn chơi cầu lông và 15 bạn chơi cả hai môn thể thao này .
 Hỏi lớp 10D có bao nhiêu học sinh chơi ít nhất một trong hai môn thể thao bóng đá và cầu lông ?
 Kí hiệu A , B lần lượt là tập hợp các học sinh của lớp 10D chơi bóng đá , chơi cầu lông .
 Theo giả thiết , n ( A ) = 22 , n ( B ) = 25 , n ( A \intersection B ) = 15 .
-Nhận thấy rằng , nếu tính tổng n ( A ) + n ( B ) thì ta được số học sinh lớp 10D chơi bóng
-đá hoặc cầu lông , nhưng số bạn chơi cả hai môn được tính hai lần .
+Nhận thấy rằng , nếu tính tổng n ( A ) + n ( B ) thì ta được số học sinh lớp 10D chơi bóng đá hoặc cầu lông , nhưng số bạn chơi cả hai môn được tính hai lần .
 Do đó , số bạn chơi ít nhất một trong hai môn là :
-n(A \union B ) = n ( A ) + n ( B ) - n ( A \intersection B ) = 22 + 25 - 15 = 32 .
+n ( A \union B ) = n ( A ) + n ( B ) - n ( A \intersection B ) = 22 + 25 - 15 = 32 .
 Vậy lớp 10D có 32 học sinh chơi ít nhất một trong hai môn thể thao bóng đá và cầu lông .
 Nhận xét :
-Nếu A và B là hai tập hợp hữu hạn thì n (A \union B ) = n ( A ) + n ( B ) - n ( A \intersection B ) .
+Nếu A và B là hai tập hợp hữu hạn thì n ( A \union B ) = n ( A ) + n ( B ) - n ( A \intersection B ) .
 Đặc biệt , nếu A và B không có phần tử chung , tức A \intersection B = \emptyset , thì n ( A \union B ) = n ( A ) + n ( B ) .
 Xác định các tập hợp A \union B và A \intersection B , biết :
-a) A = { a ; b ; c ; d ; e } , B = { a ; e ; i ; u } ;
+A = { a ; b ; c ; d ; e } , B = { a ; e ; i ; u } ;
 Hãy xác định A \intersection B .
 Tại vòng chung kết của một trò chơi trên truyền hình , có 100 khán giả tại trường quay có quyền bình chọn cho hai thí sinh A và B .
 Hiệu của hai tập hợp , phần bù của tập con
@@ -311,12 +310,12 @@ A = [ - 2 ; 1 ) \union ( 0 ; 3 ] ;
 E = C _ R ( - \inf ; 2 ) .
 Để xác định tập hợp A , ta về sơ đo sau đây :
 Từ sơ đồ , ta thấy A = [ - 2 ; 3 ] .
-[ 1 / 2 ; 3) \ ( 1 ; + \inf ) ;
+[ 1 / 2 ; 3 ) \ ( 1 ; + \inf ) ;
 A = { đỏ ; cam ; vàng ; lục ; lam } ,
-A là tập hợp các tam giác đều , B la tập hợp các tam giác cân .
+A là tập hợp các tam giác đều , B là tập hợp các tam giác cân .
 A = { ( x , y ) | x , y \in R , y = 2 x - 1 } , B = { ( x , y ) | x , y \in R , y = - x + 5 } ;
-A là tập hợp các hình thoi , B là tập hợp các hinh chữ nhật .
-Cho U = { x \in N | x < 10 } , A = { x \in U | x là bội của 3 } , B = { x ∈ U | x là ước của 6 }.
+A là tập hợp các hình thoi , B là tập hợp các hình chữ nhật .
+Cho U = { x \in N | x < 10 } , A = { x \in U | x là bội của 3 } , B = { x ∈ U | x là ước của 6 } .
 Xác định các tập hợp A \ B , B \ A , C _ U A , C _ U B , C _ U ( A \union B ) , C _ U ( A \intersection В ) .
 Cho A và B là hai tập hợp bất kì .
 Trong mỗi cặp tập hợp sau đây , tập hợp nào là tập con của tập hợp còn lại ?
@@ -336,7 +335,7 @@ Mặt khác , nó đặt ra yêu cầu rà soát lại toàn bộ cơ sở logic
 Đây chính là tiền đề cho ngành logic toán và cơ sở toán học đạt bước tiến dài trong nửa đầu của thế kỉ XX , có tác động lớn đến nhận thức của con người về các lí thuyết khoa học nói chung .
 Nếu coi toán học hiện đại là một toà lâu đài nguy nga , thì lí thuyết tập hợp là nền móng của toà lâu đài đó .
 BÀI TẬP CUỐI CHƯƠNG I
-Xác định tính đúng sai của mỗi mệnh đề sau:
+Xác định tính đúng sai của mỗi mệnh đề sau :
 { a } \in { a ; b ; c ; d } ;
 \emptyset = { 0 } ;
 Nếu 2 a - 1 > 0 thì a > 0 ( a là số thực cho trước ) ;
@@ -356,7 +355,7 @@ C là tập hợp các hình chữ nhật ;
 D là tập hợp các hình vuông ;
 E là tập hợp các hình thoi .
 Hãy viết tất cả các tập con của tập hợp
-Tìm tất cả các tập hợp B thoả mãn điều kiện { a ; b} \subset B \subset {a ; b ; c ; d } .
+Tìm tất cả các tập hợp B thoả mãn điều kiện { a ; b } \subset B \subset { a ; b ; c ; d } .
 Cho A = { x \in R | x ^ 2 - 5 x - 6 = 0 } , B = { x \in R | x ^ 2 = 1 } .
 Tìm A \union B , A \intersection B , A \ B , В \ А .
 Hỏi có bao nhiêu học sinh của lớp 10C tham gia đồng thời hai cuộc thi ?
@@ -379,9 +378,9 @@ Bất phương trình nào sau đây là bất phương trình bậc nhất hai 
 Nghiệm của bất phương trình bậc nhất hai ẩn
 Trường hợp nào sau đây thoả mãn tình huống được nêu trong ?
 Xét bất phương trình a x + b y + c < 0 .
-Mỗi cặp số ( x _ 0 ; y _ 0) thoå măn a x _ 0 + b y _ 0 + c < 0 được gọi là một nghiệm của bất phương trình đã cho .
+Mỗi cặp số ( x _ 0 ; y _ 0 ) thoå măn a x _ 0 + b y _ 0 + c < 0 được gọi là một nghiệm của bất phương trình đã cho .
 Cặp số nào sau đây là nghiệm của bất phương trình 20 x + 50 y - 700 <= 0 ?
-Vì 20 . 5 + 50 . 6 - 700 = - 300 < 0 nên ( 5 ; 6) là nghiệm của bất phương trình 20 x + 50 y - 700 <= О .
+Vì 20 . 5 + 50 . 6 - 700 = - 300 < 0 nên ( 5 ; 6 ) là nghiệm của bất phương trình 20 x + 50 y - 700 <= О .
 Cặp số nào sau đây là nghiệm của bất phương trình 4 x - 7 y - 28 >= 0 ?
 Giå sử có một người mỗi ngày cần không quá 60 g protein .
 Gọi số gam thịt bò và số quả trứng mà người đó ăn trong một ngày lần lượt là x và y .
@@ -390,40 +389,40 @@ Dùng bất phương trình ở câu a để trả lời hai câu hỏi sau :
 Biểu diễn miền nghiệm của bất phương trình bậc nhất hai ẩn
 Cho bất phương trình 2 x - y + 1 < 0 .
 Vẽ đường thắng y = 2 x + 1 .
-Các cặp số ( - 2 ; 0) , ( 0 ; 0) , ( 1 ; 1 ) có là nghiệm của bất phương trình đã cho không ?
+Các cặp số ( - 2 ; 0 ) , ( 0 ; 0 ) , ( 1 ; 1 ) có là nghiệm của bất phương trình đã cho không ?
 Trong mặt phẳng toạ độ Oxy , tập hợp các điểm ( x _ 0 ; y _ 0 ) sao cho a x _ 0 + b y _ 0 + c < 0 được gọi là miền nghiệm của bất phương trình a x + b y + c < 0 .
-Người ta chúng minh được : Mỗi phương trình a x + b y + c = 0 ( a , b không đồng thời bằng 0 ) xác định một đường thẳng \Delta .
+Người ta chứng minh được : Mỗi phương trình a x + b y + c = 0 ( a , b không đồng thời bằng 0 ) xác định một đường thẳng \Delta .
 Đường thẳng \Delta chia mặt phẳng Oxy thành hai nửa mặt phẳng ,
 trong đó một nửa là tập hợp các điểm ( x ; y ) thoå mãn a x + b y + c > 0 , nửa còn lại là tập hợp các điểm ( x ; y ) thoả mãn a x + b y + c < 0 .
 Ta có thể biểu diễn miền nghiệm của bất phương trình bậc nhất hai ẩn a x + b y + c < 0 như sau :
 Bước 1 : Trên mặt phẳng Oxy , vẽ đường thẳng \Delta : a x + b y + c = 0 .
 Bước 2 : Lấy một điểm ( x _ 0 ; y _ 0 ) không thuộc \Delta . Tính a x _ 0 + b y _ 0 + c .
-Bước 3: Kết luận
+Bước 3 : Kết luận
 Nếu a x _ 0 + b y _ 0 + c < 0 thì miền nghiệm của bất phương trình đã cho là nửa mặt phẳng ( không kể bờ \Delta ) chứa điểm ( x _ 0 ; y _ 0 ) .
 Nếu a x _ 0 + b y _ 0 + c > 0 thì miền nghiệm của bất phương trình đã cho là nửa mặt phẳng ( không kể bờ \Delta ) không chứa điểm ( x _ 0 ; y _ 0 ) .
-Đối với các bất phương trình bậc nhất hai ẩn dạng a x + b y + c <= 0 hoặc a x + b y + c >= 0 thì miền nghiệm là miền nghiệm của bất phương trình a x + b y+ c < 0 hoặc a x + b y + c > 0 kể cả bờ .
+Đối với các bất phương trình bậc nhất hai ẩn dạng a x + b y + c <= 0 hoặc a x + b y + c >= 0 thì miền nghiệm là miền nghiệm của bất phương trình a x + b y + c < 0 hoặc a x + b y + c > 0 kể cả bờ .
 Biểu diễn miền nghiệm của các bất phương trình sau :
-Vẽ đường thẳng \Delta : x - 2 y - 1 = 0 đi qua hai điểm A ( 1 ; 0 ) và B (0 ; - 1 / 2 ) .
+Vẽ đường thẳng \Delta : x - 2 y - 1 = 0 đi qua hai điểm A ( 1 ; 0 ) và B ( 0 ; - 1 / 2 ) .
 Xét gốc toạ độ O ( 0 ; 0 ) .
 Ta thấy O \notin \Delta và 0 - 2 . 0 - 1 < 0 .
 Do đó , miền nghiệm của bất phương trình là nửa mặt phẳng không kể bờ \Delta , không chứa gốc toạ độ O .
 Biểu diễn miền nghiệm của hai bất phương trình sau trên cùng một mặt phẳng toạ độ Oxy :
 Cho bất phương trình bậc nhất hai ẩn x - 2 y + 6 > 0 .
-( 0 ; 0) có phải là một nghiệm của bất phương trình đã cho không ?
+( 0 ; 0 ) có phải là một nghiệm của bất phương trình đã cho không ?
 Chỉ ra ba cặp số ( x ; y ) là nghiệm của bất phương trình đã cho .
 Biểu diễn miển nghiệm của bất phương trình đã cho trên mặt phẳng Oxy .
 Gọi x và y lần lượt là số lít nước cam loại I và II pha chế được .
 Hãy lập các bất phương trình mô tả số lít nước cam loại I và II mà bạn Cúc có thể pha chể được và biểu diễn miền nghiệm của các bất phương trình đó trên cùng một mặt phẳng toạ độ Oxy .
 Miền không gạch chéo ( không kể bờ d ) trong mỗi hình đưới đây là miền nghiệm của bất phương trình nào ?
-Hai đường thẳng d : y = - x - 2 và d ' : y = x + 1 chia mặt phằng toạ độ thành bốn miền khác nhau ( không tính hai đường thẳng d và d' ) như hình bên .
+Hai đường thẳng d : y = - x - 2 và d ' : y = x + 1 chia mặt phằng toạ độ thành bốn miền khác nhau ( không tính hai đường thẳng d và d ' ) như hình bên .
 Để kí hiệu một trong bốn miền đó , người ta đã tạo nhãn :
 Một người nông dân dự định quy hoạch x sào đất trồng cà tím và y sào đất trồng cà chua .
 Viết các bất phương trình mô tả các điều kiện ràng buộc đối với х , у .
-Bài toán tìm nghiệm chung của ba bất phương trình 0,2 x + 0,1 y - 9 <= 0 ; x >= 0 và y >= 0 là bài toán tìm nghiệm của hệ sau :
-\system ( 0,2 x + 0,1 y - 9 <= 0 ; x >= 0 ; y >= 0 )
+Bài toán tìm nghiệm chung của ba bất phương trình 0 , 2 x + 0 , 1 y - 9 <= 0 ; x >= 0 và y >= 0 là bài toán tìm nghiệm của hệ sau :
+\system ( 0 , 2 x + 0 , 1 y - 9 <= 0 ; x >= 0 ; y >= 0 )
 Hệ bất phương trình bậc nhất hai ấn là hệ gồm hai hay nhiều bất phương trình bậc nhất hai ẩn x , y .
 Mỗi nghiệm chung của tất cả các bất phương trình đó được gọi là một nghiệm của hệ bất phương trình đã cho .
-Trên mặt phẳng toạ độ Oxy , tập hợp các điểm (x _ 0 ; y _ 0 ) có tọa độ là nghiệm của hệ bất phương trình bậc nhất hai ẩn được gọi là miền nghiệm của hệ bất phương trình đó .
+Trên mặt phẳng toạ độ Oxy , tập hợp các điểm ( x _ 0 ; y _ 0 ) có tọa độ là nghiệm của hệ bất phương trình bậc nhất hai ẩn được gọi là miền nghiệm của hệ bất phương trình đó .
 Tìm hệ bất phương trình bậc nhất hai ẩn trong các hệ sau :
 Các hệ a , c , d là các hệ bất phương trình bậc nhất hai ẩn .
 Hệ b không phải hệ bất phương trình bậc nhất hai ẩn vì hệ này chỉ gồm các phương trình .
@@ -431,22 +430,22 @@ Hãy chỉ ra hai nghiệm của mỗi hệ bất phương trình trong Ví dụ
 Biểu diễn miền nghiệm của hệ bất phương trình bậc nhất hai ẩn
 Cho hệ bất phương trình : \system ( x + y - 3 <= 0 ; - 2 x + y + 3 >= 0 ) .
 Miền nào trong Hình 1 biểu điễn phần giao các miền nghiệm của hai bất phương trình trong hệ đã cho ?
-Miển không gạch chéo trong Hình 1 là miền nghiệm của hệ bất phương trình trên .
+Miền không gạch chéo trong Hình 1 là miền nghiệm của hệ bất phương trình trên .
 Để biểu diễn miền nghiệm của hệ bất phương trình bậc nhất hai ân trên mặt phẳng toạ độ Oxy , ta thực hiện như sau :
 Trên cùng mặt phẳng toạ độ , biểu điễn miền nghiệm của mỗi bất phương trình của hệ .
 Phần giao của các miền nghiệm là miền nghiệm của hệ bất phương trình .
 Biểu diễn miền nghiệm của hệ : \system ( 2 x - y - 3 <= 0 ; 2 x - y + 2 <= 0 ) .
 Biểu diễn từng miền nghiệm của mỗi bất phương trình trên mặt phẳng Oxy .
 Miền không gạch chéo kể cả bờ trong Hình 2 là phần giao của hai miền nghiệm của hai bất phương trình và cũng là phần biều diễn miền nghiệm của hệ bất phương trình đã cho .
-Chú ý : Miền mặt phẳng toa độ bao gồm một đa giác lồi và phần nằm bên trong đa giác đó được gọi là một miền đa giác .
-Chẳng hạn, ta có miền nghiệm của hệ bất phương trình trong Ví dụ 3 là miền tứ giác OABC .
+Chú ý : Miền mặt phẳng tọa độ bao gồm một đa giác lồi và phần nằm bên trong đa giác đó được gọi là một miền đa giác .
+Chẳng hạn , ta có miền nghiệm của hệ bất phương trình trong Ví dụ 3 là miền tứ giác OABC .
 Tìm giá trị lớn nhất hoặc giá trị nhỏ nhất của biểu thức F = a x + b y trên một miền đa giác
 Hệ bất phương trình giúp ta mô tả được nhiều bài toán thực tế để tìm ra cách giải quyết ưu .
-Chúng thường được đưa về bài toán tìm giá trị lớn nhất ( GTLN ) hoặc giá trị nhỏ nhất ( GTNN ) của biều thức F = a x + b y trên một miền đa giác .
+Chúng thường được đưa về bài toán tìm giá trị lớn nhất ( GTLN ) hoặc giá trị nhỏ nhất ( GTNN ) của biểu thức F = a x + b y trên một miền đa giác .
 Người ta chứng minh được F đạt giá trị lớn nhất hoặc nhỏ nhất tại một trong các đỉnh của đa giác .
 Bác Năm cần trồng bao nhiêu hecta cho mỗi loại cây để thu được nhiều tiền nhất ?
 Gọi x là số hecta đất trồng ngô và y là số hecta đất trồng đậu xanh .
-Ta có các điều kiện ràng buộc đổi với x , y như sau :
+Ta có các điều kiện ràng buộc đối với x , y như sau :
 Hiển nhiên x >= 0 , y >= 0 .
 Diện tích canh tác không vượt quá 8 ha nên x + y <= 8 .
 Số ngày công sử dụng không vượt quá 180 nên 20 x + 30 y <= 180 .
@@ -454,10 +453,10 @@ Từ đó , ta có hệ bất phương trình mô tả các điều kiện ràng
 Biểu diễn miền nghiệm của hệ bất phương trình này trên hệ trục toạ độ Oxy , ta được miền tứ giác OABC .
 Toạ độ các đỉnh của tứ giác đó là : O ( 0 ; 0 ) ; A ( 0 ; 6 ) ; B ( 6 ; 2 ) ; C ( 8 ; 0 ) .
 Gọi F là số tiền ( đơn vị : triệu đồng ) bác Năm thu được , ta có : F = 40 x + 50 y .
-Ta phải tìm x, y thoả mãn hệ bất phương trình sao cho F đạt giá trị lớn nhất , nghĩa là tìm giá trị lớn nhất của biểu thức F = 40 x + 50 y trên miền tứ giác OABC .
+Ta phải tìm x , y thoả mãn hệ bất phương trình sao cho F đạt giá trị lớn nhất , nghĩa là tìm giá trị lớn nhất của biểu thức F = 40 x + 50 y trên miền tứ giác OABC .
 Tính các giá trị của biểu thức F tại các đỉnh của đa giác , ta có :
-Tại 0 ( 0 ; 0 ) : F = 40 . 0 + 50 . 0 = 0 ;
-F đạt giá trị lớn nhất bằng 340 tại B ( 6 ; 2) .
+Tại O ( 0 ; 0 ) : F = 40 . 0 + 50 . 0 = 0 ;
+F đạt giá trị lớn nhất bằng 340 tại B ( 6 ; 2 ) .
 Hãy lập phương án sản xuất hai loại sản phẩm trên sao cho có lãi cao nhất .
 Gọi x là số kilôgam sản phẩm P , y là số kilôgam sån phẩm 2 cần sản xuất .
 Biểu diễn miền nghiệm của hệ bất phương trình trên hệ trục toạ độ Оху , ta được như Hình 5 .
@@ -468,7 +467,7 @@ Biểu diễn miền nghiệm của mỗi hệ bất phương trình sau :
 Tìm hệ bất phương trình mô tả số thùng của mỗi loại thuốc trừ sâu mà nhà máy có thể sản xuất mỗi ngày để đáp ứng các điều kiện hạn chế trên .
 Biểu diễn miền nghiệm của hệ bất phương trình đó trên mặt phẳng tọa độ .
 Việc nhà máy sản xuất 100 thùng loại A và 80 thùng loại B mỗi ngày có phù hợp với quy định không ?
-Gọi x , y lần lượt là số đèn hình con cá và đèn ông sao bạn Lan sẽ làm.
+Gọi x , y lần lượt là số đèn hình con cá và đèn ông sao bạn Lan sẽ làm .
 Hãy lập hệ bất phương trình mô tả điều kiện của x , y và biểu diễn miền nghiệm của hệ bất phương trình đó .
 Hãy giúp bạn Mạnh tính số giờ đạp xe và số giờ tập tạ một tuần trong hai trường hợp sau :
 Biểu điễn miền nghiệm của hệ bất phuơng trình sau trên mặt phẳng toạ độ Oxy : \system ( x - 2 y > 0 ; x + 3 y < 3 ) .
@@ -490,11 +489,11 @@ Vì sao có thể nói bảng dữ liệu dự báo thời tiết ( Bảng 1 ) b
 Tìm tập xác định , tập giá trị của hàm số này .
 Biểu đồ Dự báo nhiệt độ ngày 1 / 5 / 2021 tại Thành phố Hồ Chí Minh ( Hình 1 ) có biểu thị hàm số không ?
 Tại sao ?
-Tử bảng dữ liệu dự báo thời tiết ( Bảng 1 ) , ta thấy ứng với mỗi thời điểm (giờ) trong bảng đều có một giá trị dự báo nhiệt độ duy nhất .
+Tử bảng dữ liệu dự báo thời tiết ( Bảng 1 ) , ta thấy ứng với mỗi thời điểm ( giờ ) trong bảng đều có một giá trị dự báo nhiệt độ duy nhất .
 Vì vậy , bảng này biểu thị một hàm số .
 Hàm số đó có tập xác định D = { 1 ; 4 ; 7 ; 10 ; 13 ; 16 ; 19 ; 22 } và tập giá trị T = { 27 ; 28 ; 29 ; 31 ; 32 } .
 Tương tự , biểu đồ Dự bảo nhiệt độ ngày 1 / 5 / 2021 tại Thành phố Hồ Chí Minh cũng là một hàm số , ta cũng có tập xác định và tập giả trị như trên câu a .
-Khi một hàm số được cho bằng công thức mà không chỉ rõ tâp xác định thì ta quy ước :
+Khi một hàm số được cho bằng công thức mà không chỉ rõ tập xác định thì ta quy ước :
 Tập xác định của hàm số y = f ( x ) là tập hợp tất cả các số thực x sao cho biểu thức f ( x ) có nghĩa .
 Một hàm số có thể được cho bởi hai hay nhiều công thức .
 Chẳng hạn , xét hàm số : f ( x ) = \system ( - 3 x + 5 với x <= 1 ; 2 x ^ 2 với x > 1 ) nghĩa là với x <= 1 thì f ( x ) = - 3 x + 5 ; với x > 1 thì f ( x ) = 2 x ^ 2 .
@@ -512,9 +511,9 @@ Bán kính bồn hoa có kích thước từ 0 , 5 m đến 3 m .
 Viết công thức của hàm số biểu thị diện tích bồn hoa theo bán kính r và tìm tập xác định của hàm số này .
 Bán kính bồn hoa bằng bao nhiêu thì nó có diện tích là 0 , 5 \pi m ^ 2 ?
 Tìm tập xác định D của hàm số trên .
-Trong mặt phẳng toa độ Oxy , vẽ tất cả các điểm có toạ độ ( x , y ) với x \in D và y = f ( x ) .
+Trong mặt phẳng tọa độ Oxy , vẽ tất cả các điểm có toạ độ ( x , y ) với x \in D và y = f ( x ) .
 Cho hàm số y = f ( x ) có tập xác định D .
-Trên mặt phẳng toạ độ Oxy , đổ thị ( C ) của hàm số là tập hợp tất cả các điểm M ( x ; y ) với x \in D và y = f ( x ) .
+Trên mặt phẳng toạ độ Oxy , đồ thị ( C ) của hàm số là tập hợp tất cả các điểm M ( x ; y ) với x \in D và y = f ( x ) .
 Vậy ( C ) = { M ( x ; f ( x ) ) | x \in D } .
 Điểm M ( x _ M ; y _ M ) thuộc đồ thị hàm số y = f ( x ) khi và chỉ khi x \in D và y _ M = f ( x _ M ) .
 Cho hàm số y = f ( x ) = ( 1 / 8 ) x ^ 2 xác định trên D = [ - 3 ; 5 ] có đồ thị ( C ) như Hình 4 .
@@ -525,16 +524,16 @@ Vẽ đồ thị hàm số y = f ( x ) được cho bởi bảng sau :
 Vì 4 \in [ - 3 ; 5 ] nên điểm 4 có hoành độ bằng 4 và có tung độ y = ( 1 / 8 ) 4 ^ 2 = 2 là điểm thuộc đồ thị ( C ) .
 Khi lấy điểm B tùy ý trên đồ thị ( C ) thì hoành độ x _ B của điểm này thuộc tập xác định D , nghĩa là - 3 <= x _ B <= 5 .
 Đồ thị của hàm số gồm 7 điểm như Hình 5 .
-Vẽ đồ thị hàm số f(x) = 3 x + 8 .
+Vẽ đồ thị hàm số f ( x ) = 3 x + 8 .
 Quan sát đồ thị hàm số y = f ( x ) = x ^ 2 rồi so sánh f ( x _ 1 ) và f ( x _ 2 ) ( với x _ 1 < x _ 2 ) trong từng trường hợp sau :
 Đối với hàm số trên , khi x tăng và thuộc khoảng ( - \inf ; 0 ) , ta thấy giá trị hàm số giảm .
 Ngược lại , khi x tăng và thuộc khoảng ( 0 ; + \inf ) , giá trị hàm số tăng .
 Một cách tổng quát , ta có :
 Với hàm số y = f ( x ) xác định trên khoảng ( a ; b ) , ta nói :
-Hàm số đồng biến trên khoảng ( a ; b ) nếu \forall x _1 , x _ 2 \in ( a ; b ) , x _ 1 < x _ 2 => f ( x _ 1 ) < f ( x _ 2 ) .
+Hàm số đồng biến trên khoảng ( a ; b ) nếu \forall x _ 1 , x _ 2 \in ( a ; b ) , x _ 1 < x _ 2 => f ( x _ 1 ) < f ( x _ 2 ) .
 Hàm số nghịch biến trên khoảng ( a ; b ) nếu \forall x _ 1 , x _ 2 \in ( a ; b ) , x _ 1 < x _ 2 => f ( x _ 1 ) > f ( x _ 2 ) .
-Khi hàm số đồng biển ( tăng ) trên khoảng ( a ; b) thì đồ thị của nó có dạng đi lên từ trái sang phải .
-Ngược lại , khi hàm số nghịch biến ( giảm ) trên khoảng ( a ; b) thì đồ thị của nó có dạng đi xuống từ trái sang phải .
+Khi hàm số đồng biến ( tăng ) trên khoảng ( a ; b ) thì đồ thị của nó có dạng đi lên từ trái sang phải .
+Ngược lại , khi hàm số nghịch biến ( giảm ) trên khoảng ( a ; b ) thì đồ thị của nó có dạng đi xuống từ trái sang phải .
 Xét tính đồng biến, nghịch biến của các hàm số sau trên tập xác định hoặc trên khoảng được chỉ định :
 y = x ^ 2 trên khoảng ( - \inf ; 0 ) ;
 Xét hàm số y = f ( x ) = 3 x - 1 .
@@ -548,11 +547,11 @@ Trên khoảng ( - 3 ; - 2 ) , đồ thị có dạng đi lên từ trái sang p
 ( C _ 1 ) hay ( C _ 2 ) là đồ thị của hàm số y = h ( t ) ?
 Khi bắt đầu đi từ tầng ba xuống tầng một , Sơn ngày càng gần mặt đất nên khoảng cách từ vị trí của Sơn đến mặt đất giảm dần , hay hàm số giảm , vậy đồ thị phải có dạng đi xuống .
 Đồ thị ( C ) có dạng tương ứng như mô tả ở trên .
-Do đó , ( C - 2 ) là đồ thị của hàm số y = h ( t ) này .
-Tìm khoảng đồng biển và nghịch biến của hàm số có đồ thị sau :
+Do đó , ( C _ 2 ) là đồ thị của hàm số y = h ( t ) này .
+Tìm khoảng đồng biến và nghịch biến của hàm số có đồ thị sau :
 Xét tính đồng biến , nghịch biến của hàm số y = f ( x ) = 5 x ^ 2 trên khoảng ( 2 ; 5 ) .
 Tìm tập xác định , tập giá trị của hàm số có đồ thị như Hình 10 .
-4. Vẽ đồ thị hàm số f ( x ) = | x | , biết rằng hàm số này còn được viết như sau :
+4 . Vẽ đồ thị hàm số f ( x ) = | x | , biết rằng hàm số này còn được viết như sau :
 Xem số tiền đi taxi là một hàm số phụ thuộc số kilômét di chuyển , hãy viết công thức của các hàm số dựa trên thông tin từ bảng giá đã cho theo từng yêu cầu :
 Hàm số f ( x ) để tính sổ tiền hành khách phải trả khỉ di chuyển x km bằng xe taxi 4 chỗ .
 Bên trong HỘP ĐEN là một đoạn chương trình được cài đặt sẵn .
@@ -570,31 +569,31 @@ Hãy vẽ đường cong đi qua các điểm A , B , S , C , D và nêu nhận 
 Trên mặt phẳng toạ độ , ta có các điểm ( x , g ( x ) ) với x thuộc bảng giá trị đã cho ( Hình 2 ) .
 Ta thấy hai dạng cơ bản của đồ thị hàm số bậc hai úng với hai trường hợp a > 0 và a < 0 .
 Một cách tổng quát , sau khi biến đổi y = a x ^ 2 + b x + c = a ( x - ( - b / ( 2 a ) ) ) ^ 2 + ( - \Delta / ( 4 a ) ) , với a != 0 và \Delta = b ^ 2 - 4 a c
-người ta chứng minh được rằng trong mặt phẳng toạ độ Oxy , đồ thị hàm số bậc hai y = a x ^ 2 + b x + c có hình dạng là một parabol và có đỉnh S ( - b / ( 2 a ) ; - \Delta / (4 a ) ) .
-Trong mặt phẳng toa độ Oxy , đồ thị hàm số bậc hai y = a x ^ 2 + b x + c ( với a != 0 ) là một parabol ( P ) :
-Có đỉnh S với hoành độ x _ S = - b / ( 2 a ) , tung độ y _ S = - \Delta / ( 4 a )
-Có trục đổi xứng là đường thẳng x = - b / ( 2 a ) (đường thẳng này đi qua đỉnh S và song song với trục Oy ) ;
+người ta chứng minh được rằng trong mặt phẳng toạ độ Oxy , đồ thị hàm số bậc hai y = a x ^ 2 + b x + c có hình dạng là một parabol và có đỉnh S ( - b / ( 2 a ) ; - \Delta / ( 4 a ) ) .
+Trong mặt phẳng tọa độ Oxy , đồ thị hàm số bậc hai y = a x ^ 2 + b x + c ( với a != 0 ) là một parabol ( P ) :
+Có đỉnh S với hoành độ x _ S = - b / ( 2 a ) , tung độ y _ S = - \Delta / ( 4 a ) .
+Có trục đối xứng là đường thẳng x = - b / ( 2 a ) ( đường thẳng này đi qua đỉnh S và song song với trục Oy ) ;
 Bề lõm quay lên trên nếu a > 0 , quay xuống dưới nếu a < 0 ;
 Cắt trục tung tại điểm có tung độ bằng c , tức là đồ thị đi qua điểm có toạ độ ( 0 ; с ) .
 Nếu phương trình a x ^ 2 + b x + c = 0 có hai nghiệm x _ 1 , x _ 2 thì đồ thị hàm số bậc hai y = a x ^ 2 + b x + c cắt trục hoành tại hai điểm lần lượt có hoành độ là hai nghiệm này .
 Cách vẽ đồ thị hảm số bậc hai y = a x ^ 2 + b x + c ( với a != 0 ) :
-Xác định toạ độ đỉnh S ( - b / ( 2 a ) ; - \Delta / (4 a ) ) .
+Xác định toạ độ đỉnh S ( - b / ( 2 a ) ; - \Delta / ( 4 a ) ) .
 Vẽ trục đổi xứng d là đường thẳng x = - b / ( 2 a ) .
 Tìm toạ độ giao điểm của đồ thị với trục tung ( điểm A ( 0 ; c ) ) và giao điểm của đồ thị với trục hoành ( nếu có ) .
-Xác đinh thêm điểm đối xứng với A qua trục đối xứng d , là điểm B ( - b / a ; c) .
-Vë parabol có đỉnh S , có trục đổi xứng d , đi qua các điểm tìm được .
-Trong mặt phẳng toạ độ Oxy , đồ thị hàm số bậc hai y = f (x ) = - x ^ 2 + 4 x - 3 là một parabol ( P ) :
+Xác định thêm điểm đối xứng với A qua trục đối xứng d , là điểm B ( - b / a ; c ) .
+Vẽ parabol có đỉnh S , có trục đối xứng d , đi qua các điểm tìm được .
+Trong mặt phẳng toạ độ Oxy , đồ thị hàm số bậc hai y = f ( x ) = - x ^ 2 + 4 x - 3 là một parabol ( P ) :
 Có đỉnh S với hoành độ x _ S = 2 , tung độ y _ S = 1 ;
-Có trục đối xúng là đường thẳng x = 2 ( đường thẳng này đi qua đỉnh S và song song với trục Oy ) ;
-Bề lỗm quay xuống dưới vì a < 0 ;
-Cắt trục tung tại điểm có tung độ bằng -3, tức là đồ thị đi qua điểm có toạ độ ( 0 ; - 3 ) .
+Có trục đối xứng là đường thẳng x = 2 ( đường thẳng này đi qua đỉnh S và song song với trục Oy ) ;
+Bề lõm quay xuống dưới vì a < 0 ;
+Cắt trục tung tại điểm có tung độ bằng - 3 , tức là đồ thị đi qua điểm có tọa độ ( 0 ; - 3 ) .
 Ngoài ra , phương trình - x ^ 2 + 4 x − 3 = 0 có hai nghiệm phân biệt x _ 1 = 1 và x _ 2 = 3 nên đồ thị hàm số cắt trục hoành tại hai điểm có toạ độ ( 1 ; 0 ) và ( 3 ; 0 ) .
 Ta vẽ được đồ thị như Hình 4 .
 Vẽ đồ thị hàm số y = x ^ 2 - 4 x + 3 rồi so sánh đồ thị hàm số này với đồ thị hàm số trong Ví dụ 2 .
 Nêu nhận xét về hai đồ thị này .
 Từ đồ thị của hàm số bậc hai cho ở hai hình sau , tìm khoảng đồng biến và nghịch biến của hàm số trong mỗi trường hợp .
 Dựa vào đồ thị hàm số bậc hai y = a x ^ 2 + b x + c ( với a != 0 ) , ta có bảng tóm tắt về sự biến thiên của hàm số này như sau :
-Hàm số nghịch biển trên khoảng ( - \inf ; - b / ( 2 a ) ) và đồng biển trên khoảng ( - b / ( 2 a ) ; + \inf ) .
+Hàm số nghịch biến trên khoảng ( - \inf ; - b / ( 2 a ) ) và đồng biến trên khoảng ( - b / ( 2 a ) ; + \inf ) .
 Tử bảng biến thiên của hàm số bậc hai , ta thấy :
 Khi a > 0 , hàm số đạt giá trị nhỏ nhất bằng - \Delta / ( 4 a ) tại x = - b / ( 2 a ) và hàm số có tập giá trị là T = [ - \Delta / ( 4 a ) ; + \inf ) .
 Lập bảng biến thiên của hàm số y = - x ^ 2 + 4 x - 3 .
@@ -607,7 +606,7 @@ Hàm số đạt giá trị lớn nhất bằng 1 khi x = 2 .
 Tìm khoảng đồng biến , khoảng nghịch biến của hàm số y = 2 x ^ 2 - 6 x + 11 .
 Hàm số này có thể đạt giá trị bằng - 1 không ?
 Ứng dụng của hàm số bậc hai
-Trong mặt phẳng toa độ Oxy , chọn điểm có toạ độ ( 0 ; y _ 0 ) là điểm xuất phát thì phương trình quỹ đạo của cầu lông khi rời khỏi mặt vợt là :
+Trong mặt phẳng tọa độ Oxy , chọn điểm có toạ độ ( 0 ; y _ 0 ) là điểm xuất phát thì phương trình quỹ đạo của cầu lông khi rời khỏi mặt vợt là :
 Đây là một hàm số bậc hai nên quỹ đạo chuyển động của cầu lông là một parabol .
 Xét trường hợp lặng gió , với vận tốc ban đầu và góc phát cầu đã biết , cầu chuyển động theo quỹ đạo parabol nên sẽ :
 Đạt vị trí cao nhất tại đỉnh parabol , gọi là tầm bay cao ;
@@ -617,9 +616,9 @@ Chọn hệ trục toạ độ như Hình 9 ( vị trí rơi của cầu thuộc
 Với g = 9 , 8 m / s ^ 2 , góc phát cầu a = 30 \deg , vận tốc ban đầu v = 8 m / s , phương trình quỹ đạo của cầu là :
 Vị trí cầu rơi chạm đất là giao điểm của parabol và trục hoành nên giải phương trình ta được x _ 1 \approx  - 1 , 03 và x _ 2 \approx 6 , 68 .
 Giá trị nghiệm đương cho ta khoảng cách từ vị trí người chơi cầu lông đến vị trí cầu rơi chạm đất là 6 , 68 m .
-Ta cần so sánh tung độ của điểm trên quỹ đạo ( có hoành độ bằng khoảng cách từ gốc toạ độ đến chân lưới phân cách ) với chiểu cao mép trên của lưới đề tìm câu trả lời .
+Ta cần so sánh tung độ của điểm trên quỹ đạo ( có hoành độ bằng khoảng cách từ gốc toạ độ đến chân lưới phân cách ) với chiều cao mép trên của lưới đề tìm câu trả lời .
 Hàm số nào sau đây là hàm số bậc hai ?
-2. Tìm điều kiện của m để hàm số y = f ( x ) là hàm số bậc hai .
+2 . Tìm điều kiện của m để hàm số y = f ( x ) là hàm số bậc hai .
 y = m x ^ 4 + ( m + 1 ) x ^ 2 + x + 3 ;
 Cho hàm số bậc hai y = f ( x ) = a x ^ 2 + b x + c có f ( 0 ) = 1 , f ( 1 ) = 2 , f ( 2 ) = 5 .
 Hãy xác định giá trị của các hệ số a , b và c .
@@ -634,8 +633,9 @@ Quy luật tự nhiên và hình dạng parabol
 Vật chuyển động bởi ném xiên hay ném ngang có quỹ đạo là một phần của parabol .
 Trong khi đó , chuyển động rơi tự do hoặc chuyển động lăn trên mặt phẳng nghiêng có độ dài quãng đường tuân theo quy luật một hàm số bậc hai theo thời gian t , mặc dù quỹ đạo chuyển động là đường thẳng .
 Nhà vật lí học Galilei đã thiết kể bộ dụng cụ đo quãng đường lăn của vật nặng trên mặt phẳng nghiêng sau những khoảng thời gian như nhau để chứng minh kết quả này .
-Thật khó tin nhung Galilei nhạy bén với âm thanh và ông nhận ra quãng đường lại không như nhau dù các khoảng thời gian là đều nhau .
-Khi một vật từ vị trí y _ 0 , bị ném xiên lên cao theo góc \alpha ( so với phương ngang ) với vận tốc ban đầu v _ 0 , thì phương trình quỹ đạo của vật này là: y = (- g x ^ 2) / ( 2 ( v _ 0 ) ^ 2 ( cos ( \alpha ) ) ^ 2 ) + tan ( \alpha ) x + y _ 0 .
+Thật khó tin nhưng Galilei nhạy bén với âm thanh và ông nhận ra quãng đường lại không như nhau dù các khoảng thời gian là đều nhau .
+Khi một vật từ vị trí y _ 0 , bị ném xiên lên cao theo góc \alpha ( so với phương ngang ) với vận tốc ban đầu v _ 0 , thì phương trình quỹ đạo của vật này là :
+y = ( - g x ^ 2 ) / ( 2 ( v _ 0 ) ^ 2 ( cos ( \alpha ) ) ^ 2 ) + tan ( \alpha ) x + y _ 0 .
 Đây là một hàm số bậc hai nên quỹ đạo chuyển động là một parabol .
 Do vậy , việc điểu chỉnh góc ném \alpha chính là kĩ thuật để đạt mục tiêu xa nhất .
 Binh chúng Pháo binh Việt Nam có câu khẩu hiệu Chân đồng , vai sắt , đánh giỏi , bắn trúng gắn liển với kĩ thuật điều chỉnh vận tốc ban đầu v _ 0  và góc \alpha để đạn pháo trúng mục tiêu .
@@ -645,6 +645,219 @@ Hãy biểu thị quãng đường s mà người nay đi được sau t phút b
 Vẽ đồ thị biểu diễn hàm số s theo t .
 Biết rằng hàm số y = 2 x ^ 2 + m x + n giảm trên khoảng ( - \inf ; 1 ) , tăng trên khoảng ( 1 ; + \inf ) và có tập giá trị là [ 9 ; + \inf ) .
 Chiếc cầu trong Hình 1 có bộ phận chống đỡ dạng parabol .
-Giả sử một máy bay cứu trợ đang bay theo phương ngang và bắt đầu thả hàng từ độ cao 80 m , lúc đó máy bay đang bay với vận tốc 50 m/s.
+Giả sử một máy bay cứu trợ đang bay theo phương ngang và bắt đầu thả hàng từ độ cao 80 m , lúc đó máy bay đang bay với vận tốc 50 m / s.
 Biết rằng nếu chọn gốc toạ độ là hình chiếu trên mặt đất của vị trí hàng cứu trợ bắt đầu được thả , thì toạ độ của hàng cứu trợ được cho bởi hệ sau : \system ( x = v _ 0 t ; y = h - ( 1 / 2 ) g t ^ 2 ) .
-<Hết chương III>
+Giá trị lượng giác của một góc từ 0 \deg đến 180 \deg
+Trong mặt phẳng toạ độ Oxy , nửa đường tròn tâm O bán kính R = 1 nằm phía trên trục hoành được gọi là nửa đường tròn đơn vị .
+Cho trước một góc nhọn a , lấy điểm M trên nửa đường tròn đơn vị sao cho \hat ( xOM ) = \alpha .
+Giả sử điểm M có toạ độ ( x _ 0 ; y _ 0 ) .
+Áp dụng cách tính các tỉ số lượng giác của một góc nhọn đã học ở lớp 9 , chứng tỏ rằng :
+Với mỗi góc \alpha ( 0 \deg <= \alpha <= 180 \deg ) ta xác định được một điểm M duy nhất trên nửa đường tròn đơn vị sao cho \hat ( xOM ) = \alpha .
+Gọi ( x _ 0 ; y _ 0 ) là toạ độ điểm M , ta có :
+Tung độ y _ 0 của M là sin của góc \alpha , kí hiệu là sin \alpha = y _ 0 ;
+Hoành độ x _ 0 của M là côsin của góc \alpha , kí hiệu là cos \alpha = x _ 0 ;
+Tỉ số y _ 0 / x _ 0 ( x _ 0 != 0 ) là tang của góc \alpha , kí hiệu là tan \alpha = y _ 0 / x _ 0 ;
+Tỉ số x _ 0 / y _ 0 ( Y _ 0 != 0 ) là côtang của góc \alpha , kí hiệu là cot \alpha = x _ 0 / y _ 0 .
+Các số sin \alpha , cos \alpha , tan \alpha , cot \alpha được gọi là các giá trị lượng giác của góc \alpha .
+Tìm các giá trị lượng giác của góc 120 \deg .
+Lấy điểm M trên nửa đường tròn đơn vị sao cho \hat ( xOM ) = 120 \deg .
+Ta có \hat ( MOy ) = 120 \deg - 90 \deg = 30 \deg .
+Ta tính được toạ độ điểm M là ( - 1 / 2 ; \sqrt ( 3 ) / 2 ) .
+Nếu \alpha là góc nhọn thì các giá trị lượng giác của \alpha đều dương .
+Nếu ở là góc tù thì sin \alpha > 0 , cos \alpha < 0 , tan \alpha < 0 , cot \alpha < 0 .
+tan \alpha chỉ xác định khi \alpha != 90 \deg .
+cot \alpha chỉ xác định khi \alpha != 0 \deg và \alpha != 180 \deg .
+Quan hệ giữa các giá trị lượng giác của hai góc bù nhau
+Từ lớp đưới ta đã biết hai góc phụ nhau thì các ti số lượng giác của chúng có mối liên hệ :
+sin ( 90 \deg - \alpha ) = cos \alpha ;
+Sau đây ta sẽ tìm hiểu về mối liên hệ giữa các giá trị lượng giác của hai góc bù nhau .
+Trên nửa đường tròn đơn vị , cho dây cung NM song song với trục Ox ( Hình 4 ) .
+Tính tổng số đo của hai góc hat ( xOM ) và \hat ( xON ) .
+Nếu \hat ( xOM ) = \alpha thì ta có \hat ( xON ) = 180 \deg - \alpha .
+Do x _ N = - x _ M = - x _ 0 ; y _ N = y _ M = y _ 0 , nên ta có các tính chất sau :
+Với mọi góc \alpha thoả mãn 0 \deg <= \alpha <= 180 \deg , ta luôn có :
+tan ( 180 \deg - \alpha ) = tan \alpha ( \alpha != 90 \deg ) ;
+Tính các giá trị lượng giác : sin 120 \deg ; cos 150 \deg ; cot 135 \deg .
+Cho biết sin \alpha = 1 / 2 , tìm góc \alpha ( 0 \deg <= \alpha <= 180 \deg ) bằng cách vẽ nửa đường tròn đơn vị .
+Giá trị lượng giác của các góc bất kì có thể tính bằng máy tính cầm tay .
+Dưới đây là bảng giá trị lượng giác của một số góc đặc biệt .
+Sử dụng máy tính cầm tay để tính giá trị lượng giác của một góc
+Có nhiều loại máy tính cầm tay có thể giúp tỉnh nhanh chóng giá trị lượng giác của một góc .
+Chẳng hạn , ta có thể thực hiện trên một loại máy tính cầm tay như sau :
+Sử dụng máy tỉnh cầm tay , tìm \alpha ( 0 \deg <= a <= 180 \deg ) biết cos \alpha = - 0 , 2341 .
+Sử đụng mối liên hệ giữa các giá trị lượng giác của hai góc bù nhau , phụ nhau để tính giá trị của E = 2 cos 30 \deg + sin 150 \deg + tan 135 \deg .
+Cho tam giác ABC .
+sin A = sin ( B + C ) ;
+cos ^ 2 \alpha + sin ^ 2 \alpha = 1 .
+Cho góc \alpha với cos \alpha = - \sqrt ( 2 ) / 2 .
+Tính giá trị của biểu thức A = 2 sin ^ 2 \alpha + 5 cos ^ 2 \alpha .
+Định lí côsin và định lí sin
+Định lí côsin trong tam giác
+Cho tam giác ABC không phải là tam giác vuông với góc A nhọn và C >= B .
+Vẽ đường cao CD và đặt tên các độ dài như trong Hình 1 .
+Hãy thay ? bằng chữ cái thích hợp để chứng minh công thức a ^ 2 = b ^ 2 + c ^ 2 - 2 b c cos A theo gợi ý sau :
+Xét tam giác vuông BCD , ta có : a ^ 2 = d ^ 2 + ( c - x ) ^ 2 = d ^ 2 + x ^ 2 + c ^ 2 - 2 x c .
+Xét tam giác vuông ACD , ta có : b ^ 2 = d ^ 2 + x ^ 2 => d ^ 2 = b ^ 2 - x ^ 2 .
+Lưu ý : Nếu \hat ( B ) > \hat ( C ) thì ta vẽ đường cao BD và chứng minh tương tự .
+Cho tam giác ABC với góc A tù .
+Làm tương tự như trên , chứng minh rằng ta cũng có: a ^ 2 = b ^ 2 + c ^ 2 - 2 b c cos A .
+Lưu ý : Vì A là góc tù nên cos A = - x / b .
+Cho tam giác ABC vuông tại A .
+Trong tam giác ABC với BC = a , CA = b , AB = c , ta có :
+Từ định lí côsin, ta có hệ quả sau đây :
+cos A = ( b ^ 2 + c ^ 2 - a ^ 2) / ( 2 b c ) ;
+Cho tam giác ABC có \hat ( C ) = 115 \deg , AC = 8 và BC = 12 .
+Tính độ dài cạnh AB và các góc A , B của tam giác đó .
+Theo định lí côsin , ta có : AB ^ 2 = BC ^ 2 + AC ^ 2 - 2 . BC . АС . cos C
+Theo hệ quả của định lí côsin, ta có cos A = ( AB ^ 2 + AC ^ 2 - BC ^ 2 ) / ( 2 . AB . AC )
+Suy ra A \approx 39 \deg 47 ' , B = 180 \deg - ( A + C ) \approx 25 \deg 13 ' .
+Tính các cạnh và các góc chưa biết của tam giác AВС trong Hình 4 .
+Tính khoảng cách giữa hai điểm ở hai đầu của một hồ nước .
+Biết từ một điểm cách hai đầu hồ lần lượt là 800 m và 900 m người quan sát nhìn hai điểm này dưới một góc 70 \deg ( Hình 5 ) .
+Định lí sin trong tam giác
+Cho tam giác ABC không phải là tam giác vuông có BC = a , AC = b , AB = c và R là bán kính của đường tròn ngoại tiếp tam giác đó .
+Vẽ đường kính BD .
+Tính sin \hat ( BDC ) theo a và R .
+Tìm mối liên hệ giữa hai góc \hat ( BAC ) và \hat ( BDC ) .
+Từ đó chứng minh rằng 2 R = a / sin A .
+Cho tam giác ABC với góc A vuông .
+Tính sin A và so sánh a với 2 R để chứng tỏ ta vẫn có công thức 2 R = a / sin A .
+Trong tam giác ABC với BC = a , CA = b , AB = c , ta có : a / sin A = b / sin B  = c / sin C = 2 R ,  trong đó R là bán kính đường tròn ngoại tiếp tam giác ABC .
+Từ định lí sin , ta có hệ quả sau đây :
+Cho tam giác ABC có \hat ( A ) = 72 \deg , \hat ( B ) = 83 \deg , BC = 18 .
+Tính độ dài các cạnh AC , AB và bán kính R của đường tròn ngoại tiếp tam giác đó .
+Đặt a = BC , b = AC , с = АB .
+Áp dụng định lí sin , ta có  a / sin A = b / sin B  = c / sin C = 2 R .
+AC = b = ( a sin B ) / sin A = ( 18 . sin 83 \deg ) / sin 72 \deg \approx 18 , 8 ;
+Tính các cạnh và các góc chưa biết của tam giác MNP trong Hình 8 .
+Trong một khu bảo tồn , người ta xây dựng một tháp canh và hai bồn chứa nước A , B để phòng hoả hoạn .
+Các công thức tính diện tích tam giác
+Cho tam giác ABC như Hình 10 .
+Viết công thức tính diện tích S của tam giác ABC theo a và h _ a .
+Tính h _ a theo b và sin C .
+Dùng hai kết quả trên để chứng minh công thức S = 1 / 2 a b sin C .
+Dùng định lí sin và kết quả ở câu c ) để chứng minh công thức S = ( a b c ) / 4 R .
+Cho tam giác ABC có BC = a , AC = b , AB = c và ( I , r ) là đường tròn nội tiếp tam giác ( Hình 11 ) .
+Tính diện tích các tam giác IBC , IAC , IAB theo r và a , b , c .
+Dùng kết quả trên để chứng minh công thức tính diện tích tam giác ABC : S = ( r ( a + b + c ) ) / 2 .
+Bằng cách áp dụng các hệ thức lượng trong tam giác, ta có thể tìm thêm được nhiều công thức tính diện tích tam giác .
+Ví dụ : Thay h _ a = c . sin B vào công thức tính diện tích S = 1 / 2 a h _ a ta được , S = 1 / 2 a c sin B .
+Ta kí hiệu : h _ a , h _ b , h _ c là độ dài các đường cao lần lượt ứng với các cạnh BC , CA , АВ .
+R là bán kính đường tròn ngoại tiếp tam giác .
+r là bán kính đường tròn nội tiếp tam giác .
+p là nửa chu vi tam giác .
+S là diện tích tam giác .
+Ta có các công thức tính diện tích tam giác sau:
+S = \sqrt ( p ( p - a ) ( p - b ) ( p - c ) ) ( công thức Heron ) .
+Cho tam giác ABC có a = 2 \sqrt ( 3 ) , b = 2 và \hqt ( C ) = 30 \deg .
+Tính diện tích tam giác ABC .
+Tính bán kính đường tròn ngoại tiếp tam giác ABС .
+Áp dụng công thức S = 1 / 2 a b sin C , ta có : S = 1 / 2 2 \sqrt ( 3 ) . 2 . sin 30 \deg = 1 / 2 . 2 \sqrt ( 3 ) . 2 . 1 / 2 = \sqrt ( 3 ) \approx 1 , 7 .
+Áp dụng định lí côsin , ta có : c ^ 2 = a ^ 2 + b ^ 2 - 2 a b cos C = 12 + 4 - 2 . 2 \sqrt ( 3 ) . 2 . \sqrt ( 3 ) / 2 = 4 .
+Áp dụng định lí sin , ta có : R = c / ( 2 sin C ) = 2 / ( 2 sin 30 \deg ) = 2 / ( 2 . 1 / 2 ) = 2 .
+Cho tam giác ABC có các cạnh a = 30 , b = 26 , с = 28 .
+Tính bán kính đường tròn ngoại tiếp và bán kính đường tròn nội tiếp tam giác АВС .
+Áp dụng công thức Heron , ta có : S = \sqrt ( p ( p - a ) ( p - b ) ( p - c ) ) = \sqrt ( 42 ( 42 - 30 ) ( 42 - 26 ) ( 42 - 28 ) ) = 336 .
+Ta có S = ( a b c ) / ( 4 R ) = ( 30 . 26 . 28 ) / (4 . 336 ) = 16 , 25 .
+Ta lại có S = p r , suy ra r = S / p = 336 / 42 = 8 .
+Tính diện tích tam giác ABC và bán kính đường tròn ngoại tiếp tam giác ABC trong các trường hợp sau :
+Tính diện tích một cánh buồm hình tam giác .
+Biết cánh buồm đó có chiều dài một cạnh là 3 , 2 m và hai góc kề cạnh đó có số đo là 48 \deg và 105 \deg ( Hình 12 ) .
+Tính độ dài cạnh x trong các tam giác sau :
+Cho tam giác ABC , biết cạnh a = 152 , \hat ( B ) = 79 \deg , \hat ( C ) = 61 \deg .
+Tính các góc , các cạnh còn lại và bán kính đường tròn ngoại tiếp của tam giác đó .
+Một công viên có dạng hình tam giác với các kích thước như Hình 15 .
+Tính số đo các góc của tam giác đó .
+Tính diện tích một lá cờ hình tam giác cân có độ dài cạnh bên là 90 cm và góc ở đỉnh là 35 \deg .
+Cho tam giác ABC có AB = 6 , AC = 8 và \hat ( A ) = 60 \deg .
+Gọi I là tâm đường tròn ngoại tiếp tam giác ABC .
+Cho tam giác ABC có trọng tâm G và độ dài ba canh AB BC CA lần lượt là 15 , 18 , 27 .
+Tính diện tích và bán kính đường tròn nội tiếp tam giác АВС .
+Cho h là đường cao vẽ từ đỉnh A , R là bán kính đường tròn ngoại tiếp tam giác ABС .
+Chứng minh hệ thức h _ a = 2 R sin B sin C .
+Cho tam giác ABC có góc B nhọn , AD và CE là hai đường cao .
+Chứng minh S _ BDE / S _ BAC = ( BD . BE ) / ( BА . ВС ) .
+Biết rằng S _ ABC = 9 S _ PDE Và DE = 2 \sqrt ( 2 ) .
+Tính cos B và bán kính đường tròn ngoại tiếp tam giác ABC .
+Cho tứ giác lồi ABCD có các đường chéo AC = x , BD = y và góc giữa AC và BD bằng a .
+Gọi S là diện tích của tứ giác ABCD .
+Chứng minh S = 1 / 2 x y sin \alpha .
+Nêu kết quả trong trường hợp AC \perp BD .
+Giải tam giác là tìm số đo các cạnh và các góc còn lại của tam giác khi ta biết được các yếu tố đủ để xác định tam giác đó .
+Để giải tam giác , ta thường sử dụng một cách hợp lí các hệ thức lượng như : định lí sin , định lí côsin và các công thức tính diện tích tam giác .
+Giải tam giác ABC trong các trường hợp sau :
+Đặt a = BC , b = AC , с = АВ .
+Ta cần tính cạnh a và hai góc \hat ( B ) , \hat ( C ) .
+Áp dụng định lí côsin , ta có :
+a ^ 2 = b ^ 2 + c ^ 2 - 2 b c cos A = 95 ^ 2 + 85 ^ 2 - 2 . 95 . 85 . cos 40 \deg \approx 3878 , 38 .
+Áp dụng hệ quả định lí côsin , ta có :
+cos B = ( a ^ 2 + c ^ 2 - b ^ 2) / ( 2 a c ) \approx ( 62 , 3 ^ 2 + 85 ^ 2 - 95 ^ 2 ) / ( 2 . 62 , 3 . 85 ) \approx 0,197 .
+Ta cần tính số đo ba góc \hat ( А ) , \hat ( B ) , \hat ( C ) .
+cos A = ( b ^ 2 + c ^ 2 - a ^ 2) / ( 2 b c ) = ( 25 ^ 2 + 15 ^ 2 - 30 ^ 2 ) / ( 2 . 15 . 25 ) = - 1 / 15 => \hat ( A ) \approx 90 \deg 49 ' .
+Áp dụng giải tam giác vào thực tế
+Vận dụng giải tam giác giúp ta giải quyết rất nhiều bài toán trong thực tế , đặc biệt là trong thiết kế và xây dựng .
+Để ước tính chiều dài của đường hầm , một kĩ sư đã thực hiện các phép đo và cho ra kết quả như Hình 1 .
+Tính chiều dài của đường hầm từ các số liệu đã khảo sát được .
+Áp dụng định lí côsin trong tam giác ABC , ta có :
+AB ^ 2 = CA ^ 2 + CB ^ 2 - 2 . СА . СB . сos C = 388 ^ 2 + 212 ^ 2 - 2 . 388 . 212 . cos ( 82 , 4 \deg ) \approx 173730 .
+Để xác định chiều cao của một toà nhà cao tầng , một người đứng tại điểm M , sử dụng giác kế nhìn thấy đỉnh toà nhà với góc nâng \hat ( RQA ) = 84 \deg ,
+người đó lùi ra xa một khoảng cách LM = 49 , 4 m thì nhìn thấy đỉnh toà nhà với góc nâng RPA = 78 \deg .
+Tính chiều cao của toà nhà , biết rằng khoảng cách từ mặt đất đến ống ngắm của giác kế đó là PL = QM = 1 , 2 m ( Hình 2 ) .
+Giải thích : Góc nâng là góc tạo bởi tia ngắm nhìn lên và đường nằm ngang .
+Ta có \hat ( PAQ ) = \hat ( AQR ) - \hat ( APR ) = 84 \deg - 78 \deg = 6 \deg .
+Áp dụng định lí sin trong tam giác APQ , ta có :
+AQ / sin P = PQ / sin A => AQ / sin ( 78 \deg ) = PQ / sin ( 6 \deg ) => AQ = ( PQ . sin ( 78 \deg ) ) / ( sin ( 6 \deg ) )
+Trong tam giác vuông AQR , ta có :
+AR = AQ . sin 84 \deg = ( PQ . sin 78 \deg . sin 84 \deg ) / sin ( 6 \deg ) = ( 49 , 4 . sin 78 \deg . sin 84 \deg ) / sin ( 6 \deg ) \approx 460 ( m ) .
+Vậy chiều cao của toà nhà là : AO = AR + RO \approx 460 + 1 , 2 = 461 , 2 ( m ) .
+Hai trạm quan sát ở hai thành phố Đà Nẵng và Nha Trang đồng thời nhìn thấy một vệ tinh với góc nâng lần lượt là 75 \deg và 60 \deg ( Hình 3 ) .
+Vệ tỉnh cách trạm quan sát tại thành phổ Đà Nẵng bao nhiêu kilômét ?
+Biết rằng khoảng cách giữa hai trạm quan sát là 520 km .
+Gọi A , B , C lần lượt là các điểm biểu diễn vị trí của thành phố Đà Nẵng , Nha Trang và vệ tinh .
+Ta có : \hat ( C ) = 180 \deg – ( 60 \deg + 75 \deg) =45 \deg .
+AC = ( AB . sin B ) / sin C = ( 520 . sin 60 \deg ) / sin ( 45 \deg ) \approx 637 ( km ) .
+Vậy vệ tinh cách trạm quan sát tại thành phổ Đà Nẵng khoảng 637 km .
+Gọi vị trí của người đo đạc đứng là điểm A và gọi B , C lần lượt là vị trí hai cái cây bên kia sông .
+Ta có tam giác ABC với AC = 100 m ; AB = 75 m và \hat ( A ) = 32 \deg .
+BC ^ 2 = AC ^ 2 + AB ^ 2 - 2 . AC . AB . cos A = 100 ^ 2 + 75 ^ 2 - 2 . 100 . 75 . cos ( 32 \deg ) \approx 2904 , 3 .
+Suy ra BC \approx \sqrt ( 2904 , 3 ) \approx 53,9 ( m ) .
+Trên bản đồ địa lí , người ta thường gọi tứ giác với bốn đỉnh lần lượt là các thành phố Hà Tiên , Châu Đốc , Long Xuyên , Rạch Giá là tứ giác Long Xuyên .
+Dựa theo các khoảng cách đã cho trên Hình 6 , tính khoảng cách giữa Châu Đốc và Rạch Giá .
+AB = 14 , AC = 23 , A = 125 \deg ;
+Để lắp đường dây điện cao thế từ vị trí A đến vị trí B, do phải tránh một ngọn núi nên người ta phải nối đường dây từ vị trí A đên vị trí C dài 10 km , sau đó nối đường dây từ vị trí C đến vị trí B dài 8 km .
+Góc tạo bởi hai đoạn dây AC và CB là 70 \deg .
+Tính chiều đài tăng thêm vì không thể nối trực tiếp từ A đến B .
+Một người đứng cách thân một cái quạt gió 16 m và nhìn thấy tâm của cánh quạt với góc nâng 56,5 \deg ( Hình 8 ) .
+Tính khoảng cách từ tâm của cánh quạt đến mặt đất .
+Cho biết khoảng cách từ mắt của người đó đến mặt đất là 1 , 5 m .
+Tính chiều cao AB của một ngọn núi .
+Biết tại hai điểm C, D cách nhau 1 km trên mặt đất ( B , C , D thẳng hàng ), người ta nhìn thấy đỉnh A của núi với góc nâng lần lượt là 32 \deg và 40 \deg ( Hình 9 ) .
+Hai người quan sát khinh khí cầu tại hai địa điểm P và Q nằm ở sườn đồi nghiêng 32 \deg so với phương ngang , cách nhau 60 m ( Hình 10 ) .
+Người quan sát tại P xác định góc nâng của khỉnh khí cầu là 62 \deg .
+Cùng lúc đó, người quan sát tại Q xác định góc nâng của khinh khí cầu đó là 70 \deg .
+Tính khoảng cách từ Q đến khinh khí cầu .
+Người đó quan sát thấy góc được tạo bởi hai đường ngắm tới hai mộc này là 43 \deg , góc giữa phương thẳng đứng và đường ngắm tới một điểm mốc trên mặt đất là 62 \deg và đến điểm mốc khác là 54 \deg ( Hình 11 ) .
+Tính hai góc \hat ( A ) , \hat ( B ) và cạnh c .
+Tính các góc \hat ( A ) , \hat ( В ) , \hat ( C ) .
+Tam giác ABC có góc tù không ?
+Tính độ dài trung tuyến AM, diện tích tam giác và bán kính đường tròn ngoại tiếp tam giác đó .
+Lấy điểm D đối xứng với A qua C .
+Tính độ dài BD .
+Cho tam giác ABC có A = 120 \deg , b = 8 , c = 5 .
+Tính : Cạnh a và các góc B , C ; Diện tích tam giác AВС ; Bán kính đường tròn ngoại tiếp và đường cao AH của tam giác .
+Cho hình bình hành ABCD .
+Chứng minh 2 ( AB ^ 2 + BC ^ 2 ) = AC ^ 2 + BD ^ 2 .
+Tính diện tích tam giác ABC .
+Tính bán kính đường tròn ngoại tiếp tam giác ABC .
+Chứng minh rằng : cot A + cot B + cot C = ( R ( a ^ 2 + b ^ 2 + c ^ 2 ) / ( a b c )
+Tính khoảng cách AB giữa hai nóc toà cao ốc .
+Cho biết khoảng cách từ hai điểm đó đến một vệ tỉnh viễn thông lần lượt là 370 km , 350 km và góc nhìn từ vệ tinh đến A và B là 2 , 1 \deg . 
+Hai chiếc tàu thuỷ P và Q cách nhau 300 m và thẳng hàng với chân B của tháp hải đăng AB ở trên bờ biển ( Hình 2 ) .
+Từ P và Q, người ta nhìn thấy tháp hải đăng AB dưới các góc BPA = 35 \deg và BQA = 48 \deg .
+Tính chiều cao của tháp hải đăng đó .
+Muốn đo chiều cao của một ngọn tháp , người ta lấy hai điểm A , B trên mặt đất có khoảng cách AB = 12 m cùng thẳng hàng với chân C của tháp để đặt hai giác kế .
+Chân của hai giác kế có chiều cao là h = 12 m .
+Gọi D là đỉnh tháp và hai điểm A _ 1 , B _ 1 cùng thắng hàng với C _ 1 thuộc chiều cao CD của tháp .
+Người ta đo được \hat ( D A _ 1 C _ 1 ) = 49 \deg , \hat ( D B _ 1 C _ 1 ) = 35 \deg .
+Tính chiều cao CD của tháp .
+<Hết chương IV>
