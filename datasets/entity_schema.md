@@ -174,7 +174,7 @@
     - MB I-EQUATION
     - ) I-EQUATION
     - \+ I-EQUATION
-    - \vecto I-EQUATION
+    - \vector I-EQUATION
     - ( I-EQUATION
     - MD I-EQUATION
     - ) I-EQUATION
@@ -321,7 +321,7 @@
 10. Cho hàm số f(x) = x^2 + sin(3x). Khi đó f'(\pi / 2) bằng:
     - Cho O
     - hàm B-MATH_CONCEPT
-    - số B-MATH_CONCEPT
+    - số I-MATH_CONCEPT
     - f B-FUNCTION
     - ( I-FUNCTION
     - x I-FUNCTION
@@ -360,3 +360,4 @@
 - C _ U A (phần bù của A trong U): EXPRESSION.
 - Cặp số: nếu là dạng (x; y) thì sẽ gán nhãn x và y là SYMBOL còn là dạng (1; 2) thì toàn bộ gán là O.
 - Dạng A = B => C = D: "A = B" và "C = D" gán là EQUATION, "=>" không gán nhãn.
+- Mặt phẳng tọa độ, trục tọa độ, trục tung, trục hoành (!?) -> GEOMETRIC_OBJECT; tọa độ, tung dộ, hoành độ -> MATH_CONCEPT (!?).
