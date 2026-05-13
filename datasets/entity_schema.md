@@ -47,7 +47,7 @@
 | GEOMETRIC_OBJECT | Các từ chỉ các đối tượng trong hình học | Điểm, đường thẳng,... |
 | THEOREM | Tên các định lí, công thức | Định lí Pi-ta-go, nhị thức Niu-tơn,... |
 | PROPERTY | Các từ chỉ các tính chất hay mối quan hệ giữa các đối tượng | Vuông góc, song song,... |
-| QUANTITY | Các từ chỉ đại lượng | Diện tích, chu vi,... |
+| QUANTITY | Các từ chỉ đại lượng toán học | Diện tích, chu vi,... |
 | SYMBOL | Các kí hiệu toán học hoặc kí tự đại diện cho các đối tượng toán học cụ thể (biến, tham số,...) | A, x, m,... |
 | SET | Tập hợp hoặc miền số | {1, 2, 3}, (0, 1),... |
 | EXPRESSION | BIểu thức toán học | sin(x), b^2 - 4ac,... |
@@ -359,5 +359,5 @@
 - A \intersection B = \emptyset: EQUATION - vì đây không phải phép gán/khai báo nên vẫn sẽ gán nhãn EQUATION để đảm bảo tính đồng nhất.
 - C _ U A (phần bù của A trong U): EXPRESSION.
 - Cặp số: nếu là dạng (x; y) thì sẽ gán nhãn x và y là SYMBOL còn là dạng (1; 2) thì toàn bộ gán là O.
-- Dạng A = B => C = D: "A = B" và "C = D" gán là EQUATION, "=>" không gán nhãn.
-- Mặt phẳng tọa độ, trục tọa độ, trục tung, trục hoành (!?) -> GEOMETRIC_OBJECT; tọa độ, tung dộ, hoành độ -> MATH_CONCEPT (!?).
+- Dạng A = B => C = D: "A = B" và "C = D" gán là EQUATION, "=>" không gán nhãn (tương tự với A = B <=> C = D).
+- Mặt phẳng tọa độ, trục tọa độ, trục tung, trục hoành (?!) -> GEOMETRIC_OBJECT; tọa độ, tung dộ, hoành độ -> MATH_CONCEPT (?!).

@@ -842,7 +842,7 @@ Cho hình bình hành ABCD .
 Chứng minh 2 ( AB ^ 2 + BC ^ 2 ) = AC ^ 2 + BD ^ 2 .
 Tính diện tích tam giác ABC .
 Tính bán kính đường tròn ngoại tiếp tam giác ABC .
-Chứng minh rằng : cot A + cot B + cot C = ( R ( a ^ 2 + b ^ 2 + c ^ 2 ) / ( a b c )
+Chứng minh rằng : cot A + cot B + cot C = ( R ( a ^ 2 + b ^ 2 + c ^ 2 ) ) / ( a b c )
 Tính khoảng cách AB giữa hai nóc toà cao ốc .
 Cho biết khoảng cách từ hai điểm đó đến một vệ tỉnh viễn thông lần lượt là 370 km , 350 km và góc nhìn từ vệ tinh đến A và B là 2 , 1 \deg . 
 Hai chiếc tàu thuỷ P và Q cách nhau 300 m và thẳng hàng với chân B của tháp hải đăng AB ở trên bờ biển ( Hình 2 ) .
@@ -853,4 +853,315 @@ Chân của hai giác kế có chiều cao là h = 12 m .
 Gọi D là đỉnh tháp và hai điểm A _ 1 , B _ 1 cùng thắng hàng với C _ 1 thuộc chiều cao CD của tháp .
 Người ta đo được \hat ( D A _ 1 C _ 1 ) = 49 \deg , \hat ( D B _ 1 C _ 1 ) = 35 \deg .
 Tính chiều cao CD của tháp .
-<Hết chương IV>
+Đại lượng vô hướng là đại lượng chỉ có độ lớn  .
+Ví dụ : khối lượng , khoảng cách , nhiệt độ , ...
+Đại lượng có hướng là đại lượng bao gồm cả độ lớn và hướng .
+Ví dụ : độ dịch chuyển , lực , vận tốc , gia tốc , ...
+Khi xác định một đại lượng vô hướng , ta chỉ cần mô tả độ lớn của nó .
+Ví dụ : Hàng trên tàu có khối lượng 500 tấn .
+Khi xác định một đại lượng có hướng , ta phải để cập đến cả độ lớn và hướng của nó .
+Ví dụ : Con tàu có độ dịch chuyển dài 500 km theo hướng từ A đến B .
+Vectơ là một đoạn thẳng có hướng , nghĩa là đã chỉ ra điểm đầu và điểm cuối .
+Vectơ có điểm đầu A , điểm cuối B được kí hiệu là \vector ( AB ) , đọc là vectơ \vector ( AB ) ( Hình 2 ) .
+Đường thẳng đi qua hai điểm A và B gọi là giá của vectơ AB .
+Độ dài của đoạn thẳng AB gọi là độ dài của vectơ AB và được kí hiệu là | \vector ( AB ) | .
+Như vậy ta có : | \vector ( AB ) | = AB .
+Chú ý : Một vectơ khi không cần chỉ rõ điểm đầu và điểm cuối có thể viết là \vector ( a ) , \vector ( b ) , \vector ( x ) , \vector ( y ) , ...
+Cho tam giác đều ABC có cạnh bằng 2 ( Hình 4 ) .
+Gọi H là trung điểm của đoạn thẳng BC .
+Tìm điểm đầu , điểm cuối , giá và độ dài của các vectơ : \vector ( СА ) , \vector ( АН ) , \vector ( ВН ) .
+Vectơ \vector ( CA ) có điểm đầu là C , điểm cuổi là A và có giá là đường thẳng AC .
+Ta có : CA = 2 , BH = 1 , AH = \sqrt ( AC ^ 2 - CH ^ 2 ) = \sqrt ( 4 - 1 ) = \sqrt ( 3 ) .
+Suy ra | \vector ( CA ) | = 2 .
+Cho hình vuông ABCD có cạnh bằng \sqrt ( 2 ) / 2 , hai đường chéo cắt nhau tại O ( Hình 5 ) .
+Tìm độ dài của các vectơ \vector ( AC ) , \vector ( BD ) , \vector ( OA ) , \vector ( АO ) .
+Bạn có nhận xét gì về giá của các cặp vectơ \vector ( AB ) và \vector ( CD ) , \vector ( PQ ) và \vector ( RS ) trong Hình 6 ?
+Hai vectơ được gọi là cùng phương nếu giá của chúng song song hoặc trùng nhau .
+Tìm các vectơ cùng phương trong Hình 6 .
+Trong Hình 6 , \vector ( AB ) và \vector ( CD ) cùng phương vì có giá trùng nhau , \vector ( PQ ) và \vector ( RS ) cùng phương vì có giá song song .
+Trong Hình 6 , hai vectơ \vector ( AB ) và \vector ( CD ) cùng phương và có cùng hướng đi từ trái sang phải .
+Ta nói \vector ( AB ) và \vector ( CD ) là hai vectơ cùng hướng .
+Hai vectơ \vector ( PQ ) và \vector ( RS ) cùng phương nhưng có hướng ngược nhau .
+Ta nói hai vectơ \vector ( PQ ) và \vector ( RS ) là hai vectơ ngược hướng .
+Nhận xét : Hai vectơ cùng phương chỉ có thể cùng hướng hoặc ngược hướng .
+Tìm các lực ngược hướng trong số các lực tác động vào máy bay trong Hình 7 .
+Quan sát hình 7 , ta thấy lực nâng \vector ( n ) ngược hướng với trọng lực \vector ( P ) ; lực cản \vector ( c ) ngược hướng với lực đẩy \vector ( d ) .
+Quan sát Hình 8 và gọi tên các vectơ :
+Cùng phương với vectơ \vector ( x ) ;
+Nhận xét : Ba điểm phân biệt A , B , C thẳng hàng khi và chỉ khi hai vectơ \vector ( AB ) và \vector ( AC ) cùng phương .
+Thật vậy , ta thấy nếu ba điểm A , B , C thẳng hàng thì hai vectơ \vector ( AB ) và \vector ( AC ) có giá trùng nhau nên chúng cùng phương .
+Ngược lại , nếu hai vectơ \vector ( AB ) và \vector ( AC ) cùng phương thì hai đường thẳng AB và AC phải song song hoặc trùng nhau , hơn nữa hai đường thẳng này lại có chung điểm A nên chúng phải trùng nhau .
+Vậy ba điểm A , B , C thẳng hàng .
+Khẳng định sau đúng hay sai ?
+Nếu ba điểm phân biệt A , B , C thẳng hàng thì hai vectơ \vector ( AB ) và \vector ( AC ) cùng hướng .
+Cho hình bình hành ABCD ( Hình 10 ) hãy so sánh độ dài và hướng của hai vectơ .
+Hai vectơ \vector ( a ) và \vector ( b ) được gọi là bằng nhau nếu chúng cùng hướng và có cùng độ dài , kí hiệu \vector ( a ) = \vector ( b ) .
+Hai vectơ \vector ( a ) và \vector ( b ) được gọi là đối nhau nếu chúng ngược hướng và có cùng độ dài , kí hiệu \vector ( a ) = - \vector ( b ) .
+Khi đó , vectơ \vector ( b ) được gọi là vectơ đối của vectơ \vector ( a ) .
+Cho vectơ \vector ( a ) và điểm O , ta luôn tìm được một điểm A duy nhất sao cho \vector ( OA ) = \vector ( a ) .
+Khi đó độ dài của vectơ \vector ( a ) là độ dài đoạn ОА , kí hiệu là | \vector ( a ) | .
+Cho đoạn thẳng MN , ta luôn có \vector ( NM ) = - \vector ( MN ) .
+Tìm trong Hình 10 hai cặp vectơ bằng nhau và hai cặp vectơ đối nhau .
+Cho điểm O là trung điểm của đoạn thẳng AB .
+Tìm hai vectơ đối nhau .
+Trong Hình 10 , ta có : \vector ( AB ) = \vector ( DC ) , \vector ( DА ) = \vector ( СB ) , \vector ( AD ) = - \vector ( CB ) , \vector ( DA ) = - \vector ( AD ) .
+Cho D , E , F lần lượt là trung điểm của các cạnh BС , CA , AB của tam giác ABC ( Hình 14 ) .
+Tìm các vectơ bằng vectơ \vector ( EF ) .
+Tìm các vectơ đối của vectơ \vector ( EC ) .
+Ta biết rằng mỗi vectơ hoàn toàn được xác định khi biết điểm đầu và điểm cuối của nó .
+Với một điểm A bất kì , ta quy ước có một vectơ đặc biệt mà điểm đầu và điểm cuổi đều là A .
+Vectơ đó được kí hiệu là \vector ( AA ) và gọi là vectơ - không ( có gạch nối giữa hai từ ) .
+Vectơ có điểm đầu và điểm cuối trùng nhau gọi là vectơ - không , kí hiệu là \vector ( 0 ) .
+Quy ước vectơ - không có độ dài bằng 0 .
+Vectơ - không luôn cùng phương , cùng hướng với mọi vectơ .
+Mọi vectơ - không đều bằng nhau : \vector ( 0 ) = \vector ( AA ) = \vector ( BB ) = \vector ( CC ) = ... với mọi điểm A , B , C , ...
+Vectơ đối của vectơ - không là chính nó .
+Cho đoạn thẳng EF có độ dài bằng 2 và nhận M là trung điểm .
+Tìm vectơ - không trong số các vectơ : \vector ( EF ) , \vector ( EE ) , \vector ( EM ) , \vector ( MM ) , \vector ( FF ) .
+Dùng kí hiệu \vector ( 0 ) để biểu diễn các vectơ - không đó .
+Ta có các vectơ \vector ( EE ) , \vector ( MM ) , \vector ( FF ) có điểm đầu và điểm cuối trùng nhau nên chúng là vectơ - không .
+Ta viết \vector ( 0 ) = \vector ( EE ) = \vector ( FF ) = \vector ( MM ) .
+Tìm độ dài của các vectơ \vector ( EF ) , \vector ( EE ) , \vector ( EM ) , \vector ( MM ) , \vector ( FF ) trong Ví dụ 5 .
+Bạn hãy tìm sự khác biệt giữa hai đại lượng sau :
+Bác Ba có số tiển là 20 triệu đồng .
+Một cơn bão di chuyển với vận tốc 20 km / h theo hướng đông bắc .
+Trong các đại lượng sau , đại lượng nào cần được biểu diễn bởi vectơ ?
+Giá tiền , lực , thể tích , tuổi , độ địch chuyển , vận tốc .
+Cho hình thang ABCD có hai cạnh đáy là AB và DC ( Hình 15 ) .
+Điểm M nằm trên đoạn DC .
+Gọi tên các vectơ cùng hướng với vectơ \vector ( AB ) .
+Gọi tên các vectơ ngược hướng với vectơ \vector ( DM ) .
+Cho hình vuông ABCD có tâm O và có cạnh bằng a ( Hình 16 ) .
+Tìm trong hình hai vectơ bằng nhau và có độ dài bằng a \sqrt ( 2 ) / 2 .
+Tìm trong hình hai vectơ đối nhau và có độ dài bằng a \sqrt ( 2 ) .
+Chứng minh rằng tứ giác đó là hình bình hành khi và chỉ khi \vector ( AB ) = \vector ( DC ) .
+Hãy chỉ ra các cặp vectơ cùng hướng , ngược hướng , bằng nhau trong Hình 17 .
+Gọi O là tâm hình lục giác đều ABCDEF .
+Tìm các vectơ khác vectơ \vector ( 0 ) và cùng hướng với vectơ \vector ( OA ) .
+Tìm các vectơ bång vectơ \vector ( AB ) .
+Tìm các lực cùng hướng và ngược hướng trong số các lực đẩy được biểu diễn bằng các vectơ trong Hình 18 .
+VECTƠ TRONG VŨ ĐIỆU LOÀI ONG
+Thông tin đó là một vectơ \vector ( OM ) chỉ độ dịch chuyển từ tổ đến nơi có hoa .
+Tia OM phân đôi đường số 8 trong vũ điệu chỉ hướng của vectơ .
+Thời gian múa sẽ tỉ lệ thuận với độ lớn của vectơ ( khoảng cách từ tổ đến nơi có hoa ) .
+Như vậy có thể nói loài ong cũng biết biểu diễn vectơ thông qua một điệu múa .
+Tổng và hiệu của hai vectơ
+Một rô bốt thực hiện liên tiếp hai chuyển động có độ địch chuyển lần lượt được biểu diễn bởi hai vectơ \vector ( AB ) và \vector ( BC ) ( Hình 1 ) .
+Tìm vectơ biểu diễn độ dịch chuyển của rô bốt sau hai chuyển động trên .
+Cho hai vectơ \vector ( a ) và \vector ( b ) .
+Từ một điểm A tuỳ ý , lấy hai điểm B , C sao cho \vector ( AB ) = \vector ( a ) , \vector ( BC ) = \vector ( b ) .
+Khi đó \vector ( AC ) được gọi là tổng của hai vectơ \vector ( a ) , \vector ( b ) và được kí hiệu là \vector ( a ) + \vector ( b ) .
+Vậy \vector ( a ) + \vector ( b ) = \vector ( AB ) + \vector ( BC ) = \vector ( АС ) .
+Phép toán tìm tổng của hai vectơ còn được gọi là phép cộng vectơ .
+Từ định nghĩa tổng của hai vectơ , ta suy ra quy tắc cộng vectơ sau đây :
+Với ba điểm M , N , P , ta có : \vector ( MN ) + \vector ( NP ) = \vector ( MP ) .
+Chú ý : Khi cộng hai vectơ theo quy tắc ba điểm , điểm cuối của vectơ thứ nhất phải là điểm đầu của vectơ thứ hai .
+Cho các điểm E , F , G , H , K .
+Thực hiện các phép cộng vectơ : \vector ( EF ) + \vector ( FH ) ; \vector ( FK ) + \vector ( KG ) ; \vector ( EH) + \vector ( HE ) .
+Áp dụng quy tắc ba điểm , ta có : \vector ( EF ) + \vector ( FH ) = \vector ( EH ) ; \vector ( FK ) + \vector ( KG ) = \vector ( FG ) ; \vector ( EH ) + \vector ( HE ) = \vector ( EE ) = \vector ( 0 ) .
+Cho hình bình hành ABCD ( Hình 4 ) .
+Chứng minh rắng \vector ( AB ) + \vector ( AD ) = \vector ( AC ) .
+Quy tắc hình bình hành
+Nếu OABC là hình binh hành thì ta có \vector ( OA ) + \vector ( OC ) = \vector ( OВ ) .
+Tìm tổng của hai vectơ \vector ( a ) và \vector ( b ) trong Hình 6 .
+Ta có \vector ( a ) = \vector ( AB ) , \vector ( b ) = \vector ( AD ), suy ra \vector ( a ) + \vector ( b ) = \vector ( AB ) + \vector ( AD ) .
+Theo quy tắc hình bình hành, ta có \vector ( AB ) + \vector ( AD ) = \vector ( AC ) .
+Vậy \vector ( a ) + \vector ( b ) = \vector ( AС ) .
+Để áp dụng quy tắc hình bình hành , ta cần đưa bài toán tìm tổng hai vectơ về bài toán tìm tổng của hai vectơ có chung điểm đầu .
+Cho hình thang ABCD có hai cạnh đáy là AB và DC .
+Cho biết \vector ( a ) = \vector ( AC ) + \vector ( CB ) ; \vector ( b ) = \vector ( DB ) + \vector ( BC ) .
+Chứng minh hai vectơ \vector ( a ) và \vector ( b ) cùng hướng .
+Cho tam giác đều ABC có cạnh bằng a .
+Tìm độ dài của vectơ \vector ( AB ) + \vector ( AC ) .
+Một máy bay có vectơ vận tốc chỉ theo hướng bắc , vận tốc gió là một vectơ theo hướng đông như Hình 7 .
+Tính độ dài vectơ tổng của hai vectơ nói trên .
+Hai người cùng kéo một con thuyền với hai lực \vector ( F _ 1 ) = \vector ( OA ) , \vector ( F _ 2 ) = \vector ( OB ) có độ lớn lần lượt là 400 N , 600 N ( Hình 8 ) .
+Cho biết góc giữa hai vectơ là 60 \deg .
+Tìm độ lớn của vectơ hợp lực \vector ( F ) là tổng của hai lực \vector ( F _ 1 ) và \vector ( F _ 2 ) .
+Tính chất của phép cộng các vectơ
+Cho ba vectơ \vector ( a ) , \vector ( b ) , \vector ( c ) được biểu diễn như Hình 9 .
+Hãy hoàn thành các phép cộng vectơ sau và so sánh các kết quả tìm được .
+( \vector ( a ) + \vector ( b ) ) = ( \vector ( AB ) + \vector ( BC ) ) = ? ;
+Phép cộng vectơ có các tính chất sau:
+Tính chất giao hoán: \vector ( a ) + \vector ( b ) = \vector ( b ) + \vector ( a ) ;
+Tính chất kết hợp : ( \vector ( a ) + \vector ( b ) ) + \vector ( c ) = \vector ( a ) + ( \vector ( b ) + \vector ( c ) ) ;
+Với mọi vectơ \vector ( a ) , ta luôn có : \vector ( a ) + \vector ( 0 ) = \vector ( 0 ) + \vector ( a ) = \vector ( a ) .
+Chú ý : Từ tính chất kết hợp , ta có thể xác định được tổng của ba vectơ \vector ( a ) , \vector ( b ) , \vector ( c ) , kí hiệu là \vector ( a ) + \vector ( b ) + \vector ( c )
+với \vector ( a ) + \vector ( b ) + \vector ( c ) = ( \vector ( a ) + \vector ( b ) ) + \vector ( c ) .
+Thực hiện các phép cộng vectơ sau :
+\vector ( AB ) + \vector ( CD ) + \vector ( BC ) + \vector ( DA ) .
+Áp dụng tính chất giao hoán và kết hợp của phép cộng vectơ , ta có :
+( \vector ( AB ) + \vector ( CA ) ) + \vector ( BC ) = ( \vector ( CA ) + \vector ( AB ) ) + \vector ( BC ) = \vector ( CB ) + \vector ( BC ) = \vector ( CC ) = \vector ( 0 ) .
+Cho hình vuông ABCD có cạnh bằng 1 .
+Tính độ dài của các vectơ sau :
+Chú ý : Cho vectơ tuỳ ý \vector ( a ) = \vector ( AB ) .
+Tổng hai vectơ đối nhau luôn bằng vectơ - không : \vector ( a ) + ( - \vector ( a ) ) = \vector ( 0 ) .
+Tìm hợp lực của hai lực đối nhau \vector ( F ) và - \vector ( F ) ( Hình 11 ) .
+Hiệu của hai vectơ \vector ( a ) và \vector ( b ) là vectơ \vector ( a ) + ( - \vector ( b ) ) và kí hiệu \vector ( a ) - \vector ( b ) .
+Phép toán tìm hiệu của hai vectơ còn được gọi là phép trừ vectơ .
+Thực hiện các phép trừ vectơ sau: \vector ( MN ) - \vector ( PN ) ; \vector ( PM ) - \vector ( PО ) .
+Chú ý : Cho ba điểm O , A , B , ta có : \vector ( OB ) - \vector ( OA ) = \vector ( AB ) .
+Cho hình vuông ABCD có cạnh bằng 1 và một điểm O tùy ý .
+\vector ( b ) = ( \vector ( OC ) - \vector ( OA ) ) + ( \vector ( DB ) - \vector ( DC ) ) .
+Tính chất vectơ của trung điểm đoạn thẳng và trọng tâm tam giác
+Cho điểm M là trung điểm của đoạn thẳng AB .
+Ta đã biết \vector ( MB ) = - \vector ( MA ) = \vector ( AM ) .
+Hoàn thành phép cộng vectơ sau : \vector ( MA ) + \vector ( MB ) = \vector ( MA ) + \vector ( AM ) = \vector ( MM ) = ? .
+Cho điểm G là trọng tâm của tam giác ABC có trung tuyến AI .
+Lấy D là điểm đối xứng với G qua I .
+Ta có BGCD là hình bình hành và G là trung điểm của đoạn thẳng AD .
+Với lưu ý rằng \vector ( GB ) + \vector ( GC ) = \vector ( GD ) và \vector ( GA ) = \vector ( DG ) , hoàn thành phép cộng vectơ sau :
+Điểm M là trung điểm của đoạn thẳng AB khi và chỉ khi \vector ( MA ) + \vector ( MB ) = 0 .
+Điểm G là trọng tâm của tam giác ABC khi và chỉ khi \vector ( GA ) + \vector ( GB ) + \vector ( GC ) = \vector ( 0 ) .
+Cho tứ giác ABCD có I , J lần lượt là trung điểm của AB , CD và O là trung điểm của IJ .
+Chứng minh \vector ( OA ) + \vector ( OB ) + \vector ( OC ) + \vector ( OD ) = \vector ( 0 ) .
+Do I , J , O lần lượt là trung điểm của AB , CD và IJ nên :
+Cho hình bình hành ABCD có tâm O .
+Tìm ba điểm M , N , P thoả mãn :
+Cho hình bình hành ABCD có O là giao điểm hai đường chéo và một điểm M tùy ý .
+Cho tứ giác ABCD , thực hiện các phép cộng và trừ vectơ sau :
+Cho tam giác đều ABC cạnh bằng a .
+Cho hình bình hành ABCD có O là giao điểm hai đường chéo .
+Cho ba lực \vector ( F _ 1 ) = \vector ( MA ) , \vector ( F _ 2 ) = \vector ( MB ) và \vector ( F _ 3 ) = \vector ( MC ) cùng tác động vào một vật tại điểm M và vật đứng yên .
+Cho biết cường độ của \vector ( F _ 1 ),  \vector ( F _ 2 ) đều là 10 N và \hat ( AMB ) = 90 \deg .
+Tìm độ lớn của lực F .
+Khi máy bay nghiêng cánh một góc \alpha , lực \vector ( F ) của không khí tác động vuông góc với cánh và bằng tổng của lực nâng \vector ( F _ 1 ) và lực cản \vector ( F _ 2 ) .
+Cho biết \alpha = 30 \deg và | \vector ( F ) | = a .
+Tính | \vector ( F _ 1 ) | và | \vector ( F _ 2 ) | theo a .
+Cho hình vuông ABCD có cạnh bằng a và ba điểm G , H , K thỏa mãn : \vector ( KA ) + \vector ( KC ) = \vector ( 0 ) ; \vector ( GA ) + \vector ( GB ) + \vector ( GC ) = \vector ( 0 ) .
+Tính độ dài các vectơ \vector ( KA ) , \vector ( GH ) , \vector ( AG ) .
+Một con tàu có vectơ vận tốc chỉ theo hướng nam , vận tốc của dòng nước là một vectơ theo hướng đông như Hình 17 .
+Tính độ dài vectơ tổng của hai vectơ nói trên .
+Tích của một số với một vectơ và các tính chất
+Hãy xác định độ dài và hướng của hai vectơ : \vector ( a ) + \vector ( a ) , (- \vector ( a ) ) + ( - \vector ( a ) ) ( Hình 1 ) .
+Cho số k khác 0 và vectơ \vector ( a ) khác \vector ( 0 ) .
+Tích của số k với vectơ \vector ( a ) là một vectơ, kí hiệu là k \vector ( a ) .
+Vectơ k \vector ( a ) cùng hướng với \vector ( a ) nếu k > 0 , ngược hướng với \vector ( a ) nếu k < 0 và có độ dài bằng | k | | \vector ( a ) | .
+Ta quy ước 0 \vector ( a ) = \vector ( 0 ) và k \vector ( 0 ) = \vector ( 0 ) .
+Người ta còn gọi tích một số với một vectơ là tích của một vectơ với một số .
+Cho tam giác ABC có M , N lần lượt là trung điểm các cạnh AB , AC ( Hình 2 ) .
+Tìm trong hình các vectơ bằng :
+Ta có : 2 \vector ( MN ) = \vector ( BC ) ; - 1 / 2 \vector ( AB ) = \vector ( BM ) = \vector ( MA ) ; - 2 \vector ( CN ) = \vector ( AC ) .
+Cũng như phép nhân và phép cộng các số thực , người ta chứng minh được các phép toán trên vectơ có các tính chat sau :
+Với hai vectơ \vector ( a ) và \vector ( b ) bất kì , với mọi số thực h và k , ta có :
+k ( \vector ( a ) + \vector ( b ) ) = k \vector ( a ) + k \vector ( b ) ;
+Thực hiện các phép toán vectơ sau :
+Cho đoạn thẳng AB và một điểm M tuỳ ý .
+Chứng minh I là trung điểm của đoạn thẳng AB khi và chỉ khi \vector ( MA ) + \vector ( MB ) = 2 \vector ( MI ) .
+Cho hai vectơ \vector ( a ) , \vector ( b ) và một điểm M như Hình 3 .
+Hãy vẽ các vectơ \vector ( MN ) = 3 \vector ( a ) , \vector ( MP ) = - з \vector ( b) .
+Cho biết mỗi ô vuông có cạnh bằng 1.
+Chứng minh G là trọng tâm của tam giác ABC khi và chỉ khi \vector ( MA ) + \vector ( MB ) + \vector (MC ) = 3 \vector (MG ) .
+Một con tàu chở hàng A đang đi về hướng tây với tốc độ 20 hải lí / giờ .
+Biểu diễn vectơ vận tốc \vector (b ) của tàu B theo vectơ vận tốc \vector ( a ) của tàu А .
+Điều kiện để hai vectơ cùng phương
+Cho hai vectơ \vector ( a ) và \vector ( b ) cùng phương , \vector ( b ) khác \vector ( 0 ) và cho \vector ( c ) = | \vector ( a ) | / | \vector ( b ) | \vector ( b ) .
+So sánh độ dài và hướng của hai vectơ \vector ( a ) và \vector ( c ) .
+Hai vectơ \vector ( a ) và \vector ( b ) ( \vector ( b ) khác \vector ( 0 ) ) cùng phương khi và chỉ khi có số k sao cho \vector ( a ) = k \vector ( b ) .
+Ba điểm phân biệt A , B , C thẳng hàng khi và chỉ khi có số k khác 0 để \vector ( AB ) = k \vector ( AC ) .
+Cho tam giác ABC có trung tuyến AM .
+Gọi I là trung điểm của AM và K là điểm trên cạnh AC sao cho AK = 1 / 3 AC .
+Tính \vector ( BI ) theo \vector ( BA ) , \vector ( ВС ) .
+Chứng minh ba điểm B , I , K thẳng hàng .
+Chú ý : Cho hai vectơ \vector ( a ) và \vector ( b ) không cùng phương .
+Với mọi vectơ \vector ( c ) luôn tồn tại duy nhất cặp số thực ( m , n ) sao cho \vector ( c ) = m \vector ( a ) + n \vector ( b ) .
+Cho tứ giác ABCD có I và J lần lượt là trung điểm của AB và CD .
+Cho điểm G thoả măn \vector ( GA ) + \vector ( GB ) + \vector ( GC ) + \vector ( GD ) = \vector ( 0 ) .
+Với M là điểm tuỳ ý , chứng minh rằng :
+Gọi M và N lần lượt là trung điểm các cạnh AB và CD .
+Cho hai điểm phân biệt A và B .
+Gọi E , F , G lần lượt là trung điểm của các đoạn thẳng AB , CD , EF .
+Lấy điểm M tùy ý , chứng minh rắng \vector ( MA ) + \vector ( MB ) + \vector ( MC ) + \vector ( MD ) = 4 \vector ( MG ) .
+Xác định điểm O sao cho \vector ( OA ) + 3 \vector ( OВ ) = \vector ( 0 ) .
+Chứng minh rằng với mọi điểm M , ta có \vector ( MA ) + 3 \vector ( MB ) = 4 \vector ( MO ) .
+Xác định các điểm M , N , P thoả măn : \vector ( MB ) = \vector ( BC ) , \vector ( AN ) = 3 \vector ( NB ) , \vector ( CP ) = \vector ( PA ) .
+Biểu thị mỗi vectơ \vector ( MN ) , \vector ( MP ) theo hai vectơ \vector ( BC ) , \vector ( ВА ) .
+Tích vô hướng của hai vectơ
+Tác dụng một lực \vector ( F ) vào một vật và làm cho vật đó dịch chuyển theo vectơ \vector ( d ) thì sẽ sinh ra một công là A được tính theo công thức : A = | \vector ( F ) | . | \vector ( d ) | . cos \theta ,
+trong đó \theta là góc giữa hai vectơ \vector ( F ) và \vector ( d ) .
+Cho hình vuông ABCD có tâm I ( Hình 1 ) .
+Tìm hai vectơ cùng có điểm đầu là D và điểm cuối lần lượt là I và C .
+Tìm hai vectơ cùng có điểm đầu là D và lần lượt bằng vectơ \vector ( IB ) và \vector ( AB ) .
+Cho hai vectơ \vector ( a ) và \vector ( b ) đều khác \vector ( 0 ) .
+Từ một điểm O bất kì ta vẽ \vector ( OA ) = \vector ( a ) , \vector ( OB ) = \vector ( b ) .
+Góc \hat ( AOB ) với số đo từ 0 \deg đến 180 \deg được gọi là góc giữa hai vectơ \vector ( a ) và \vector ( b ) .
+Ta kí hiệu góc giữa hai vectơ \vector ( a ) và \vector ( b ) là ( \vector ( a ) , \vector ( b ) ) .
+Nếu ( \vector ( a ) , \vector ( b ) ) = 90 \deg thì ta nói rằng \vector ( a ) và \vector ( b ) vuông góc với nhau , kí hiệu là \vector ( a ) \perp \\vector ( b ) .
+Từ định nghĩa ta có ( \vector ( a ) , \vector ( b ) ) = ( \vector ( b ) , \vector ( a ) ) .
+Góc giữa hai vectơ cùng hướng và khác \vector ( 0 ) luôn bằng 0 \deg .
+Góc giữa hai vectơ ngược hướng và khác \vector ( 0 ) luôn bằng 180 \deg .
+Trong trường hợp có ít nhất một trong hai vectơ \vector ( a ) hoặc \vector ( b ) là vectơ \vector ( 0 ) thì ta quy ước số đo góc giữa hai vectơ đó là tuỳ ý ( từ 0 \deg đến 180 \deg ) .
+Cho hình vuông ABCD có tâm I là giao điểm của hai đường chéo.
+Ta có : \vector ( DI ) = \vector ( IB ) , \vector ( DC ) = \vector ( AB ) , suy ra ( \vector ( IB ) , \vector ( AB ) ) = ( \vector ( DI ) , \vector ( DC ) ) = \hat (IDC ) = 45 \deg .
+Cho tam giác đều ABC có H là trung điểm của cạnh BC .
+Một người dùng một lực \vector ( F ) có cường độ 10 N kéo một chiếc xe đi quãng đường dài 100 m .
+Tính công sinh bởi lực \vector ( F ), biết rằng góc giữa vectơ \vector ( F ) và hướng di chuyển là 45 \deg .
+Công A ( đơn vị : J ) bằng tích của ba đại lượng : cường độ của lực \vector ( F ) , độ dài quấng đường và côsin của góc giữa hai vectơ \vector ( F ) và độ địch chuyển \vector ( d ) .
+Tích vô hướng của \vector ( a ) và \vector ( b ) là một số , kí hiệu là \vector ( a ) . \vector ( b ) , được xác định bởi công thức : \vector ( a ) . \vector ( b ) = | \vector ( a ) | . | \vector ( b ) | . cos ( \vector ( a ), \vector ( b ) ) .
+Trường hợp ít nhất một trong hai vectơ \vector ( a ) và \vector ( b ) bằng \vector ( 0 ) , ta quy ước \vector ( a ) . \vector ( b ) = \vector ( 0 ) .
+Với \vector ( a ) và \vector ( b ) đều khác 0 , ta có \vector ( a ) \perp \vector ( b ) <=> \vector ( a ) . \vector ( b ) = \vector ( 0 ) .
+Khi \vector ( a ) = \vector ( b ) thì tích vô hướng \vector ( a ) . \vector ( b ) được kí hiệu là \vector ( a ) ^ 2 và được gọi là bình phương vô hướng của vectơ \vector ( a ) .
+Ta có \vector ( a ) ^ 2 = | \vector ( a ) | . | \vector ( a ) | . cos 0 \deg = | \vector ( a ) | ^ 2 .
+Vậy bình phương vô hướng của một vectơ luôn bằng bình phương độ dài của vectơ đó .
+Cho tam giác đều ABC có cạnh bằng 4 và có đường cao AH .
+Tính các tích vô hướng :
+\vector ( AB ) . \vector ( AC ) = | \vector ( AB ) | . | \vector ( AC ) | . cos ( \vector ( AB ) , \vector ( AC ) ) = 4 . 4 . cos 60 \deg = 16 . 1 / 2 = 8 ;
+Chú ý : Trong Vật lí , tích vô hướng của \vector ( F ) và \vector ( d ) biểu diễn công A sinh bởi lực \vector ( F ) khi thực hiện độ dịch chuyển \vector ( d ) .
+Ta có công thức : A = \vector ( F ) . \vector ( d ) .
+Cho tam giác ABC vuông cân tại A , có cạnh huyền bằng \sqrt ( 2 ) .
+Hai vectơ \vector ( a ) và \vector ( b ) có độ dài lần lượt là 3 và 8 và có tích vô hướng là 12 \sqrt ( 2 ) .
+Tính góc giữa hai vectơ \vector ( a ) và \vector ( b ) .
+Một người dùng một lực \vector ( F ) có độ lớn là 20 N kéo một vật dịch chuyển một đoạn 50 m cùng hướng với \vector ( F ) .
+Tính công sinh bởi lực \vector ( F ) . 
+Người ta chứng minh được các tính chất sau đây của tích vô hướng :
+Với ba vectơ \vector ( a ) , \vector ( b ) , \vector ( c ) bất kỉ và mọi số k , ta có :
+Áp dụng các tính chất của tích vô hướng , chứng minh rằng : ( \vector ( a ) + \vector ( b ) ) ^ 2 = \vector ( a ) ^ 2 + 2 \vector ( a ) . \vector ( b ) + \vector ( b ) ^ 2 .
+Tính cạnh AB theo hai cạnh còn lại và góc C .
+Cho hai vectơ \vector ( i ) , \vector ( j ) vuông góc , cùng có độ dài bằng 1 .
+Tính : ( \vector ( i ) + \vector ( j ) ) ^ 2 ; (\vector ( i ) - \vector ( j ) ) ^ 2 ; ( \vector ( i ) + \vector ( j ) ) . ( \vector ( i ) - \vector ( j ) ) .
+Cho \vector ( a ) = 2 \vector ( i ) + 2 \vector ( j ) , \vector ( b ) = 3 \vector ( i ) - 3 \vector ( j ) .
+Tính tích vô hướng \vector ( a ) . \vector ( b ) và tính góc ( \vector ( a ) , \vector ( b ) ) .
+Phân tử sulfur dioxide ( S O _ 2 ) có cấu tạo hình chữ V , góc liên kết \hat ( OSO ) gần bằng 120 \deg .
+Người ta biểu diễn sự phân cực giữa nguyên tử S với mỗi nguyên tử O bằng các vectơ \vector ( \mu _ 1 ) và \vector ( \mu _ 2 ) , có cùng phương với liên kết cộng hoá trị , có chiều từ nguyên tử S về mỗi nguyên tử O và cùng có độ dài là 1 , 6 đơn vị .
+Cho biết vectơ tổng \vector ( \mu ) = \vector ( \mu _ 1) + \vector ( \mu _ 2 ) được dùng để biểu diễn sự phân cực của cả phân tử S O _ 2 .
+Tính độ dài của \vector ( \mu ) .
+Cho hình vuông ABCD có cạnh bằng a.
+Cho Hình chữ nhật ABCD có tâm O và cho AD = a , AB = 2 a .
+Cho ba điểm O, A, B thẳng hàng và OA = a , OB = b .
+Tính tích vô hướng \vector ( OA ) . \vector ( OB ) trong hai trường hợp :
+Điểm O năm ngoài đoạn thẳng AB .
+Cho đoạn thẳng AB có O là trung điểm và cho điểm M tuỳ ý .
+Cho hai vectơ có độ dài lần lượt là 3 và 4 và có tích vô hướng là - 6 .
+Tại sao muỗi và một số virus được gọi là những vectơ ?
+Ta đã biết vectơ \vector ( AB ) có hướng từ A đến B .
+Trong Sinh học, vectơ dùng để chỉ sinh vật truyền bệnh từ đối tượng A sang đối tượng B .
+Ví dụ muỗi là một vectơ của bệnh sốt xuất huyết .
+Từ " vectơ " là để ám chỉ các virus hoặc vi khuẩn đóng vai trò vật chủ .
+Cho ba vectơ \vector ( a ) , \vector ( b ) , \vector ( c ) đều khác vectơ \vector ( 0 ) . 
+Cho Hình thoi ABCD có cạnh bằng a và có góc A bằng 60 \deg .
+Nếu hai vectơ \vector ( a ) , \vector ( b ) cùng phương với \vector ( c ) thì \vector ( a ) và \vector ( b ) cùng phương .
+Nếu hai vectơ \vector ( a ) , \vector ( b ) cùng ngược hướng với \vector ( c ) thì \vector ( a ) và \vector ( b ) cùng hướng .
+Cho hình chữ nhật ABCD có O là giao điểm của hai đường chéo và AB = a , BC = 3 a .
+Tính độ dài của các vectơ \vector ( AC ) , \vector ( BD ) .
+Tìm trong hình các cặp vectơ đối nhau và có độ dài bằng ( a \sqrt ( 10 ) ) / 2 .
+Hai điểm M và N lần lượt là trung điểm của BC và AD .
+Vẽ điểm E sao cho CE = AN ( Hình 1 ) .
+Tìm các vectơ hiệu : \vector ( NC ) - \vector ( MC ) ; \vector ( AС ) - \vector ( BС ) ; \vector ( АB ) - \vector ( МE ) .
+Chứng minh \vector ( AM ) + \vector ( AN ) = \vector ( AB ) + \vector ( AD ) .
+Trong trường hợp nào thì đẳng thức sau đúng ?
+So sánh độ dài, phương và hướng của hai vectơ \vector ( a ) và \vector ( b ) .
+Chứng minh rằng AB = CD khi và chỉ khi trung điểm của hai đoạn thẳng AD và BC trùng nhau .
+Bên ngoài tam giác vẽ các hình bình hành AВІЈ , ВСРQ , CARS .
+Một chiếc máy bay được biết là đang bay về phía bắc với tốc độ 45 m / s , mặc dù vận tốc của nó so với mặt đất là 38 m/s theo hướng nghiêng một góc 20 \deg về phía tây bắc .
+Cho tam giác đều ABC có O là trọng tâm và M là một điểm tùy ý trong tam giác .
+Gọi D , E , F lần lượt là chân đường vuông góc hạ từ M đến BC , AC , AB .
+Chứng minh rằng \vector ( MD ) + \vector ( ME ) + \vector ( MF ) = 3 / 2 \vector ( MO ) .
+Một xe goòng được kéo bởi một lực \vector ( F ) có độ lớn là 50 N , di chuyền theo quãng đường từ A đến B có chiều dài 200 m .
+Cho biết góc giữa \vector ( F ) và \vector ( AB ) là 30 \deg và \vector ( F ) được phân tích thành hai lực \vector ( F _ 1) , \vector ( F _ 2 ) ( Hình 3 ) .
+Tính công sinh bởi các lực \vector ( F ) , \vector ( F _ 1 ) và \vector ( F _ 2 ) .
+Một chiếc thuyền cố gắng đi thẳng qua một con sông với tốc độ 0 , 75 m / s .
+Tuy nhiên , đòng chảy của nước trên con sông đó chảy với tốc độ 1 , 20 m / s về hướng bên phải .
+Gọi \vector ( v _ 1 ) , \vector ( v _ 2 ) , \vector ( v ) lần lượt là vận tốc của thuyền so với dòng nước , vận tốc của dòng nước so với bờ và vận tốc của thuyền so với bờ .
+Tốc độ địch chuyển của thuyển so với bờ là bao nhiêu ?
+Hướng di chuyển của thuyền lệch một góc bao nhiêu so với bờ ?
+<Hết chương V>

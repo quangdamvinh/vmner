@@ -20,6 +20,7 @@
 | Mũ | ^ | $a^b$ -> a ^ b |
 | Chỉ số dưới | _ | $x_0$ -> x _ 0 |
 | Căn bậc hai | \sqrt | $\sqrt a$ -> \sqrt ( a ) |
+| Vectơ | \vector | $\vec(AB)$ -> \vector ( AB ) |
 | Số pi ($\pi$) | \pi | |
 | Vô cực ($\infty$) | \inf | |
 | Độ | \deg | $30\textdegree$ -> 30 \deg |
@@ -45,3 +46,5 @@
 | Góc (mũ trên đầu) | \hat | $\widehat{ABC} -> \hat ( A B C ) |
 | $\Delta$ | \Delta | |
 | $\alpha$ | \alpha | |
+| $\theta$ | \theta | |
+| $\mu$ | \mu | |
