@@ -961,11 +961,10 @@ Thực hiện các phép cộng vectơ : \vector ( EF ) + \vector ( FH ) ; \vect
 Áp dụng quy tắc ba điểm , ta có : \vector ( EF ) + \vector ( FH ) = \vector ( EH ) ; \vector ( FK ) + \vector ( KG ) = \vector ( FG ) ; \vector ( EH ) + \vector ( HE ) = \vector ( EE ) = \vector ( 0 ) .
 Cho hình bình hành ABCD ( Hình 4 ) .
 Chứng minh rắng \vector ( AB ) + \vector ( AD ) = \vector ( AC ) .
-Quy tắc hình bình hành
 Nếu OABC là hình binh hành thì ta có \vector ( OA ) + \vector ( OC ) = \vector ( OВ ) .
 Tìm tổng của hai vectơ \vector ( a ) và \vector ( b ) trong Hình 6 .
-Ta có \vector ( a ) = \vector ( AB ) , \vector ( b ) = \vector ( AD ), suy ra \vector ( a ) + \vector ( b ) = \vector ( AB ) + \vector ( AD ) .
-Theo quy tắc hình bình hành, ta có \vector ( AB ) + \vector ( AD ) = \vector ( AC ) .
+Ta có \vector ( a ) = \vector ( AB ) , \vector ( b ) = \vector ( AD ) , suy ra \vector ( a ) + \vector ( b ) = \vector ( AB ) + \vector ( AD ) .
+Theo quy tắc hình bình hành , ta có \vector ( AB ) + \vector ( AD ) = \vector ( AC ) .
 Vậy \vector ( a ) + \vector ( b ) = \vector ( AС ) .
 Để áp dụng quy tắc hình bình hành , ta cần đưa bài toán tìm tổng hai vectơ về bài toán tìm tổng của hai vectơ có chung điểm đầu .
 Cho hình thang ABCD có hai cạnh đáy là AB và DC .
@@ -999,7 +998,7 @@ Tổng hai vectơ đối nhau luôn bằng vectơ - không : \vector ( a ) + ( -
 Tìm hợp lực của hai lực đối nhau \vector ( F ) và - \vector ( F ) ( Hình 11 ) .
 Hiệu của hai vectơ \vector ( a ) và \vector ( b ) là vectơ \vector ( a ) + ( - \vector ( b ) ) và kí hiệu \vector ( a ) - \vector ( b ) .
 Phép toán tìm hiệu của hai vectơ còn được gọi là phép trừ vectơ .
-Thực hiện các phép trừ vectơ sau: \vector ( MN ) - \vector ( PN ) ; \vector ( PM ) - \vector ( PО ) .
+Thực hiện các phép trừ vectơ sau : \vector ( MN ) - \vector ( PN ) ; \vector ( PM ) - \vector ( PО ) .
 Chú ý : Cho ba điểm O , A , B , ta có : \vector ( OB ) - \vector ( OA ) = \vector ( AB ) .
 Cho hình vuông ABCD có cạnh bằng 1 và một điểm O tùy ý .
 \vector ( b ) = ( \vector ( OC ) - \vector ( OA ) ) + ( \vector ( DB ) - \vector ( DC ) ) .
@@ -1023,8 +1022,8 @@ Cho tứ giác ABCD , thực hiện các phép cộng và trừ vectơ sau :
 Cho tam giác đều ABC cạnh bằng a .
 Cho hình bình hành ABCD có O là giao điểm hai đường chéo .
 Cho ba lực \vector ( F _ 1 ) = \vector ( MA ) , \vector ( F _ 2 ) = \vector ( MB ) và \vector ( F _ 3 ) = \vector ( MC ) cùng tác động vào một vật tại điểm M và vật đứng yên .
-Cho biết cường độ của \vector ( F _ 1 ),  \vector ( F _ 2 ) đều là 10 N và \hat ( AMB ) = 90 \deg .
-Tìm độ lớn của lực F .
+Cho biết cường độ của \vector ( F _ 1 ) ,  \vector ( F _ 2 ) đều là 10 N và \hat ( AMB ) = 90 \deg .
+Tìm độ lớn của lực \vector ( F ) .
 Khi máy bay nghiêng cánh một góc \alpha , lực \vector ( F ) của không khí tác động vuông góc với cánh và bằng tổng của lực nâng \vector ( F _ 1 ) và lực cản \vector ( F _ 2 ) .
 Cho biết \alpha = 30 \deg và | \vector ( F ) | = a .
 Tính | \vector ( F _ 1 ) | và | \vector ( F _ 2 ) | theo a .
@@ -1033,9 +1032,9 @@ Tính độ dài các vectơ \vector ( KA ) , \vector ( GH ) , \vector ( AG ) .
 Một con tàu có vectơ vận tốc chỉ theo hướng nam , vận tốc của dòng nước là một vectơ theo hướng đông như Hình 17 .
 Tính độ dài vectơ tổng của hai vectơ nói trên .
 Tích của một số với một vectơ và các tính chất
-Hãy xác định độ dài và hướng của hai vectơ : \vector ( a ) + \vector ( a ) , (- \vector ( a ) ) + ( - \vector ( a ) ) ( Hình 1 ) .
+Hãy xác định độ dài và hướng của hai vectơ : \vector ( a ) + \vector ( a ) , ( - \vector ( a ) ) + ( - \vector ( a ) ) ( Hình 1 ) .
 Cho số k khác 0 và vectơ \vector ( a ) khác \vector ( 0 ) .
-Tích của số k với vectơ \vector ( a ) là một vectơ, kí hiệu là k \vector ( a ) .
+Tích của số k với vectơ \vector ( a ) là một vectơ , kí hiệu là k \vector ( a ) .
 Vectơ k \vector ( a ) cùng hướng với \vector ( a ) nếu k > 0 , ngược hướng với \vector ( a ) nếu k < 0 và có độ dài bằng | k | | \vector ( a ) | .
 Ta quy ước 0 \vector ( a ) = \vector ( 0 ) và k \vector ( 0 ) = \vector ( 0 ) .
 Người ta còn gọi tích một số với một vectơ là tích của một vectơ với một số .
@@ -1049,9 +1048,9 @@ Thực hiện các phép toán vectơ sau :
 Cho đoạn thẳng AB và một điểm M tuỳ ý .
 Chứng minh I là trung điểm của đoạn thẳng AB khi và chỉ khi \vector ( MA ) + \vector ( MB ) = 2 \vector ( MI ) .
 Cho hai vectơ \vector ( a ) , \vector ( b ) và một điểm M như Hình 3 .
-Hãy vẽ các vectơ \vector ( MN ) = 3 \vector ( a ) , \vector ( MP ) = - з \vector ( b) .
-Cho biết mỗi ô vuông có cạnh bằng 1.
-Chứng minh G là trọng tâm của tam giác ABC khi và chỉ khi \vector ( MA ) + \vector ( MB ) + \vector (MC ) = 3 \vector (MG ) .
+Hãy vẽ các vectơ \vector ( MN ) = 3 \vector ( a ) , \vector ( MP ) = - з \vector ( b ) .
+Cho biết mỗi ô vuông có cạnh bằng 1 .
+Chứng minh G là trọng tâm của tam giác ABC khi và chỉ khi \vector ( MA ) + \vector ( MB ) + \vector ( MC ) = 3 \vector ( MG ) .
 Một con tàu chở hàng A đang đi về hướng tây với tốc độ 20 hải lí / giờ .
 Biểu diễn vectơ vận tốc \vector (b ) của tàu B theo vectơ vận tốc \vector ( a ) của tàu А .
 Điều kiện để hai vectơ cùng phương
