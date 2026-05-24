@@ -1052,7 +1052,7 @@ Hãy vẽ các vectơ \vector ( MN ) = 3 \vector ( a ) , \vector ( MP ) = - з \
 Cho biết mỗi ô vuông có cạnh bằng 1 .
 Chứng minh G là trọng tâm của tam giác ABC khi và chỉ khi \vector ( MA ) + \vector ( MB ) + \vector ( MC ) = 3 \vector ( MG ) .
 Một con tàu chở hàng A đang đi về hướng tây với tốc độ 20 hải lí / giờ .
-Biểu diễn vectơ vận tốc \vector (b ) của tàu B theo vectơ vận tốc \vector ( a ) của tàu А .
+Biểu diễn vectơ vận tốc \vector ( b ) của tàu B theo vectơ vận tốc \vector ( a ) của tàu А .
 Điều kiện để hai vectơ cùng phương
 Cho hai vectơ \vector ( a ) và \vector ( b ) cùng phương , \vector ( b ) khác \vector ( 0 ) và cho \vector ( c ) = | \vector ( a ) | / | \vector ( b ) | \vector ( b ) .
 So sánh độ dài và hướng của hai vectơ \vector ( a ) và \vector ( c ) .
@@ -1070,7 +1070,7 @@ Với M là điểm tuỳ ý , chứng minh rằng :
 Gọi M và N lần lượt là trung điểm các cạnh AB và CD .
 Cho hai điểm phân biệt A và B .
 Gọi E , F , G lần lượt là trung điểm của các đoạn thẳng AB , CD , EF .
-Lấy điểm M tùy ý , chứng minh rắng \vector ( MA ) + \vector ( MB ) + \vector ( MC ) + \vector ( MD ) = 4 \vector ( MG ) .
+Lấy điểm M tùy ý , chứng minh rằng \vector ( MA ) + \vector ( MB ) + \vector ( MC ) + \vector ( MD ) = 4 \vector ( MG ) .
 Xác định điểm O sao cho \vector ( OA ) + 3 \vector ( OВ ) = \vector ( 0 ) .
 Chứng minh rằng với mọi điểm M , ta có \vector ( MA ) + 3 \vector ( MB ) = 4 \vector ( MO ) .
 Xác định các điểm M , N , P thoả măn : \vector ( MB ) = \vector ( BC ) , \vector ( AN ) = 3 \vector ( NB ) , \vector ( CP ) = \vector ( PA ) .
@@ -1090,15 +1090,15 @@ Từ định nghĩa ta có ( \vector ( a ) , \vector ( b ) ) = ( \vector ( b ) ,
 Góc giữa hai vectơ cùng hướng và khác \vector ( 0 ) luôn bằng 0 \deg .
 Góc giữa hai vectơ ngược hướng và khác \vector ( 0 ) luôn bằng 180 \deg .
 Trong trường hợp có ít nhất một trong hai vectơ \vector ( a ) hoặc \vector ( b ) là vectơ \vector ( 0 ) thì ta quy ước số đo góc giữa hai vectơ đó là tuỳ ý ( từ 0 \deg đến 180 \deg ) .
-Cho hình vuông ABCD có tâm I là giao điểm của hai đường chéo.
+Cho hình vuông ABCD có tâm I là giao điểm của hai đường chéo .
 Ta có : \vector ( DI ) = \vector ( IB ) , \vector ( DC ) = \vector ( AB ) , suy ra ( \vector ( IB ) , \vector ( AB ) ) = ( \vector ( DI ) , \vector ( DC ) ) = \hat (IDC ) = 45 \deg .
 Cho tam giác đều ABC có H là trung điểm của cạnh BC .
 Một người dùng một lực \vector ( F ) có cường độ 10 N kéo một chiếc xe đi quãng đường dài 100 m .
-Tính công sinh bởi lực \vector ( F ), biết rằng góc giữa vectơ \vector ( F ) và hướng di chuyển là 45 \deg .
-Công A ( đơn vị : J ) bằng tích của ba đại lượng : cường độ của lực \vector ( F ) , độ dài quấng đường và côsin của góc giữa hai vectơ \vector ( F ) và độ địch chuyển \vector ( d ) .
-Tích vô hướng của \vector ( a ) và \vector ( b ) là một số , kí hiệu là \vector ( a ) . \vector ( b ) , được xác định bởi công thức : \vector ( a ) . \vector ( b ) = | \vector ( a ) | . | \vector ( b ) | . cos ( \vector ( a ), \vector ( b ) ) .
+Tính công sinh bởi lực \vector ( F ) , biết rằng góc giữa vectơ \vector ( F ) và hướng di chuyển là 45 \deg .
+Công A ( đơn vị : J ) bằng tích của ba đại lượng : cường độ của lực \vector ( F ) , độ dài quãng đường và côsin của góc giữa hai vectơ \vector ( F ) và độ địch chuyển \vector ( d ) .
+Tích vô hướng của \vector ( a ) và \vector ( b ) là một số , kí hiệu là \vector ( a ) . \vector ( b ) , được xác định bởi công thức : \vector ( a ) . \vector ( b ) = | \vector ( a ) | . | \vector ( b ) | . cos ( \vector ( a ) , \vector ( b ) ) .
 Trường hợp ít nhất một trong hai vectơ \vector ( a ) và \vector ( b ) bằng \vector ( 0 ) , ta quy ước \vector ( a ) . \vector ( b ) = \vector ( 0 ) .
-Với \vector ( a ) và \vector ( b ) đều khác 0 , ta có \vector ( a ) \perp \vector ( b ) <=> \vector ( a ) . \vector ( b ) = \vector ( 0 ) .
+Với \vector ( a ) và \vector ( b ) đều khác \vector ( 0 ) , ta có \vector ( a ) \perp \vector ( b ) <=> \vector ( a ) . \vector ( b ) = \vector ( 0 ) .
 Khi \vector ( a ) = \vector ( b ) thì tích vô hướng \vector ( a ) . \vector ( b ) được kí hiệu là \vector ( a ) ^ 2 và được gọi là bình phương vô hướng của vectơ \vector ( a ) .
 Ta có \vector ( a ) ^ 2 = | \vector ( a ) | . | \vector ( a ) | . cos 0 \deg = | \vector ( a ) | ^ 2 .
 Vậy bình phương vô hướng của một vectơ luôn bằng bình phương độ dài của vectơ đó .
@@ -1117,27 +1117,27 @@ Với ba vectơ \vector ( a ) , \vector ( b ) , \vector ( c ) bất kỉ và m�
 Áp dụng các tính chất của tích vô hướng , chứng minh rằng : ( \vector ( a ) + \vector ( b ) ) ^ 2 = \vector ( a ) ^ 2 + 2 \vector ( a ) . \vector ( b ) + \vector ( b ) ^ 2 .
 Tính cạnh AB theo hai cạnh còn lại và góc C .
 Cho hai vectơ \vector ( i ) , \vector ( j ) vuông góc , cùng có độ dài bằng 1 .
-Tính : ( \vector ( i ) + \vector ( j ) ) ^ 2 ; (\vector ( i ) - \vector ( j ) ) ^ 2 ; ( \vector ( i ) + \vector ( j ) ) . ( \vector ( i ) - \vector ( j ) ) .
+Tính : ( \vector ( i ) + \vector ( j ) ) ^ 2 ; ( \vector ( i ) - \vector ( j ) ) ^ 2 ; ( \vector ( i ) + \vector ( j ) ) . ( \vector ( i ) - \vector ( j ) ) .
 Cho \vector ( a ) = 2 \vector ( i ) + 2 \vector ( j ) , \vector ( b ) = 3 \vector ( i ) - 3 \vector ( j ) .
 Tính tích vô hướng \vector ( a ) . \vector ( b ) và tính góc ( \vector ( a ) , \vector ( b ) ) .
 Phân tử sulfur dioxide ( S O _ 2 ) có cấu tạo hình chữ V , góc liên kết \hat ( OSO ) gần bằng 120 \deg .
 Người ta biểu diễn sự phân cực giữa nguyên tử S với mỗi nguyên tử O bằng các vectơ \vector ( \mu _ 1 ) và \vector ( \mu _ 2 ) , có cùng phương với liên kết cộng hoá trị , có chiều từ nguyên tử S về mỗi nguyên tử O và cùng có độ dài là 1 , 6 đơn vị .
-Cho biết vectơ tổng \vector ( \mu ) = \vector ( \mu _ 1) + \vector ( \mu _ 2 ) được dùng để biểu diễn sự phân cực của cả phân tử S O _ 2 .
+Cho biết vectơ tổng \vector ( \mu ) = \vector ( \mu _ 1 ) + \vector ( \mu _ 2 ) được dùng để biểu diễn sự phân cực của cả phân tử S O _ 2 .
 Tính độ dài của \vector ( \mu ) .
 Cho hình vuông ABCD có cạnh bằng a.
 Cho Hình chữ nhật ABCD có tâm O và cho AD = a , AB = 2 a .
-Cho ba điểm O, A, B thẳng hàng và OA = a , OB = b .
+Cho ba điểm O , A , B thẳng hàng và OA = a , OB = b .
 Tính tích vô hướng \vector ( OA ) . \vector ( OB ) trong hai trường hợp :
-Điểm O năm ngoài đoạn thẳng AB .
+Điểm O nằm ngoài đoạn thẳng AB .
 Cho đoạn thẳng AB có O là trung điểm và cho điểm M tuỳ ý .
 Cho hai vectơ có độ dài lần lượt là 3 và 4 và có tích vô hướng là - 6 .
 Tại sao muỗi và một số virus được gọi là những vectơ ?
 Ta đã biết vectơ \vector ( AB ) có hướng từ A đến B .
-Trong Sinh học, vectơ dùng để chỉ sinh vật truyền bệnh từ đối tượng A sang đối tượng B .
+Trong Sinh học , vectơ dùng để chỉ sinh vật truyền bệnh từ đối tượng A sang đối tượng B .
 Ví dụ muỗi là một vectơ của bệnh sốt xuất huyết .
 Từ " vectơ " là để ám chỉ các virus hoặc vi khuẩn đóng vai trò vật chủ .
 Cho ba vectơ \vector ( a ) , \vector ( b ) , \vector ( c ) đều khác vectơ \vector ( 0 ) . 
-Cho Hình thoi ABCD có cạnh bằng a và có góc A bằng 60 \deg .
+Cho Hình thoi ABCD có cạnh bằng a và có góc \hat ( A ) bằng 60 \deg .
 Nếu hai vectơ \vector ( a ) , \vector ( b ) cùng phương với \vector ( c ) thì \vector ( a ) và \vector ( b ) cùng phương .
 Nếu hai vectơ \vector ( a ) , \vector ( b ) cùng ngược hướng với \vector ( c ) thì \vector ( a ) và \vector ( b ) cùng hướng .
 Cho hình chữ nhật ABCD có O là giao điểm của hai đường chéo và AB = a , BC = 3 a .
@@ -1148,19 +1148,19 @@ Vẽ điểm E sao cho CE = AN ( Hình 1 ) .
 Tìm các vectơ hiệu : \vector ( NC ) - \vector ( MC ) ; \vector ( AС ) - \vector ( BС ) ; \vector ( АB ) - \vector ( МE ) .
 Chứng minh \vector ( AM ) + \vector ( AN ) = \vector ( AB ) + \vector ( AD ) .
 Trong trường hợp nào thì đẳng thức sau đúng ?
-So sánh độ dài, phương và hướng của hai vectơ \vector ( a ) và \vector ( b ) .
+So sánh độ dài , phương và hướng của hai vectơ \vector ( a ) và \vector ( b ) .
 Chứng minh rằng AB = CD khi và chỉ khi trung điểm của hai đoạn thẳng AD và BC trùng nhau .
 Bên ngoài tam giác vẽ các hình bình hành AВІЈ , ВСРQ , CARS .
-Một chiếc máy bay được biết là đang bay về phía bắc với tốc độ 45 m / s , mặc dù vận tốc của nó so với mặt đất là 38 m/s theo hướng nghiêng một góc 20 \deg về phía tây bắc .
+Một chiếc máy bay được biết là đang bay về phía bắc với tốc độ 45 m / s , mặc dù vận tốc của nó so với mặt đất là 38 m / s theo hướng nghiêng một góc 20 \deg về phía tây bắc .
 Cho tam giác đều ABC có O là trọng tâm và M là một điểm tùy ý trong tam giác .
 Gọi D , E , F lần lượt là chân đường vuông góc hạ từ M đến BC , AC , AB .
 Chứng minh rằng \vector ( MD ) + \vector ( ME ) + \vector ( MF ) = 3 / 2 \vector ( MO ) .
-Một xe goòng được kéo bởi một lực \vector ( F ) có độ lớn là 50 N , di chuyền theo quãng đường từ A đến B có chiều dài 200 m .
+Một xe goòng được kéo bởi một lực \vector ( F ) có độ lớn là 50 N , di chuyển theo quãng đường từ A đến B có chiều dài 200 m .
 Cho biết góc giữa \vector ( F ) và \vector ( AB ) là 30 \deg và \vector ( F ) được phân tích thành hai lực \vector ( F _ 1) , \vector ( F _ 2 ) ( Hình 3 ) .
 Tính công sinh bởi các lực \vector ( F ) , \vector ( F _ 1 ) và \vector ( F _ 2 ) .
 Một chiếc thuyền cố gắng đi thẳng qua một con sông với tốc độ 0 , 75 m / s .
 Tuy nhiên , đòng chảy của nước trên con sông đó chảy với tốc độ 1 , 20 m / s về hướng bên phải .
 Gọi \vector ( v _ 1 ) , \vector ( v _ 2 ) , \vector ( v ) lần lượt là vận tốc của thuyền so với dòng nước , vận tốc của dòng nước so với bờ và vận tốc của thuyền so với bờ .
-Tốc độ địch chuyển của thuyển so với bờ là bao nhiêu ?
+Tốc độ địch chuyển của thuyền so với bờ là bao nhiêu ?
 Hướng di chuyển của thuyền lệch một góc bao nhiêu so với bờ ?
 <Hết chương V>

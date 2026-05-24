@@ -352,7 +352,7 @@
     Ghi chú 5: f′(\pi / 2) ở đây là chỉ 1 giá trị cụ thể của hàm số, giống như một biểu thức hơn nhưng ta vẫn sẽ xếp vào FUNCTION (nguyên tắc 2).
 
 ### VI. Các trường hợp ngoại lệ hoặc cần lưu ý (xuất hiện trong lúc gán nhãn dữ liệu)
-- khi và chỉ khi - MATH_CONCEPT
+- khi và chỉ khi - MATH_CONCEPT.
 - \pi: SYMBOL - tuy có giá trị xác định nhưng vì lầ một hằng số có kí hiệu riêng nên ta vẫn gán \pi nhãn SYMBOL.
 - p => Q: EXPRESSION - thực chất đây là một mệnh đề chứ không phải biểu thức nhưng sẽ được gộp chung vào đây để giữ cho P => Q là một thực thể.
 - n(A) = 6: EQUATION - coi như là một phép tính thông thường.
@@ -362,4 +362,5 @@
 - Cặp số: nếu là dạng (x; y) thì sẽ gán nhãn x và y là SYMBOL còn là dạng (1; 2) thì toàn bộ gán là O.
 - Dạng A = B => C = D: "A = B" và "C = D" gán là EQUATION, "=>" không gán nhãn (tương tự với A = B <=> C = D).
 - Mặt phẳng tọa độ, trục tọa độ, trục tung, trục hoành (?!) -> GEOMETRIC_OBJECT; tọa độ, tung dộ, hoành độ -> MATH_CONCEPT (?!).
-- k \vector ( a ) - GEOMETRIC_INSTANCE
+- k \vector ( a ) - GEOMETRIC_INSTANCE.
+- (\vector(a), \vector(b)) (góc giữa hai vectơ) - GEOMETRIC_INSTANCE.
